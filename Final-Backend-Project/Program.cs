@@ -1,4 +1,23 @@
+using Domain.Entity;
+using Microsoft.AspNetCore.Identity;
+using Repository;
+using Repository.Data;
+
+
 var builder = WebApplication.CreateBuilder(args);
+
+
+builder.Services.AddRepositoryLayer(builder.Configuration);
+builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
+{
+    options.Password.RequiredLength = 8;
+    options.Lockout.AllowedForNewUsers = true;
+    options.Lockout.MaxFailedAccessAttempts = 10;
+    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(1);
+    options.Password.RequireNonAlphanumeric = true;
+
+    //options.SignIn.RequireConfirmedEmail = true;
+}).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
