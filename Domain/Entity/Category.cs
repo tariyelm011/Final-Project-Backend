@@ -1,5 +1,4 @@
 ﻿using Domain.Common;
-using Microsoft.AspNetCore.Identity;
 
 namespace Domain.Entity
 {
@@ -10,10 +9,5 @@ namespace Domain.Entity
         public int ProductId { get; set; }
         public Product? Product { get; set; }
 
-    }
-
-    public class AppUser : IdentityUser
-    {
-        public string FullName { get; set; } = null!;
     }
 }
