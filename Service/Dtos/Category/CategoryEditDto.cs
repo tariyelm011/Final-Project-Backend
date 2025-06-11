@@ -5,7 +5,10 @@ namespace Service.Dtos.Category;
 
 public class CategoryEditDto : IDto
 {
+    public int Id { get; set; }
     public string? Name { get; set; } 
     public IFormFile? ImageUrl { get; set; }
-    public int ProductId { get; set; }
+    public string? Image { get; set; }
+    public DateTime? CreatedDate { get; set; }
+    public DateTime? EditDate { get; set; }
 }

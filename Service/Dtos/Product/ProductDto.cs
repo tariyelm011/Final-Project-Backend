@@ -12,6 +12,8 @@ public class ProductDto : IDto
     public string ImageUrl { get; set; } = null!;
     public decimal Price { get; set; }
     public int Stock { get; set; }
+    public DateTime? CreatedDate { get; set; }
+    public DateTime? EditDate { get; set; }
     public string VideoUrl { get; set; } = null!;
     public List<ProductImageDto>? ProductImages { get; set; } = [];
     public List<CategoryDto> Categories { get; set; } = [];

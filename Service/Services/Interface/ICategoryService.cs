@@ -6,5 +6,7 @@ namespace Service.Services.Interface;
 
 public interface ICategoryService : ICrudService<Category, CategoryCreateDto, CategoryEditDto, CategoryDto>
 {
-   
+    Task<bool> CreateAsync(CategoryCreateDto dto);
+    Task<bool> UpdateAsync(CategoryEditDto dto);
+    Task<CategoryEditDto> GetCategoryUpdate(int id);
 }

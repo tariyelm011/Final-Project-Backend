@@ -53,5 +53,12 @@ namespace Final_Backend_Project.Areas.Admin.Controllers
             await _categoryService.UpdateAsync(dto);
             return RedirectToAction("index");
         }
+
+        public async Task<IActionResult> Delete(int id)
+        {
+            var delete = await _categoryService.DeleteAsync(id);
+            return RedirectToAction("index");
+
+        }
     }
 }

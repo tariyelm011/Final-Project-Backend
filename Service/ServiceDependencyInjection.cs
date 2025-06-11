@@ -23,6 +23,8 @@ namespace Service
 
             services.AddScoped<ISettingService, SettingService>();
 
+            services.AddScoped<ICloudinaryManager, CloudinaryManager>();
+
 
 
 
