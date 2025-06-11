@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Final-Backend-Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f08d71f3c1152e1d53c1c2935e1fbb48297e2a3f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37540d27f375afed42679246a908fe0cf8462145")]
 [assembly: System.Reflection.AssemblyProductAttribute("Final-Backend-Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Final-Backend-Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
