@@ -1,6 +1,8 @@
-﻿namespace Service.Dtos.Subscribe;
+﻿using Service.Dtos.Common;
 
-public class SubscribeCreateDto
+namespace Service.Dtos.Subscribe;
+
+public class SubscribeCreateDto : IDto
 {
     public string Email { get; set; } = null!;
     public DateTime SubscribedDate { get; set; }

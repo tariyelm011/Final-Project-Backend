@@ -2,12 +2,15 @@ using Domain.Entity;
 using Microsoft.AspNetCore.Identity;
 using Repository;
 using Repository.Data;
+using Service;
 
 
 var builder = WebApplication.CreateBuilder(args);
 
 
 builder.Services.AddRepositoryLayer(builder.Configuration);
+builder.Services.AddBllServices();
+
 builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
 {
     options.Password.RequiredLength = 8;

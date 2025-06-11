@@ -1,6 +1,8 @@
-﻿namespace Service.Dtos.Slider;
+﻿using Service.Dtos.Common;
 
-public class SliderDto
+namespace Service.Dtos.Slider;
+
+public class SliderDto : IDto
 {
     public string BoldWrite { get; set; } = null!;
     public string LightWrite { get; set; } = null!;

@@ -1,8 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Service.Dtos.Common;
 
 namespace Service.Dtos.Slider;
 
-public class SliderEditDto
+public class SliderEditDto : IDto
 {
     public string BoldWrite { get; set; } = null!;
     public string LightWrite { get; set; } = null!;

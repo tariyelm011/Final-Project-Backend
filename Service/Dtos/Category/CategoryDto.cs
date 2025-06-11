@@ -1,6 +1,8 @@
-﻿namespace Service.Dtos.Category;
+﻿using Service.Dtos.Common;
 
-public class CategoryDto
+namespace Service.Dtos.Category;
+
+public class CategoryDto : IDto
 {
     public string Name { get; set; } = null!;
     public string ImageUrl { get; set; } = null!;

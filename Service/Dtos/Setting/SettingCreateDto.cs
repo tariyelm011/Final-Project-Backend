@@ -1,6 +1,8 @@
-﻿namespace Service.Dtos.Setting;
+﻿using Service.Dtos.Common;
 
-public class SettingCreateDto
+namespace Service.Dtos.Setting;
+
+public class SettingCreateDto : IDto
 {
     public string Key { get; set; } = null!;
     public string Value { get; set; } = null!;

@@ -1,9 +1,10 @@
 ﻿using Service.Dtos.Category;
+using Service.Dtos.Common;
 using Service.Dtos.ProductImage;
 
 namespace Service.Dtos.Product;
 
-public class ProductDto
+public class ProductDto : IDto
 {
     public int Id { get; set; }
     public string Name { get; set; } = null!;

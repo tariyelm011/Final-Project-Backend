@@ -1,10 +1,11 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Service.Dtos.Category;
+using Service.Dtos.Common;
 using Service.Dtos.ProductImage;
 
 namespace Service.Dtos.Product;
 
-public class ProductEditDto
+public class ProductEditDto : IDto
 {
     public string? Name { get; set; } 
     public string? Description { get; set; } 
