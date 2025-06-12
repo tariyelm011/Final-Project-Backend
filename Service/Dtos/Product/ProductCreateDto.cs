@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Service.Dtos.Category;
 using Service.Dtos.Common;
 using Service.Dtos.ProductImage;
@@ -12,8 +13,11 @@ public class ProductCreateDto : IDto
     public IFormFile ImageUrl { get; set; } = null!;
     public decimal Price { get; set; }
     public int Stock { get; set; }
+    public int CategoryId { get; set; }
+
     public IFormFile VideoUrl { get; set; } = null!;
-    public List<ProductImageCreateDto>? ProductImages { get; set; } = [];
-    public List<CategoryCreateDto> Categories { get; set; } = [];
+    public List<IFormFile> ProductImages { get; set; } = new List<IFormFile>();
+    public List<SelectListItem> Categories { get; set; } = new List<SelectListItem>();
+
 
 }

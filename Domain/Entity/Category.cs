@@ -6,6 +6,7 @@ namespace Domain.Entity
     {
         public string Name { get; set; } = null!;
         public string ImageUrl { get; set; } = null!;
+        public List<Product> Products { get; set; } = [];
 
         public DateTime? CreatedDate { get; set; }
         public DateTime? EditDate { get; set; }

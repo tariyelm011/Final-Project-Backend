@@ -1,6 +1,7 @@
 ﻿using Domain.Entity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection.Emit;
 
 namespace Repository.Data;
 
@@ -16,4 +17,16 @@ public class AppDbContext : IdentityDbContext<AppUser>
     public DbSet<Slider> Sliders { get; set; }
     public DbSet<Subscribe> Subscribes { get; set; }
     public DbSet<Setting> Settings { get; set; }
+
+
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+
+        modelBuilder.Entity<Product>()
+    .Property(p => p.Price)
+    .HasPrecision(18, 2);
+
+        base.OnModelCreating(modelBuilder);
+    }
 }
