@@ -1,15 +1,14 @@
 ﻿using Domain.Common;
 
-namespace Domain.Entity
+namespace Domain.Entity;
+
+public class Category : BaseEntity
 {
-    public class Category : BaseEntity
-    {
-        public string Name { get; set; } = null!;
-        public string ImageUrl { get; set; } = null!;
-        public List<Product> Products { get; set; } = [];
+    public string Name { get; set; } = null!;
+    public string ImageUrl { get; set; } = null!;
+    public List<Product> Products { get; set; } = [];
 
-        public DateTime? CreatedDate { get; set; }
-        public DateTime? EditDate { get; set; }
+    public DateTime? CreatedDate { get; set; }
+    public DateTime? EditDate { get; set; }
 
-    }
 }

@@ -34,4 +34,26 @@ public class SliderController : Controller
         await _sliderService.CreateAsync(dto);
         return RedirectToAction("Index");
     }
+    public async Task<IActionResult> Edit(int id)
+    {
+        var model = await _sliderService.GetUpdateSliderDto(id);
+        return View(model);
+    }
+    [HttpPost]
+    public async Task<IActionResult> Edit(SliderEditDto dto)
+    {
+        if (!ModelState.IsValid)
+        {
+            return View(dto);
+        }
+        await _sliderService.UpdateSlider(dto);
+
+        return RedirectToAction("Index");
+    }
+
+    public async Task<IActionResult> Delete(int id)
+    {
+      await  _sliderService.DeleteSlider(id);
+        return RedirectToAction("index");
+    }
 }

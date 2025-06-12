@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Domain.Entity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Repository.Repositories.Interface;
 using Service.Dtos.Slider;
 using Service.Helpers;
@@ -56,4 +57,78 @@ public class SliderService : CrudService<Slider, SliderCreateDto, SliderEditDto,
         return true;
 
     }
+
+    public async Task<SliderEditDto> GetUpdateSliderDto(int id)
+    {
+        var dto = await _repository.GetAsync(id);
+        if (dto == null) throw new NotFoundException();
+
+        var update = new SliderEditDto
+        {
+            Id = id,
+            BoldWrite = dto.BoldWrite,
+            ButtonWrite = dto.ButtonWrite,
+            LightWrite = dto.LightWrite,
+           ImageUrl = dto.Image,
+
+        };
+
+        return update;
+
+
+    }
+    public async Task<bool> UpdateSlider(SliderEditDto updateSliderDto)
+    {
+        if (updateSliderDto is null)
+        {
+            throw new NotFoundException();
+        }
+
+        var slider = await _repository.GetAsync(updateSliderDto.Id);
+
+        if (slider == null) throw new NotFoundException();
+        if (updateSliderDto.Image != null)
+        {
+
+            var validationResult = FileHelper.ValidateImage(updateSliderDto.Image);
+            if (!validationResult.IsSuccess)
+                throw new NotFoundException("File is not image və size is not 200MB.");
+            string newImageUrl = await _cloudinaryManager.FileCreateAsync(updateSliderDto.Image);
+
+            slider.Image = newImageUrl;
+        }
+
+    
+        slider.BoldWrite = updateSliderDto.BoldWrite;
+        slider.LightWrite = updateSliderDto.LightWrite;
+        slider.ButtonWrite = updateSliderDto.ButtonWrite;
+        slider.EditDate = DateTime.UtcNow;
+
+        _repository.Update(slider);
+        await _repository.SaveChangesAsync();
+
+        return true;
+    }
+
+
+    public async Task DeleteSlider(int id)
+    {
+        var allSliders = await _repository.GetAll().ToListAsync(); 
+
+        if (allSliders.Count <= 1)
+        {
+            throw new InvalidOperationException("At least one slider must remain"); 
+        }
+
+        var slider = await _repository.GetAsync(id); 
+
+        if (slider == null)
+        {
+            throw new KeyNotFoundException($"Slider with id {id} not found.");
+        }
+
+        await _repository.Delete(slider); 
+    }
+
+
 }

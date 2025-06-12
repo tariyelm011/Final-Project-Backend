@@ -17,6 +17,7 @@ public class AppDbContext : IdentityDbContext<AppUser>
     public DbSet<Slider> Sliders { get; set; }
     public DbSet<Subscribe> Subscribes { get; set; }
     public DbSet<Setting> Settings { get; set; }
+    public DbSet<Blog> Blogs { get; set; }
 
 
 
