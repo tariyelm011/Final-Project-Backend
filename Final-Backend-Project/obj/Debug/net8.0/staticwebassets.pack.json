@@ -453,12 +453,192 @@
       "PackagePath": "staticwebassets\\Admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
     },
     {
-      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\CSS\\style.css",
+      "PackagePath": "staticwebassets\\Assets\\CSS\\style.css"
     },
     {
-      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\CSS\\style.css.map",
+      "PackagePath": "staticwebassets\\Assets\\CSS\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\CSS\\style.scss",
+      "PackagePath": "staticwebassets\\Assets\\CSS\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\JS\\Contact.Js",
+      "PackagePath": "staticwebassets\\Assets\\JS\\Contact.Js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\JS\\Footer.js",
+      "PackagePath": "staticwebassets\\Assets\\JS\\Footer.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\JS\\Home.js",
+      "PackagePath": "staticwebassets\\Assets\\JS\\Home.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\JS\\Navbar.js",
+      "PackagePath": "staticwebassets\\Assets\\JS\\Navbar.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\JS\\Product.Js",
+      "PackagePath": "staticwebassets\\Assets\\JS\\Product.Js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\JS\\Shop.js",
+      "PackagePath": "staticwebassets\\Assets\\JS\\Shop.js"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\AboutUS\\Carusel\\team3-copyright-570x696.jpg",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\AboutUS\\Carusel\\team3-copyright-570x696.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\AboutUS\\Carusel\\team4-copyright-570x696.jpg",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\AboutUS\\Carusel\\team4-copyright-570x696.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\AboutUS\\Carusel\\team5-copyright-570x696.jpg",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\AboutUS\\Carusel\\team5-copyright-570x696.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\AboutUS\\Carusel\\team6-copyright-570x696.jpg",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\AboutUS\\Carusel\\team6-copyright-570x696.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\AboutUS\\Woman.webp",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\AboutUS\\Woman.webp"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Footer\\Card\\amex.png",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Footer\\Card\\amex.png"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Footer\\Card\\disc.png",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Footer\\Card\\disc.png"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Footer\\Card\\master.png",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Footer\\Card\\master.png"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Footer\\Card\\paypal.png",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Footer\\Card\\paypal.png"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Footer\\Card\\visa.png",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Footer\\Card\\visa.png"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Home\\Blog\\1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Home\\Blog\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Home\\Blog\\2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Home\\Blog\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Home\\Blog\\3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Home\\Blog\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Home\\Carusel\\1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Home\\Carusel\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Home\\Carusel\\2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Home\\Carusel\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Home\\Carusel\\3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Home\\Carusel\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Home\\Collection\\gift.jpg",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Home\\Collection\\gift.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Home\\Collection\\men.jpg",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Home\\Collection\\men.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Home\\Collection\\women.jpg",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Home\\Collection\\women.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Home\\Countdown\\1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Home\\Countdown\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Home\\Logo\\1.png",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Home\\Logo\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Home\\Logo\\2.png",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Home\\Logo\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Home\\Logo\\3.png",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Home\\Logo\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Home\\Logo\\4.png",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Home\\Logo\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Home\\Logo\\5.png",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Home\\Logo\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Home\\Products\\1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Home\\Products\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Home\\Products\\2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Home\\Products\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Home\\Products\\3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Home\\Products\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Home\\Products\\4.jpg",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Home\\Products\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Home\\Products\\5.jpg",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Home\\Products\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Home\\Products\\6.jpg",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Home\\Products\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Home\\Products\\7.jpg",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Home\\Products\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Home\\Products\\8.jpg",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Home\\Products\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Home\\style.css",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Home\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Home\\style.css.map",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Home\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Home\\style.scss",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Home\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Navbar\\Logo\\logo.png",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Navbar\\Logo\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\İMG\\Product\\1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\İMG\\Product\\1.jpg"
     },
     {
       "Id": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\lib\\bootstrap\\LICENSE",

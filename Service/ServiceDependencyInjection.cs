@@ -25,6 +25,10 @@ namespace Service
 
             services.AddScoped<ICloudinaryManager, CloudinaryManager>();
 
+            services.AddScoped<IEmailService, EmailService>();
+
+            services.AddScoped<IAccountService, AccountService>();
+
 
 
 

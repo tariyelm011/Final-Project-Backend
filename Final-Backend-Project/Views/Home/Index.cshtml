@@ -1,8 +1,1185 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<main class="home">
+    <section id="home-carusels">
+        <div class="carousel-container">
+            <div id="carouselExampleIndicators"
+                 class="carousel slide"
+                 data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true"
+                            aria-label="Slide 1"></button>
+                    <button type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    <button type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel-slide">
+                            <div class="carousel-overlay"></div>
+                            <img src="~/Assets/İMG/Home/Carusel/1.jpg"
+                                 class="carousel-image"
+                                 alt="Slide 1" />
+                            <div class="carousel-content">
+                                <h2 class="carousel-title">Premium Collection</h2>
+                                <p class="carousel-description">
+                                    Discover our latest arrivals with exclusive designs
+                                </p>
+                                <a href="#" class="carousel-btn">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-slide">
+                            <div class="carousel-overlay"></div>
+                            <img src="~/Assets/İMG/Home/Carusel/2.jpg"
+                                 class="carousel-image"
+                                 alt="Slide 2" />
+                            <div class="carousel-content">
+                                <h2 class="carousel-title">Summer Sale</h2>
+                                <p class="carousel-description">
+                                    Up to 50% off on selected items
+                                </p>
+                                <a href="#" class="carousel-btn">View Collection</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-slide">
+                            <div class="carousel-overlay"></div>
+                            <img src="~/Assets/İMG/Home/Carusel/3.jpg"
+                                 class="carousel-image"
+                                 alt="Slide 3" />
+                            <div class="carousel-content">
+                                <h2 class="carousel-title">New Arrivals</h2>
+                                <p class="carousel-description">
+                                    Be the first to discover our latest products
+                                </p>
+                                <a href="#" class="carousel-btn">Explore More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"
+                          aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                    <span class="carousel-control-next-icon"
+                          aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="home-collection">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 collection__item">
+                    <div class="collection__item-img">
+                        <img src="~/Assets/İMG/Home/Collection/women.jpg" alt="" />
+                    </div>
+                    <div class="collection__item-title">
+                        <h3>Women Perfumes</h3>
+                        <span>(7 items)</span>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 collection__item">
+                    <div class="collection__item-img">
+                        <img src="~/Assets/İMG/Home/Collection/men.jpg" alt="" />
+                    </div>
+                    <div class="collection__item-title">
+                        <h3>Men Colognes</h3>
+                        <span>(8 items)</span>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 collection__item">
+                    <div class="collection__item-img">
+                        <img src="~/Assets/İMG/Home/Collection/gift.jpg" alt="" />
+                    </div>
+                    <div class="collection__item-title">
+                        <h3>Gift Sets</h3>
+                        <span>(9 items)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="home-products">
+        <div class="container-xl">
+            <div class="row">
+                <div class="products-title col-12">
+                    <h2>Our Best Sellers</h2>
+                    <ul>
+                        <li><button class="activbtn">Women</button></li>
+                        <li><button>Men</button></li>
+                        <li><button>Kid</button></li>
+                    </ul>
+                </div>
+                <div class="produsts-items">
+                    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
+                        <div class="col">
+                            <div class="card">
+                                <a href="#">
+                                    <img href
+                                         src="~/Assets/İMG/Home/Products/1.jpg"
+                                         class="card-img-top"
+                                         alt="..." />
+                                </a>
+                                <div class="cart-shortcut">
+                                    <ul>
+                                        <li>
+                                            <button><i class="bi bi-heart"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-eye"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-basket2-fill"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <span>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                    </span>
+                                    <h5 class="card-title">Arome Le Parfum</h5>
+                                    <p class="card-text">$79.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <a href="#">
+                                    <img href
+                                         src="~/Assets/İMG/Home/Products/2.jpg"
+                                         class="card-img-top"
+                                         alt="..." />
+                                </a>
+                                <div class="cart-shortcut">
+                                    <ul>
+                                        <li>
+                                            <button><i class="bi bi-heart"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-eye"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-basket2-fill"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <span>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                    </span>
+                                    <h5 class="card-title">Arome Le Parfum</h5>
+                                    <p class="card-text">$79.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <a href="#">
+                                    <img href
+                                         src="~/Assets/İMG/Home/Products/3.jpg"
+                                         class="card-img-top"
+                                         alt="..." />
+                                </a>
+                                <div class="cart-shortcut">
+                                    <ul>
+                                        <li>
+                                            <button><i class="bi bi-heart"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-eye"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-basket2-fill"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <span>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                    </span>
+                                    <h5 class="card-title">Arome Le Parfum</h5>
+                                    <p class="card-text">$79.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <a href="#">
+                                    <img href
+                                         src="~/Assets/İMG/Home/Products/4.jpg"
+                                         class="card-img-top"
+                                         alt="..." />
+                                </a>
+                                <div class="cart-shortcut">
+                                    <ul>
+                                        <li>
+                                            <button><i class="bi bi-heart"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-eye"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-basket2-fill"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <span>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                    </span>
+                                    <h5 class="card-title">Arome Le Parfum</h5>
+                                    <p class="card-text">$79.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <a href="#">
+                                    <img href
+                                         src="~/Assets/İMG/Home/Products/5.jpg"
+                                         class="card-img-top"
+                                         alt="..." />
+                                </a>
+                                <div class="cart-shortcut">
+                                    <ul>
+                                        <li>
+                                            <button><i class="bi bi-heart"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-eye"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-basket2-fill"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <span>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                    </span>
+                                    <h5 class="card-title">Arome Le Parfum</h5>
+                                    <p class="card-text">$79.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <a href="#">
+                                    <img href
+                                         src="~/Assets/İMG/Home/Products/6.jpg"
+                                         class="card-img-top"
+                                         alt="..." />
+                                </a>
+                                <div class="cart-shortcut">
+                                    <ul>
+                                        <li>
+                                            <button><i class="bi bi-heart"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-eye"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-basket2-fill"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <span>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                    </span>
+                                    <h5 class="card-title">Arome Le Parfum</h5>
+                                    <p class="card-text">$79.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <a href="#">
+                                    <img href
+                                         src="~/Assets/İMG/Home/Products/7.jpg"
+                                         class="card-img-top"
+                                         alt="..." />
+                                </a>
+                                <div class="cart-shortcut">
+                                    <ul>
+                                        <li>
+                                            <button><i class="bi bi-heart"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-eye"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-basket2-fill"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <span>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                    </span>
+                                    <h5 class="card-title">Arome Le Parfum</h5>
+                                    <p class="card-text">$79.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <a href="#">
+                                    <img href
+                                         src="~/Assets/İMG/Home/Products/8.jpg"
+                                         class="card-img-top"
+                                         alt="..." />
+                                </a>
+                                <div class="cart-shortcut">
+                                    <ul>
+                                        <li>
+                                            <button><i class="bi bi-heart"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-eye"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-basket2-fill"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <span>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                    </span>
+                                    <h5 class="card-title">Arome Le Parfum</h5>
+                                    <p class="card-text">$79.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="home-video">
+        <div class="container-xl">
+            <div class="row">
+                <div class="video_content">
+                    <p>Your Signature Scent</p>
+                    <h2>
+                        Find The Perfect Perfume To
+                        <br />
+                        Express Your Unique Style.
+                    </h2>
+                </div>
+                <div class="video_section">
+                    <iframe src="https://www.youtube-nocookie.com/embed/_9VUPq3SxOc?si=MUYhgYkdT6ENoyN6"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="home-popular">
+        <div class="container-xl">
+            <div class="row">
+                <div class="popular-header col-12">
+                    <h2>Popular Perfumes</h2>
+                    <span>Each fragrance crafted to complement unique essence</span>
+                </div>
+                <div class="card-slider-container col-12">
+                    <button class="slider-control slider-control-prev" id="prevBtn">
+                        &lt;
+                    </button>
+                    <div class="card-slider" id="cardSlider">
+                        <div class="card-item col-6 com-sm-6 col-md-4 col-lg-3">
+                            <div class="card">
+                                <a href="#">
+                                    <img href
+                                         src="~/Assets/İMG/Home/Products/1.jpg"
+                                         class="card-img-top"
+                                         alt="..." />
+                                </a>
+                                <div class="cart-shortcut">
+                                    <ul>
+                                        <li>
+                                            <button><i class="bi bi-heart"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-eye"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-basket2-fill"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <span>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                    </span>
+                                    <h5 class="card-title">Arome Le Parfum</h5>
+                                    <p class="card-text">$79.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-item col-6 com-sm-6 col-md-4 col-lg-3">
+                            <div class="card">
+                                <a href="#">
+                                    <img href
+                                         src="~/Assets/İMG/Home/Products/2.jpg"
+                                         class="card-img-top"
+                                         alt="..." />
+                                </a>
+                                <div class="cart-shortcut">
+                                    <ul>
+                                        <li>
+                                            <button><i class="bi bi-heart"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-eye"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-basket2-fill"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <span>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                    </span>
+                                    <h5 class="card-title">Arome Le Parfum</h5>
+                                    <p class="card-text">$79.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-item col-6 com-sm-6 col-md-4 col-lg-3">
+                            <div class="card">
+                                <a href="#">
+                                    <img href
+                                         src="~/Assets/İMG/Home/Products/3.jpg"
+                                         class="card-img-top"
+                                         alt="..." />
+                                </a>
+                                <div class="cart-shortcut">
+                                    <ul>
+                                        <li>
+                                            <button><i class="bi bi-heart"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-eye"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-basket2-fill"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <span>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                    </span>
+                                    <h5 class="card-title">Arome Le Parfum</h5>
+                                    <p class="card-text">$79.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-item col-6 com-sm-6 col-md-4 col-lg-3">
+                            <div class="card">
+                                <a href="#">
+                                    <img href
+                                         src="~/Assets/İMG/Home/Products/4.jpg"
+                                         class="card-img-top"
+                                         alt="..." />
+                                </a>
+                                <div class="cart-shortcut">
+                                    <ul>
+                                        <li>
+                                            <button><i class="bi bi-heart"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-eye"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-basket2-fill"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <span>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                    </span>
+                                    <h5 class="card-title">Arome Le Parfum</h5>
+                                    <p class="card-text">$79.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-item col-6 com-sm-6 col-md-4 col-lg-3">
+                            <div class="card">
+                                <a href="#">
+                                    <img href
+                                         src="~/Assets/İMG/Home/Products/5.jpg"
+                                         class="card-img-top"
+                                         alt="..." />
+                                </a>
+                                <div class="cart-shortcut">
+                                    <ul>
+                                        <li>
+                                            <button><i class="bi bi-heart"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-eye"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-basket2-fill"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <span>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                    </span>
+                                    <h5 class="card-title">Arome Le Parfum</h5>
+                                    <p class="card-text">$79.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-item col-6 com-sm-6 col-md-4 col-lg-3">
+                            <div class="card">
+                                <a href="#">
+                                    <img href
+                                         src="~/Assets/İMG/Home/Products/6.jpg"
+                                         class="card-img-top"
+                                         alt="..." />
+                                </a>
+                                <div class="cart-shortcut">
+                                    <ul>
+                                        <li>
+                                            <button><i class="bi bi-heart"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-eye"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-basket2-fill"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <span>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                    </span>
+                                    <h5 class="card-title">Arome Le Parfum</h5>
+                                    <p class="card-text">$79.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-item col-6 com-sm-6 col-md-4 col-lg-3">
+                            <div class="card">
+                                <a href="#">
+                                    <img href
+                                         src="~/Assets/İMG/Home/Products/7.jpg"
+                                         class="card-img-top"
+                                         alt="..." />
+                                </a>
+                                <div class="cart-shortcut">
+                                    <ul>
+                                        <li>
+                                            <button><i class="bi bi-heart"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-eye"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-basket2-fill"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <span>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                    </span>
+                                    <h5 class="card-title">Arome Le Parfum</h5>
+                                    <p class="card-text">$79.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-item col-6 com-sm-6 col-md-4 col-lg-3">
+                            <div class="card">
+                                <a href="#">
+                                    <img href
+                                         src="~/Assets/İMG/Home/Products/8.jpg"
+                                         class="card-img-top"
+                                         alt="..." />
+                                </a>
+                                <div class="cart-shortcut">
+                                    <ul>
+                                        <li>
+                                            <button><i class="bi bi-heart"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-eye"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-basket2-fill"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <span>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                    </span>
+                                    <h5 class="card-title">Arome Le Parfum</h5>
+                                    <p class="card-text">$79.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="slider-control slider-control-next" id="nextBtn">
+                        &gt;
+                    </button>
+                </div>
+                <div class="popular-button col-12">
+                    <a href="#">VIEW ALL</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="home-logos">
+        <div class="container-xl">
+            <div class="row">
+                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6">
+                    <div class="col">
+                        <img src="~/Assets/İMG/Home/Logo/1.png" alt="" />
+                    </div>
+                    <div class="col">
+                        <img src="~/Assets/İMG/Home/Logo/2.png" alt="" />
+                    </div>
+                    <div class="col">
+                        <img src="~/Assets/İMG/Home/Logo/3.png" alt="" />
+                    </div>
+                    <div class="col">
+                        <img src="~/Assets/İMG/Home/Logo/4.png" alt="" />
+                    </div>
+                    <div class="col">
+                        <img src="~/Assets/İMG/Home/Logo/5.png" alt="" />
+                    </div>
+                    <div class="col">
+                        <img src="~/Assets/İMG/Home/Logo/1.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="home-countdown">
+        <div class="container-xl">
+            <div class="row">
+                <div class="countdown-img col-12 col-md-12 col-lg-6">
+                    <img src="~/Assets/İMG/Home/Countdown/1.jpg" alt="" />
+                </div>
+                <div class="countdown-title col-12 col-md-12 col-lg-6">
+                    <p>Features Product Of This Week</p>
+                    <h2>
+                        <span>Only High Quality is The Core Value For Us.</span>
+                    </h2>
+                    <div class="countdown-timer">
+                        <div class="countdown-item">
+                            <span class="countdown-day"></span>DAYS
+                        </div>
+                        <span class="span_colon"> : </span>
+                        <div class="countdown-item">
+                            <span class="countdown-hour"></span>HRS
+                        </div>
+                        <span class="span_colon"> : </span>
+                        <div class="countdown-item">
+                            <span class="countdown-minunt"></span>MIN
+                        </div>
+                        <span class="span_colon"> : </span>
+                        <div class="countdown-item">
+                            <span class="countdown-second"></span>SEC
+                        </div>
+                    </div>
+                    <div class="countdown-text">
+                        Pair text with an image to focus on your chosen product,
+                        collection, or blog post. Add details on availability, style, or
+                        even provide a review.
+                    </div>
+                    <a href="#">SHOP NOW AT $99</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="home-products2">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-12 other-product">
+                    <h2>Shop The Lookbook</h2>
+                    <span>Each fragrance crafted to complement unique essence</span>
+                </div>
+                <div class="col-12">
+                    <div id="carouselExampleDark"
+                         class="carousel carousel-dark slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
+                                    <div class="col-6 col-md-4 col-lg-3">
+                                        <div class="card">
+                                            <a href="#">
+                                                <img href
+                                                     src="~/Assets/İMG/Home/Products/1.jpg"
+                                                     class="card-img-top"
+                                                     alt="..." />
+                                            </a>
+                                            <div class="cart-shortcut">
+                                                <ul>
+                                                    <li>
+                                                        <button>
+                                                            <i class="bi bi-basket2-fill"></i>
+                                                        </button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body">
+                                                <span>
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                                </span>
+                                                <h5 class="card-title">Arome Le Parfum</h5>
+                                                <p class="card-text">$79.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-lg-3">
+                                        <div class="card">
+                                            <a href="#">
+                                                <img href
+                                                     src="~/Assets/İMG/Home/Products/2.jpg"
+                                                     class="card-img-top"
+                                                     alt="..." />
+                                            </a>
+                                            <div class="cart-shortcut">
+                                                <ul>
+                                                    <li>
+                                                        <button>
+                                                            <i class="bi bi-basket2-fill"></i>
+                                                        </button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body">
+                                                <span>
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                                </span>
+                                                <h5 class="card-title">Arome Le Parfum</h5>
+                                                <p class="card-text">$79.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-lg-3">
+                                        <div class="card">
+                                            <a href="#">
+                                                <img href
+                                                     src="~/Assets/İMG/Home/Products/3.jpg"
+                                                     class="card-img-top"
+                                                     alt="..." />
+                                            </a>
+                                            <div class="cart-shortcut">
+                                                <ul>
+                                                    <li>
+                                                        <button>
+                                                            <i class="bi bi-basket2-fill"></i>
+                                                        </button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body">
+                                                <span>
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                                </span>
+                                                <h5 class="card-title">Arome Le Parfum</h5>
+                                                <p class="card-text">$79.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-lg-3">
+                                        <div class="card">
+                                            <a href="#">
+                                                <img href
+                                                     src="~/Assets/İMG/Home/Products/4.jpg"
+                                                     class="card-img-top"
+                                                     alt="..." />
+                                            </a>
+                                            <div class="cart-shortcut">
+                                                <ul>
+                                                    <li>
+                                                        <button>
+                                                            <i class="bi bi-basket2-fill"></i>
+                                                        </button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body">
+                                                <span>
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                                </span>
+                                                <h5 class="card-title">Arome Le Parfum</h5>
+                                                <p class="card-text">$79.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
+                                    <div class="col-6 col-md-4 col-lg-3">
+                                        <div class="card">
+                                            <a href="#">
+                                                <img href
+                                                     src="~/Assets/İMG/Home/Products/5.jpg"
+                                                     class="card-img-top"
+                                                     alt="..." />
+                                            </a>
+                                            <div class="cart-shortcut">
+                                                <ul>
+                                                    <li>
+                                                        <button>
+                                                            <i class="bi bi-basket2-fill"></i>
+                                                        </button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body">
+                                                <span>
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                                </span>
+                                                <h5 class="card-title">Arome Le Parfum</h5>
+                                                <p class="card-text">$79.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-lg-3">
+                                        <div class="card">
+                                            <a href="#">
+                                                <img href
+                                                     src="~/Assets/İMG/Home/Products/6.jpg"
+                                                     class="card-img-top"
+                                                     alt="..." />
+                                            </a>
+                                            <div class="cart-shortcut">
+                                                <ul>
+                                                    <li>
+                                                        <button>
+                                                            <i class="bi bi-basket2-fill"></i>
+                                                        </button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body">
+                                                <span>
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                                </span>
+                                                <h5 class="card-title">Arome Le Parfum</h5>
+                                                <p class="card-text">$79.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-lg-3">
+                                        <div class="card">
+                                            <a href="#">
+                                                <img href
+                                                     src="~/Assets/İMG/Home/Products/7.jpg"
+                                                     class="card-img-top"
+                                                     alt="..." />
+                                            </a>
+                                            <div class="cart-shortcut">
+                                                <ul>
+                                                    <li>
+                                                        <button>
+                                                            <i class="bi bi-basket2-fill"></i>
+                                                        </button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body">
+                                                <span>
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                                </span>
+                                                <h5 class="card-title">Arome Le Parfum</h5>
+                                                <p class="card-text">$79.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-lg-3">
+                                        <div class="card">
+                                            <a href="#">
+                                                <img href
+                                                     src="~/Assets/İMG/Home/Products/8.jpg"
+                                                     class="card-img-top"
+                                                     alt="..." />
+                                            </a>
+                                            <div class="cart-shortcut">
+                                                <ul>
+                                                    <li>
+                                                        <button>
+                                                            <i class="bi bi-basket2-fill"></i>
+                                                        </button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body">
+                                                <span>
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                                </span>
+                                                <h5 class="card-title">Arome Le Parfum</h5>
+                                                <p class="card-text">$79.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
+                                    <div class="col-6 col-md-4 col-lg-3">
+                                        <div class="card">
+                                            <a href="#">
+                                                <img href
+                                                     src="~/Assets/İMG/Home/Products/1.jpg"
+                                                     class="card-img-top"
+                                                     alt="..." />
+                                            </a>
+                                            <div class="cart-shortcut">
+                                                <ul>
+                                                    <li>
+                                                        <button>
+                                                            <i class="bi bi-basket2-fill"></i>
+                                                        </button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body">
+                                                <span>
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                                </span>
+                                                <h5 class="card-title">Arome Le Parfum</h5>
+                                                <p class="card-text">$79.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-lg-3">
+                                        <div class="card">
+                                            <a href="#">
+                                                <img href
+                                                     src="~/Assets/İMG/Home/Products/2.jpg"
+                                                     class="card-img-top"
+                                                     alt="..." />
+                                            </a>
+                                            <div class="cart-shortcut">
+                                                <ul>
+                                                    <li>
+                                                        <button>
+                                                            <i class="bi bi-basket2-fill"></i>
+                                                        </button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body">
+                                                <span>
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                                </span>
+                                                <h5 class="card-title">Arome Le Parfum</h5>
+                                                <p class="card-text">$79.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-lg-3">
+                                        <div class="card">
+                                            <a href="#">
+                                                <img href
+                                                     src="~/Assets/İMG/Home/Products/3.jpg"
+                                                     class="card-img-top"
+                                                     alt="..." />
+                                            </a>
+                                            <div class="cart-shortcut">
+                                                <ul>
+                                                    <li>
+                                                        <button>
+                                                            <i class="bi bi-basket2-fill"></i>
+                                                        </button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body">
+                                                <span>
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                                </span>
+                                                <h5 class="card-title">Arome Le Parfum</h5>
+                                                <p class="card-text">$79.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-lg-3">
+                                        <div class="card">
+                                            <a href="#">
+                                                <img href
+                                                     src="~/Assets/İMG/Home/Products/4.jpg"
+                                                     class="card-img-top"
+                                                     alt="..." />
+                                            </a>
+                                            <div class="cart-shortcut">
+                                                <ul>
+                                                    <li>
+                                                        <button>
+                                                            <i class="bi bi-basket2-fill"></i>
+                                                        </button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body">
+                                                <span>
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                                </span>
+                                                <h5 class="card-title">Arome Le Parfum</h5>
+                                                <p class="card-text">$79.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-indicators">
+                            <button type="button"
+                                    data-bs-target="#carouselExampleDark"
+                                    data-bs-slide-to="0"
+                                    class="active"
+                                    aria-label="Slide 1"></button>
+                            <button type="button"
+                                    data-bs-target="#carouselExampleDark"
+                                    data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                            <button type="button"
+                                    data-bs-target="#carouselExampleDark"
+                                    data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                        </div>
+                        <button class="carousel-control-prev"
+                                type="button"
+                                data-bs-target="#carouselExampleDark"
+                                data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"
+                                  aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next"
+                                type="button"
+                                data-bs-target="#carouselExampleDark"
+                                data-bs-slide="next">
+                            <span class="carousel-control-next-icon"
+                                  aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="home-blogs">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-12 blog-info">
+                    <div>
+                        <p>OUR BLOG</p>
+                    </div>
+                    <div>
+                        <div class="row">
+                            <div class="col-12 col-sm-8 col-md-6">
+                                <h2>News & Blog Updates</h2>
+                            </div>
+                            <div class="col-12 col-sm-4 col-md-6">
+                                <a href="">View All</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+                        <div class="col blog-card">
+                            <div class="blogs-header">
+                                <a href="#">
+                                    <img src="~/Assets/İMG/Home/Blog/1.jpg" alt="" />
+                                </a>
+                            </div>
+                            <div class="blogs-title">
+                                <div class="blog-title-meta">
+                                    <a href="#">
+                                        <span class="meta-name"><i class="bi bi-person"></i> Team Tariyel</span>
+                                        <span class="meta-date">
+                                            , <i class="bi bi-calendar3"></i>
+                                            <span class="meta-date_info">Feb 28, 2025</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <h3><a href="#">Proper way to apply perfumes 2025</a></h3>
+                            </div>
+                        </div>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+                        <div class="col blog-card">
+                            <div class="blogs-header">
+                                <a href="#">
+                                    <img src="~/Assets/İMG/Home/Blog/2.jpg" alt="" />
+                                </a>
+                            </div>
+                            <div class="blogs-title">
+                                <div class="blog-title-meta">
+                                    <a href="#">
+                                        <span class="meta-name"><i class="bi bi-person"></i> Team Tariyel</span>
+                                        <span class="meta-date">
+                                            , <i class="bi bi-calendar3"></i>
+                                            <span class="meta-date_info">Feb 28, 2025</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <h3><a href="#">Proper way to apply perfumes 2025</a></h3>
+                            </div>
+                        </div>
+
+                        <div class="col blog-card">
+                            <div class="blogs-header">
+                                <a href="#">
+                                    <img src="~/Assets/İMG/Home/Blog/3.jpg" alt="" />
+                                </a>
+                            </div>
+                            <div class="blogs-title">
+                                <div class="blog-title-meta">
+                                    <a href="#">
+                                        <span class="meta-name"><i class="bi bi-person"></i> Team Tariyel</span>
+                                        <span class="meta-date">
+                                            , <i class="bi bi-calendar3"></i>
+                                            <span class="meta-date_info">Feb 28, 2025</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <h3><a href="#">Proper way to apply perfumes 2025</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

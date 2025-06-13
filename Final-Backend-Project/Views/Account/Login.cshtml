@@ -1,0 +1,40 @@
+﻿@using Service.Dtos.AccountDto
+@model LoginDto
+<main class="login-register">
+    <section id="Sing-in_up-section">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-12">
+                    <div class="registration">
+                        <div id="sign-in">
+                            <h1>Login</h1>
+
+                            <form asp-action="Login" method="post">
+                                <label>Email</label>
+                                <input asp-for="Email"  type="email" placeholder="Email">
+                                <label>Password</label>
+                                <span class="password-container">
+                                    <input asp-for="Password" type="password" class="password-input" placeholder="Password">
+                                    <button type="button" class="toggle-password">
+                                        <i class="bi bi-eye"></i>
+                                    </button>
+                                </span>
+                                <button class="forgot-password">
+                                    <a href="./Loginreset.html">Forgot your password?</a>
+                                </button>
+                                <div class="sing-up-btn">
+                                    <button class="sign-btn">SIGN IN</button>
+                                 </div>
+                            </form>
+                         
+                                <button class="sign-up-link"><a href="./Signup.html">New customer? Sign up for an account</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="login-section">
+    </section>
+</main>
