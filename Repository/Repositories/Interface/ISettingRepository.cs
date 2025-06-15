@@ -5,4 +5,5 @@ namespace Repository.Repositories.Interface;
 
 public interface ISettingRepository : IBaseRepository<Setting>
 {
+    string GetSettingByKey(string key);
 }

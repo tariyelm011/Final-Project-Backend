@@ -190,7 +190,7 @@ namespace Repository.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("BrandId")
+                    b.Property<int?>("BrandId")
                         .HasColumnType("int");
 
                     b.Property<int>("CategoryId")
@@ -335,9 +335,6 @@ namespace Repository.Migrations
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("SubscribedDate")
-                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
@@ -492,9 +489,7 @@ namespace Repository.Migrations
                 {
                     b.HasOne("Domain.Entity.Brand", "Brand")
                         .WithMany("Products")
-                        .HasForeignKey("BrandId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("BrandId");
 
                     b.HasOne("Domain.Entity.Category", "Category")
                         .WithMany("Products")
