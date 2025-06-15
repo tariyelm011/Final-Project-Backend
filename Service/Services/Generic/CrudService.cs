@@ -41,7 +41,12 @@ where TDto : IDto
         return _mapper.Map<TDto>(entity);
     }
 
-    public async Task<List<TDto>> GetAllAsync(Expression<Func<TEntity, bool>>? predicate = null, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null, bool enableTracking = true)
+    public async Task<List<TDto>> GetAllAsync(
+        Expression<Func<TEntity, bool>>? predicate = null,
+        Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null,
+        Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null,
+        bool enableTracking = true,
+        int? take = null)
     {
         var entitiesQuery = _repository.GetAll(include);
 
@@ -50,6 +55,9 @@ where TDto : IDto
 
         if (orderBy != null)
             entitiesQuery = orderBy(entitiesQuery);
+
+        if (take.HasValue)
+            entitiesQuery = entitiesQuery.Take(take.Value);
 
         var entities = await entitiesQuery.ToListAsync();
         var dto = _mapper.Map<List<TDto>>(entities);

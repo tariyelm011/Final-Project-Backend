@@ -1,91 +1,6 @@
 ﻿<main class="home">
-    <section id="home-carusels">
-        <div class="carousel-container">
-            <div id="carouselExampleIndicators"
-                 class="carousel slide"
-                 data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button"
-                            data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide-to="0"
-                            class="active"
-                            aria-current="true"
-                            aria-label="Slide 1"></button>
-                    <button type="button"
-                            data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                    <button type="button"
-                            data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="carousel-slide">
-                            <div class="carousel-overlay"></div>
-                            <img src="~/Assets/İMG/Home/Carusel/1.jpg"
-                                 class="carousel-image"
-                                 alt="Slide 1" />
-                            <div class="carousel-content">
-                                <h2 class="carousel-title">Premium Collection</h2>
-                                <p class="carousel-description">
-                                    Discover our latest arrivals with exclusive designs
-                                </p>
-                                <a href="#" class="carousel-btn">Shop Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-slide">
-                            <div class="carousel-overlay"></div>
-                            <img src="~/Assets/İMG/Home/Carusel/2.jpg"
-                                 class="carousel-image"
-                                 alt="Slide 2" />
-                            <div class="carousel-content">
-                                <h2 class="carousel-title">Summer Sale</h2>
-                                <p class="carousel-description">
-                                    Up to 50% off on selected items
-                                </p>
-                                <a href="#" class="carousel-btn">View Collection</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-slide">
-                            <div class="carousel-overlay"></div>
-                            <img src="~/Assets/İMG/Home/Carusel/3.jpg"
-                                 class="carousel-image"
-                                 alt="Slide 3" />
-                            <div class="carousel-content">
-                                <h2 class="carousel-title">New Arrivals</h2>
-                                <p class="carousel-description">
-                                    Be the first to discover our latest products
-                                </p>
-                                <a href="#" class="carousel-btn">Explore More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev"
-                        type="button"
-                        data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"
-                          aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next"
-                        type="button"
-                        data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="next">
-                    <span class="carousel-control-next-icon"
-                          aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-    </section>
+    @await Component.InvokeAsync("Slider")
+
     <section id="home-collection">
         <div class="container-xl">
             <div class="row">
@@ -662,32 +577,8 @@
             </div>
         </div>
     </section>
-    <section id="home-logos">
-        <div class="container-xl">
-            <div class="row">
-                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6">
-                    <div class="col">
-                        <img src="~/Assets/İMG/Home/Logo/1.png" alt="" />
-                    </div>
-                    <div class="col">
-                        <img src="~/Assets/İMG/Home/Logo/2.png" alt="" />
-                    </div>
-                    <div class="col">
-                        <img src="~/Assets/İMG/Home/Logo/3.png" alt="" />
-                    </div>
-                    <div class="col">
-                        <img src="~/Assets/İMG/Home/Logo/4.png" alt="" />
-                    </div>
-                    <div class="col">
-                        <img src="~/Assets/İMG/Home/Logo/5.png" alt="" />
-                    </div>
-                    <div class="col">
-                        <img src="~/Assets/İMG/Home/Logo/1.png" alt="" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @await Component.InvokeAsync("Brand")
+
     <section id="home-countdown">
         <div class="container-xl">
             <div class="row">
@@ -1098,88 +989,7 @@
             </div>
         </div>
     </section>
-    <section id="home-blogs">
-        <div class="container-xl">
-            <div class="row">
-                <div class="col-12 blog-info">
-                    <div>
-                        <p>OUR BLOG</p>
-                    </div>
-                    <div>
-                        <div class="row">
-                            <div class="col-12 col-sm-8 col-md-6">
-                                <h2>News & Blog Updates</h2>
-                            </div>
-                            <div class="col-12 col-sm-4 col-md-6">
-                                <a href="">View All</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
-                        <div class="col blog-card">
-                            <div class="blogs-header">
-                                <a href="#">
-                                    <img src="~/Assets/İMG/Home/Blog/1.jpg" alt="" />
-                                </a>
-                            </div>
-                            <div class="blogs-title">
-                                <div class="blog-title-meta">
-                                    <a href="#">
-                                        <span class="meta-name"><i class="bi bi-person"></i> Team Tariyel</span>
-                                        <span class="meta-date">
-                                            , <i class="bi bi-calendar3"></i>
-                                            <span class="meta-date_info">Feb 28, 2025</span>
-                                        </span>
-                                    </a>
-                                </div>
-                                <h3><a href="#">Proper way to apply perfumes 2025</a></h3>
-                            </div>
-                        </div>
+    @await Component.InvokeAsync("Blog")
 
-                        <div class="col blog-card">
-                            <div class="blogs-header">
-                                <a href="#">
-                                    <img src="~/Assets/İMG/Home/Blog/2.jpg" alt="" />
-                                </a>
-                            </div>
-                            <div class="blogs-title">
-                                <div class="blog-title-meta">
-                                    <a href="#">
-                                        <span class="meta-name"><i class="bi bi-person"></i> Team Tariyel</span>
-                                        <span class="meta-date">
-                                            , <i class="bi bi-calendar3"></i>
-                                            <span class="meta-date_info">Feb 28, 2025</span>
-                                        </span>
-                                    </a>
-                                </div>
-                                <h3><a href="#">Proper way to apply perfumes 2025</a></h3>
-                            </div>
-                        </div>
-
-                        <div class="col blog-card">
-                            <div class="blogs-header">
-                                <a href="#">
-                                    <img src="~/Assets/İMG/Home/Blog/3.jpg" alt="" />
-                                </a>
-                            </div>
-                            <div class="blogs-title">
-                                <div class="blog-title-meta">
-                                    <a href="#">
-                                        <span class="meta-name"><i class="bi bi-person"></i> Team Tariyel</span>
-                                        <span class="meta-date">
-                                            , <i class="bi bi-calendar3"></i>
-                                            <span class="meta-date_info">Feb 28, 2025</span>
-                                        </span>
-                                    </a>
-                                </div>
-                                <h3><a href="#">Proper way to apply perfumes 2025</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+   
 </main>

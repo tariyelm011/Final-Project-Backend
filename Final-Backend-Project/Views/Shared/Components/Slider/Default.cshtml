@@ -1,0 +1,62 @@
+﻿@using Service.Dtos.Slider
+@model List<SliderDto>
+
+<section id="home-carusels">
+    <div class="carousel-container">
+        <div id="carouselExampleIndicators"
+             class="carousel slide"
+             data-bs-ride="carousel">
+
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                @for (int i = 0; i < Model.Count; i++)
+                {
+                    <button type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="@i"
+                            class="@(i == 0 ? "active" : "")"
+                            aria-current="@(i == 0 ? "true" : "false")"
+                            aria-label="Slide @(i + 1)">
+                    </button>
+                }
+            </div>
+
+            <!-- Slides -->
+            <div class="carousel-inner">
+                @for (int i = 0; i < Model.Count; i++)
+                {
+                    var slider = Model[i];
+                    <div class="carousel-item @(i == 0 ? "active" : "")">
+                        <div class="carousel-slide">
+                            <div class="carousel-overlay"></div>
+                            <img src="@slider.Image"
+                                 class="carousel-image"
+                                 alt="Slide @(i + 1)" />
+                            <div class="carousel-content">
+                                <h2 class="carousel-title">@slider.BoldWrite</h2>
+                                <p class="carousel-description">@slider.LightWrite</p>
+                                <a href="#" class="carousel-btn">@slider.ButtonWrite</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+
+            <!-- Controls -->
+            <button class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>

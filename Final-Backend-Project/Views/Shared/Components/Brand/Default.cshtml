@@ -1,0 +1,46 @@
+﻿@using Service.Dtos.Brand
+@model List<BrandDto>
+
+<link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+<section id="brand-slider" style="padding: 20px; background: #f0f5eb;">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            @foreach (var brand in Model)
+            {
+                <div class="swiper-slide" style="display: flex; justify-content: center; align-items: center;">
+                    <img src="@brand.ImageUrl" style="max-height: 100px; object-fit: contain;" alt="brand" />
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper(".mySwiper", {
+        slidesPerView: 5,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        speed: 1000,
+        breakpoints: {
+            320: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+            },
+            640: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
+            992: {
+                slidesPerView: 5,
+                spaceBetween: 30,
+            },
+        },
+    });
+</script>
