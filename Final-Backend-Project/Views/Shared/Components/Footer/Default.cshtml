@@ -50,22 +50,33 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-3 lg-3">
-                        <h2>Newsletter <span class="footer-toggle-icon d-block d-md-none">+</span></h2>
+                        <h2>
+                            Newsletter
+                            <span class="footer-toggle-icon d-block d-sm-none">+</span>
+                        </h2>
                         <div class="footer-attachment">
                             <div class="attachment-addres">
-                                <p>Subscribe to our newsletter to receive news on update.</p>
+                                <p>
+                                    Subscribe to our newsletter to receive news on update.
+                                </p>
                             </div>
                             <div class="attachment-input">
                                 <div class="email-input-wrapper">
-                                    <div class="input-group custom-email-group">
-                                        <input type="email" class="form-control email-input"
-                                               placeholder="Enter your email" aria-label="Email">
-                                        <button class="btn send-btn" type="button">
-                                            <i class="bi bi-arrow-right"></i>
-                                        </button>
-                                    </div>
-                                </div>
+                                    <form asp-controller="Subscribe" asp-action="Subscribe" method="post">
+                                        <div class="input-group custom-email-group">
 
+                                            <input type="email"
+                                                   name="Email"
+                                                   class="form-control email-input"
+                                                   placeholder="Enter your email"
+                                                   aria-label="Email" />
+                                            <button class="btn send-btn" type="submit">
+                                                <i class="bi bi-arrow-right"></i>
+                                            </button>
+
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -92,3 +103,54 @@
         </div>
     </div>
 </footer>
+
+
+<style>
+    .footer-newsletter {
+        max-width: 300px;
+        margin-top: 10px;
+    }
+
+        .footer-newsletter p {
+            color: #fff;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        .footer-newsletter form {
+            display: flex;
+            align-items: center;
+            border: 1px solid #c4a4b8;
+            border-radius: 8px;
+            overflow: hidden;
+            background: transparent;
+        }
+
+        .footer-newsletter input[type="email"] {
+            flex: 1;
+            padding: 10px 12px;
+            border: none;
+            outline: none;
+            font-size: 14px;
+            background-color: transparent;
+            color: #fff;
+        }
+
+        .footer-newsletter input::placeholder {
+            color: #d8c7ce;
+        }
+
+        .footer-newsletter button {
+            background-color: transparent;
+            border: none;
+            color: #d8c7ce;
+            padding: 10px 15px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+            .footer-newsletter button:hover {
+                color: #fff;
+            }
+</style>

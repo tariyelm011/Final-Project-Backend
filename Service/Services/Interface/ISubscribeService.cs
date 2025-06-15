@@ -6,5 +6,5 @@ namespace Service.Services.Interface;
 
 public interface ISubscribeService : ICrudService<Subscribe, SubscribeCreateDto, SubscribeEditDto, SubscribeDto>
 {
-
+    Task SubscribeCreate(SubscribeCreateDto dto);
 }
