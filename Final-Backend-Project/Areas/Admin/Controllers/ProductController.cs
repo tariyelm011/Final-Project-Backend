@@ -32,6 +32,7 @@ namespace Final_Backend_Project.Areas.Admin.Controllers
         {
             var dtos = await _productService.GetCreatedProductDto();
             dto.Categories = dtos.Categories;
+            dto.Brands = dtos.Brands;
 
             if (!ModelState.IsValid)
             {
@@ -47,6 +48,7 @@ namespace Final_Backend_Project.Areas.Admin.Controllers
                 }
                 var categories = await _productService.GetCreatedProductDto();
                 dto.Categories = categories.Categories;
+                dto.Brands = categories.Brands;
                 return View(dto);
             }
 

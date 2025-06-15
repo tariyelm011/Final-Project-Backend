@@ -12,3 +12,4 @@ public class Category : BaseEntity
     public DateTime? EditDate { get; set; }
 
 }
+

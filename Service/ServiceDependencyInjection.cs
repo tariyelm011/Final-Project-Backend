@@ -29,6 +29,9 @@ namespace Service
 
             services.AddScoped<IAccountService, AccountService>();
 
+            services.AddScoped<IBlogService, BlogService>();
+
+            services.AddScoped<IBrandService, BrandService>();
 
 
 

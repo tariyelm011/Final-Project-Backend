@@ -18,13 +18,16 @@ public class ProductService : CrudService<Product, ProductCreateDto, ProductEdit
     private readonly ICloudinaryManager _cloudinaryManager;
     private readonly ICategoryService _categoryService;
     private readonly IProductImageRepository _productImageRepository;
-    public ProductService(IProductRepository repository, IMapper mapper, ICloudinaryManager cloudinaryManager, ICategoryService categoryService, IProductImageRepository productImageRepository) : base(repository, mapper)
+    private readonly IBrandService _brandService;
+
+    public ProductService(IProductRepository repository, IMapper mapper, ICloudinaryManager cloudinaryManager, ICategoryService categoryService, IProductImageRepository productImageRepository, IBrandService brandService) : base(repository, mapper)
     {
         _repository = repository;
         _mapper = mapper;
         _cloudinaryManager = cloudinaryManager;
         _categoryService = categoryService;
         _productImageRepository = productImageRepository;
+        _brandService = brandService;
     }
     public async Task<(bool Success, List<string> Errors)> UpdateProductAsync(ProductEditDto dto)
     {
@@ -77,6 +80,15 @@ public class ProductService : CrudService<Product, ProductCreateDto, ProductEdit
             isUpdated = true;
         }
 
+        if (dto.BrandId <= 0)
+            errors.Add("Invalid brand.");
+        else if (dto.BrandId != product.BrandId)
+        {
+            product.BrandId = dto.BrandId;
+            isUpdated = true;
+        }
+
+
         if (dto.Stock <= 0)
             errors.Add("Invalid Stock.");
         else if (dto.Stock != product.Stock)
@@ -118,6 +130,7 @@ public class ProductService : CrudService<Product, ProductCreateDto, ProductEdit
         if (product == null) return null;
 
         var categories = await _categoryService.GetAllAsync();
+        var brands = await _brandService.GetAllAsync();
         var images = _productImageRepository.GetAll().Where(x => x.ProductId == productId).ToList();
 
         var productUpdateDto = new ProductEditDto
@@ -137,7 +150,15 @@ public class ProductService : CrudService<Product, ProductCreateDto, ProductEdit
                 Selected = c.Id == product.CategoryId
             }).ToList(),
             CategoryId = product.CategoryId,
-          
+
+            Brands = brands.Select(c => new SelectListItem
+            {
+                Value = c.Id.ToString(),
+                Text = c.Name,
+                Selected = c.Id == product.CategoryId
+            }).ToList(),
+            BrandId = product.BrandId,
+
 
         };
 
@@ -219,7 +240,7 @@ public class ProductService : CrudService<Product, ProductCreateDto, ProductEdit
         if (dto.VideoUrl == null || dto.VideoUrl.Length == 0)
             throw new NotFoundException("video is requared");
 
-        var resultvideo = FileHelper.ValidateImage(dto.VideoUrl);
+        var resultvideo = FileHelper.ValidateVideo(dto.VideoUrl);
 
         if (!resultvideo.IsSuccess)
         {
@@ -234,6 +255,7 @@ public class ProductService : CrudService<Product, ProductCreateDto, ProductEdit
             Description = dto.Description,
             ImageUrl = imageMain,
              CategoryId = dto.CategoryId,
+             BrandId = dto.BrandId,
              VideoUrl = videoUrl,
              Stock = dto.Stock,
             CreatedDate = DateTime.UtcNow,
@@ -265,10 +287,17 @@ public class ProductService : CrudService<Product, ProductCreateDto, ProductEdit
     public async Task<ProductCreateDto> GetCreatedProductDto()
     {
         var categories = await _categoryService.GetAllAsync();
+        var brands = await _brandService.GetAllAsync();
 
         var model = new ProductCreateDto
         {
             Categories = categories.Select(c => new SelectListItem
+            {
+                Value = c.Id.ToString(),
+                Text = c.Name
+            }).ToList(),
+
+            Brands = brands.Select(c => new SelectListItem
             {
                 Value = c.Id.ToString(),
                 Text = c.Name

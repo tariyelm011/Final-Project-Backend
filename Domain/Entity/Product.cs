@@ -12,6 +12,8 @@ namespace Domain.Entity
         public string VideoUrl { get; set; } = null!;
         public int CategoryId { get; set; }
         public Category? Category { get; set; }
+        public int? BrandId { get; set; }
+        public Brand? Brand { get; set; } 
         public DateTime? CreatedDate { get; set; }
         public DateTime? EditDate { get; set; }
         public List<ProductImage>? ProductImages { get; set; } = [];

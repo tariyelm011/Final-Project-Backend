@@ -43,6 +43,17 @@
                 </div>
                 <span asp-validation-for="CategoryId" class="text-danger"></span>
 
+                <div class="form-group">
+                    <label asp-for="CategoryId"></label>
+                    <select asp-for="BrandId" asp-items="Model.Brands" class="form-control">
+                        <option value="">Brand seçin</option>
+                    </select>
+                </div>
+                <span asp-validation-for="BrandId" class="text-danger"></span>
+
+
+
+
 
                 <div class="input-group mb-3">
                     <label class="input-group-text" for="inputGroupFile01">Upload Image</label>

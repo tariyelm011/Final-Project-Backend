@@ -44,7 +44,8 @@ public class SliderController : Controller
     {
         if (!ModelState.IsValid)
         {
-            return View(dto);
+            var model = await _sliderService.GetUpdateSliderDto(dto.Id);
+            return View(model);
         }
         await _sliderService.UpdateSlider(dto);
 

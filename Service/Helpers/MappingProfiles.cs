@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
 using Domain.Entity;
+using Service.Dtos.Blog;
+using Service.Dtos.Brand;
 using Service.Dtos.Category;
 using Service.Dtos.Product;
 using Service.Dtos.ProductImage;
@@ -39,5 +41,15 @@ public class MappingProfiles : Profile
         CreateMap<Subscribe, SubscribeDto>().ReverseMap();
         CreateMap<Subscribe, SubscribeCreateDto>().ReverseMap();
         CreateMap<Subscribe, SubscribeEditDto>().ReverseMap();
+
+
+        CreateMap<Blog, BlogDto>().ReverseMap();
+        CreateMap<Blog, BlogCreateDto>().ReverseMap();
+        CreateMap<Blog, BlogEditDto>().ReverseMap();
+
+        CreateMap<Brand, BrandDto>().ReverseMap();
+        CreateMap<Brand, BrandCreateDto>().ReverseMap();
+        CreateMap<Brand, BrandEditDto>().ReverseMap();
+
     }
 }

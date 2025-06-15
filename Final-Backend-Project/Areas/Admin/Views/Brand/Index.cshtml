@@ -1,0 +1,72 @@
+﻿@using Service.Dtos.Brand
+@model List<BrandDto>
+
+<div class="col-lg-12 grid-margin stretch-card">
+
+    <div class="card">
+        <div class="card-body">
+            <h1> Brand </h1>
+            <a asp-action="Create" style="display: inline-block; background-color: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold;">
+                Create
+            </a>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                Image
+                            </th>
+                            <th>
+                                Name
+                            </th>
+                            <th>
+                                Created Date
+                            </th>
+                            <th>
+                                Edit Date
+                            </th>
+                            <th>
+                                Oparetions
+                            </th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var brand in Model)
+                        {
+                            <tr>
+                                <td class="py-1">
+                                    <img src="@brand.ImageUrl" alt="image" />
+                                </td>
+                                <td>
+                                    @brand.Name
+
+                                </td>
+
+
+                                <td>
+                                    @brand.CreatedDate;
+                                </td>
+                                <td>
+                                    @brand.EditDate;
+                                </td>
+                                <td>
+                                    <a asp-action="Edit" asp-route-id="@brand.Id" style="display:inline-block; background-color:#ffc107; color:black; padding:10px 20px; text-decoration:none; border-radius:6px; font-weight:bold;">
+                                        Edit
+                                    </a>
+                                    <a asp-action="Delete" asp-route-id="@brand.Id" style="display:inline-block; background-color:#dc3545; color:white; padding:10px 20px; text-decoration:none; border-radius:6px; font-weight:bold;">
+                                        Delete
+                                    </a>
+
+                                </td>
+                            </tr>
+
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

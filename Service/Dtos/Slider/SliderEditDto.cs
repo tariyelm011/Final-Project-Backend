@@ -9,6 +9,6 @@ public class SliderEditDto : IDto
     public string BoldWrite { get; set; } = null!;
     public string LightWrite { get; set; } = null!;
     public string ButtonWrite { get; set; } = null!;
-    public IFormFile Image { get; set; } = null!;
-    public string ImageUrl { get; set; } = null!;
+    public IFormFile? Image { get; set; }
+    public string? ImageUrl { get; set; }
 }
