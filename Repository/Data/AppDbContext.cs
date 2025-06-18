@@ -19,6 +19,9 @@ public class AppDbContext : IdentityDbContext<AppUser>
     public DbSet<Setting> Settings { get; set; }
     public DbSet<Blog> Blogs { get; set; }
     public DbSet<Brand> Brands { get; set; }
+    public DbSet<AboutUs> AboutUs { get; set; }
+    public DbSet<Advertisement> Advertisements { get; set; }
+    public DbSet<Expert> Experts { get; set; }
 
 
 

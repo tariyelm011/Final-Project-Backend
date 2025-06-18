@@ -1,8 +1,11 @@
 ﻿using AutoMapper;
 using Domain.Entity;
+using Service.Dtos.AboutUs;
+using Service.Dtos.Advertisement;
 using Service.Dtos.Blog;
 using Service.Dtos.Brand;
 using Service.Dtos.Category;
+using Service.Dtos.Expert;
 using Service.Dtos.Product;
 using Service.Dtos.ProductImage;
 using Service.Dtos.Setting;
@@ -50,6 +53,20 @@ public class MappingProfiles : Profile
         CreateMap<Brand, BrandDto>().ReverseMap();
         CreateMap<Brand, BrandCreateDto>().ReverseMap();
         CreateMap<Brand, BrandEditDto>().ReverseMap();
+
+
+        CreateMap<Advertisement, AdvertisementVM>().ReverseMap();
+        CreateMap<Advertisement, AdvertisementCreateVM>().ReverseMap();
+        CreateMap<Advertisement, AdvertisementEditVM>().ReverseMap();
+        CreateMap<AdvertisementEditVM, Advertisement>();
+
+        CreateMap<Expert, ExpertVM>().ReverseMap();
+        CreateMap<Expert, ExpertCreateVM>().ReverseMap();
+        CreateMap<Expert, ExpertEditVM>().ReverseMap();
+
+        CreateMap<AboutUs, AboutUsVM>().ReverseMap();
+        CreateMap<AboutUs, AboutUsCreateVM>().ReverseMap();
+        CreateMap<AboutUs, AboutUsEditVM>().ReverseMap();
 
     }
 }

@@ -80,7 +80,7 @@ where TDto : IDto
     {
         var entityEntry = _mapper.Map<TEntity>(entity);
         _repository.Update(entityEntry);
-        return _mapper.Map<TDto>(entity);
+        return _mapper.Map<TDto>(entityEntry);
     }
 
     public async Task SaveChangesAsync()

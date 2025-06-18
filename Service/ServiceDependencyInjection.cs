@@ -33,6 +33,12 @@ namespace Service
 
             services.AddScoped<IBrandService, BrandService>();
 
+            services.AddScoped<IExpertService, ExpertService>();
+
+            services.AddScoped<IAdvertisementService, AdvertisementService>();
+
+            services.AddScoped<IAboutUsService, AboutUsService>();
+
 
 
             return services;

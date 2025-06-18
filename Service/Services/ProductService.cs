@@ -272,11 +272,12 @@ public class ProductService : CrudService<Product, ProductCreateDto, ProductEdit
         foreach (var image in dto.ProductImages)
         {
             var uploadedImageUrl = await _cloudinaryManager.FileCreateAsync(image);
+
             var imageRecord = new ProductImage { ProductId = model.Id, ImageUrl = uploadedImageUrl ,CreatedDate = DateTime.UtcNow, EditDate =DateTime.UtcNow};
+
             await _productImageRepository.CreateAsync(imageRecord);
         }
 
-     
         return (true, new List<string>());
 
 
