@@ -19,7 +19,7 @@ public class AboutUsService : CrudService<AboutUs, AboutUsCreateVM, AboutUsEditV
         _mapper = mapper;
         _cloudinaryManager = cloudinaryManager;
     }
-    public async Task<AboutUsEditVM> AboutUsAsync(int id)
+    public async Task<AboutUsEditVM> AboutUsVm(int id)
     {
         var about = await _aboutUsRepository.GetAsync(id);
         var vm = _mapper.Map<AboutUsEditVM>(about);
@@ -27,7 +27,7 @@ public class AboutUsService : CrudService<AboutUs, AboutUsCreateVM, AboutUsEditV
         return vm;
     }
 
-    public async Task CreateAboutUs(AboutUsCreateVM vm)
+    public async Task CreateAsync(AboutUsCreateVM vm)
     {
 
 
@@ -47,7 +47,7 @@ public class AboutUsService : CrudService<AboutUs, AboutUsCreateVM, AboutUsEditV
 
     }
 
-    public async Task UpdateAboutUs(AboutUsEditVM vm)
+    public async Task UpdateAsync(AboutUsEditVM vm)
     {
         var about = await _aboutUsRepository.GetAsync(vm.Id);
         if (about == null) throw new Exception("Expert is not found!");

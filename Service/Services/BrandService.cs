@@ -9,7 +9,7 @@ using Service.Services.Interface;
 
 namespace Service.Services;
 
-public class BrandService : CrudService<Brand, BrandCreateDto, BrandEditDto, BrandDto>, IBrandService
+public class BrandService : CrudService<Brand, BrandCreateVM, BrandEditVM, BrandVM>, IBrandService
 {
     private readonly ICloudinaryManager _cloudinaryManager;
     private readonly IBrandRepository _brandRepository;
@@ -19,7 +19,7 @@ public class BrandService : CrudService<Brand, BrandCreateDto, BrandEditDto, Bra
         _brandRepository = repository;
     }
 
-    public async Task<BrandEditDto> GetBrandUpdate(int id)
+    public async Task<BrandEditVM> BrandUpdateVM(int id)
     {
         var brand = await _brandRepository.GetAsync(id);
         if (brand is null)
@@ -27,7 +27,7 @@ public class BrandService : CrudService<Brand, BrandCreateDto, BrandEditDto, Bra
             throw new NotFoundException("Brand is null ");
         }
 
-        var model = new BrandEditDto
+        var model = new BrandEditVM
         {
             Name = brand.Name,
             Image = brand.ImageUrl
@@ -36,7 +36,7 @@ public class BrandService : CrudService<Brand, BrandCreateDto, BrandEditDto, Bra
         return model;
     }
 
-   public async Task<bool> CreateAsync(BrandCreateDto dto)
+   public async Task<bool> CreateAsync(BrandCreateVM dto)
     {
         if (dto == null) return false;
 
@@ -70,7 +70,7 @@ public class BrandService : CrudService<Brand, BrandCreateDto, BrandEditDto, Bra
         return true;
     }
 
-  public async  Task<bool> UpdateAsync(BrandEditDto dto)
+  public async  Task<bool> UpdateAsync(BrandEditVM dto)
     {
         if (dto == null) return false;
 

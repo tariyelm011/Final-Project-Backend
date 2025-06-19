@@ -4,7 +4,7 @@ using Service.Services.Interface.Generic;
 
 namespace Service.Services.Interface;
 
-public interface ISubscribeService : ICrudService<Subscribe, SubscribeCreateDto, SubscribeEditDto, SubscribeDto>
+public interface ISubscribeService : ICrudService<Subscribe, SubscribeCreateVM, SubscribeEditVM, SubscribeVM>
 {
-    Task SubscribeCreate(SubscribeCreateDto dto);
+    Task CreateAsync(SubscribeCreateVM dto);
 }

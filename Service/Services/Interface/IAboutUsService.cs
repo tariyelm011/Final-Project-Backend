@@ -6,7 +6,7 @@ namespace Service.Services.Interface;
 
 public interface IAboutUsService : ICrudService<AboutUs, AboutUsCreateVM, AboutUsEditVM, AboutUsVM>
 {
-    Task UpdateAboutUs(AboutUsEditVM vm);
-    Task CreateAboutUs(AboutUsCreateVM vm);
-    Task<AboutUsEditVM> AboutUsAsync(int id);
+    Task UpdateAsync(AboutUsEditVM vm);
+    Task CreateAsync(AboutUsCreateVM vm);
+    Task<AboutUsEditVM> AboutUsVm(int id);
 }

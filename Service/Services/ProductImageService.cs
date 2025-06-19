@@ -7,7 +7,7 @@ using Service.Services.Interface;
 
 namespace Service.Services;
 
-public class ProductImageService : CrudService<ProductImage, ProductImageCreateDto, ProductImageEditDto, ProductImageDto>, IProductImageService
+public class ProductImageService : CrudService<ProductImage, ProductImageCreateVM, ProductImageEditVM, ProductImageVM>, IProductImageService
 {
     public ProductImageService(IProductImageRepository repository, IMapper mapper) : base(repository, mapper)
     {

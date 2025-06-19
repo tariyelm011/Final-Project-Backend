@@ -1,0 +1,299 @@
+﻿@using Final_Backend_Project.ViewModelsUI
+@model ShopVM
+<main class="shop">
+    <section id="shop-product">
+        <div class="shop-product-submenu hidden">
+            <div class="submenu-head">
+                <h2>Filter and sort</h2>
+                <p><span>8</span> of <span>12</span> products</p>
+                <button onclick="hiddenbtn()"><i class="bi bi-x-lg"></i></button>
+            </div>
+            <div class="submenu-body">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header ">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Price
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse ">
+                            <div class="accordion-body price-accordion">
+                                <div class="price-filter-input">
+                                    <label for="priceFrom">From</label>
+                                    <input type="number" id="priceFrom" min="0" step="0.01" />
+                                </div>
+                                <div class="price-filter-divider">
+                                    <span>-</span>
+                                </div>
+                                <div class="price-filter-input">
+                                    <label for="priceTo">To</label>
+                                    <input type="number" id="priceTo" min="0" step="0.01" />
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Category
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <div class="form-check">
+                                    <div>
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Brend-A
+                                        </label>
+                                    </div>
+                                    <div><label class="form-check-count">(<span>11</span>)</label></div>
+                                </div>
+                                <div class="form-check">
+                                    <div>
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Brend-A
+                                        </label>
+                                    </div>
+                                    <div><label class="form-check-count">(<span>11</span>)</label></div>
+                                </div>
+                                <div class="form-check">
+                                    <div>
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Brend-A
+                                        </label>
+                                    </div>
+                                    <div><label class="form-check-count">(<span>11</span>)</label></div>
+                                </div>
+                                <div class="form-check">
+                                    <div>
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Brend-A
+                                        </label>
+                                    </div>
+                                    <div><label class="form-check-count">(<span>11</span>)</label></div>
+                                </div>
+                                <div class="form-check">
+                                    <div>
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Brend-A
+                                        </label>
+                                    </div>
+                                    <div><label class="form-check-count">(<span>11</span>)</label></div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              <div class="submenu-sort-menu">
+    <label>Sort by:</label>
+                    <form method="get" id="sortForm">
+                        <select class="select-forms" name="sort" onchange="document.getElementById('sortForm').submit()">
+
+                        
+                            <option value="az" selected="@(Model.Sort == "az")">A-Z</option>
+                            <option value="za" selected="@(Model.Sort == "za")">Z-A</option>
+                            <option value="priceLowHigh" selected="@(Model.Sort == "priceLowHigh")">Price, low to high</option>
+                            <option value="priceHighLow" selected="@(Model.Sort == "priceHighLow")">Price, high to low</option>
+                         
+                        </select>
+
+                        <input type="hidden" name="search" value="@Model.Search" />
+                        <input type="hidden" name="categoryId" value="@Model.CategoryId" />
+                        <input type="hidden" name="page" value="1" />
+                    </form>
+
+</div>
+
+            </div>
+            <div class="submenu-footer">
+                <button class="remove-all-btn">Remove all</button>
+                <button class="applay">Applay</button>
+            </div>
+        </div>
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 d-flex mb-3">
+                            <div class="shop-product-item-filter">
+                                <button onclick="showbtn()"><i class="bi bi-sliders"></i> Filter and sort</button>
+                            </div>
+                            <div class="shop-product-shorter">
+                                <label>Sort by:</label>
+                                <form method="get" id="sortForm">
+                                    <select class="select-forms" name="sort" onchange="document.getElementById('sortForm').submit()">
+
+
+                                        <option value="az" selected="@(Model.Sort == "az")">A-Z</option>
+                                        <option value="za" selected="@(Model.Sort == "za")">Z-A</option>
+                                        <option value="priceLowHigh" selected="@(Model.Sort == "priceLowHigh")">Price, low to high</option>
+                                        <option value="priceHighLow" selected="@(Model.Sort == "priceHighLow")">Price, high to low</option>
+
+                                    </select>
+
+                                    <input type="hidden" name="search" value="@Model.Search" />
+                                    <input type="hidden" name="categoryId" value="@Model.CategoryId" />
+                                    <input type="hidden" name="page" value="1" />
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex">
+                            <div class="shop-product-filter">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header ">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                Price
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse show ">
+                                            <div class="accordion-body price-accordion">
+                                                <div class="price-filter-input">
+                                                    <label for="priceFrom">From</label>
+                                                    <input type="number" id="priceFrom" min="0" step="0.01" />
+                                                </div>
+                                                <div class="price-filter-divider">
+                                                    <span>-</span>
+                                                </div>
+                                                <div class="price-filter-input">
+                                                    <label for="priceTo">To</label>
+                                                    <input type="number" id="priceTo" min="0" step="0.01" />
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Category
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show">
+                                            <div class="accordion-body">
+                                                <div class="form-check">
+                                                    <div>
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                            Brend-A
+                                                        </label>
+                                                    </div>
+                                                    <div><label class="form-check-count">(<span>11</span>)</label></div>
+                                                </div>
+                                                <div class="form-check">
+                                                    <div>
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                            Brend-A
+                                                        </label>
+                                                    </div>
+                                                    <div><label class="form-check-count">(<span>11</span>)</label></div>
+                                                </div>
+                                                <div class="form-check">
+                                                    <div>
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                            Brend-A
+                                                        </label>
+                                                    </div>
+                                                    <div><label class="form-check-count">(<span>11</span>)</label></div>
+                                                </div>
+                                                <div class="form-check">
+                                                    <div>
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                            Brend-A
+                                                        </label>
+                                                    </div>
+                                                    <div><label class="form-check-count">(<span>11</span>)</label></div>
+                                                </div>
+                                                <div class="form-check">
+                                                    <div>
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                            Brend-A
+                                                        </label>
+                                                    </div>
+                                                    <div><label class="form-check-count">(<span>11</span>)</label></div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-product-items">
+                                <div class="container-xl">
+                                    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-3 g-4">
+
+                                        @foreach (var product in Model.Products.Datas)
+                                        {
+                                            <div class="col">
+                                                <div class="card">
+                                                    <a href="#"><img href src="@product.ImageUrl" class="card-img-top" alt="..."></a>
+                                                    <div class="cart-shortcut">
+                                                        <ul>
+                                                            <li><button><i class="bi bi-heart"></i></button></li>
+                                                            <li><button><i class="bi bi-eye"></i></button></li>
+                                                            <li><button><i class="bi bi-basket2-fill"></i></button></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="card-body">
+                                                       
+                                                        <h5 class="card-title">@product.Name</h5>
+                                                        <p class="card-text">@product.Price</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        }
+                                    
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="shop-pagination">
+                                            <div aria-label="Page navigation">
+                                                <ul class="pagination custom-pagination">
+                                                    @* Previous Button *@
+                                                    <li class="page-item @(Model.Products.HasPrevious ? "" : "disabled")">
+                                                        <a class="page-link" href="@Url.Action("Index", new { page = Model.Products.CurrentPage - 1 })">Prev</a>
+                                                    </li>
+
+                                                    @* Page Numbers *@
+                                                    @for (int i = 1; i <= Model.Products.TotalPage; i++)
+                                                    {
+                                                        <li class="page-item @(i == Model.Products.CurrentPage ? "active" : "")">
+                                                            <a class="page-link" href="@Url.Action("Index", new { page = i })">@i</a>
+                                                        </li>
+                                                    }
+
+                                                    @* Next Button *@
+                                                    <li class="page-item @(Model.Products.HasNext ? "" : "disabled")">
+                                                        <a class="page-link" href="@Url.Action("Index", new { page = Model.Products.CurrentPage + 1 })">Next</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+</main>

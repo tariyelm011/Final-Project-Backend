@@ -9,7 +9,7 @@ using Service.Services.Interface;
 
 namespace Service.Services;
 
-public class SettingService : CrudService<Setting, SettingCreateDto, SettingEditDto, SettingDto>, ISettingService
+public class SettingService : CrudService<Setting, SettingCreateVM, SettingEditVM, SettingVM>, ISettingService
 {
     private readonly ISettingRepository _settingRepository;
     private readonly ICloudinaryManager _cloudinaryManager;
@@ -24,13 +24,13 @@ public class SettingService : CrudService<Setting, SettingCreateDto, SettingEdit
         return _settingRepository.GetSettingByKey(key);
     }
 
-    public async Task<SettingEditDto> SettingUpdateDto(int id)
+    public async Task<SettingEditVM> SettingUpdateVM(int id)
     {
 
         var setting = await _settingRepository.GetAsync(x => x.Id == id);
 
 
-        var model = new SettingEditDto
+        var model = new SettingEditVM
         {
             Key = setting.Key,
             Value = setting.Value
@@ -39,7 +39,7 @@ public class SettingService : CrudService<Setting, SettingCreateDto, SettingEdit
         return model;
     }
 
-    public async Task UpdateSettingAsync(SettingEditDto settingUpdateDTO)
+    public async Task UpdateAsync(SettingEditVM settingUpdateDTO)
     {
         var setting = await _settingRepository.GetAsync(s => s.Id == settingUpdateDTO.Id);
 

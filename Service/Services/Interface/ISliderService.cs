@@ -4,10 +4,10 @@ using Service.Services.Interface.Generic;
 
 namespace Service.Services.Interface;
 
-public interface ISliderService : ICrudService<Slider, SliderCreateDto, SliderEditDto, SliderDto>
+public interface ISliderService : ICrudService<Slider, SliderCreateVM, SliderEditVM, SliderVM>
 {
-    Task<bool> CreateAsync(SliderCreateDto dto);
-    Task<bool> UpdateSlider(SliderEditDto updateSliderDto); 
-    Task<SliderEditDto> GetUpdateSliderDto(int id);
-    Task DeleteSlider(int id);
+    Task<bool> CreateAsync(SliderCreateVM dto);
+    Task<bool> UpdateAsync(SliderEditVM updateSliderDto); 
+    Task<SliderEditVM> UpdateSliderVM(int id);
+    Task DeleteAsync(int id);
 }

@@ -27,7 +27,7 @@ namespace Final_Backend_Project.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(CategoryCreateDto dto)
+        public async Task<IActionResult> Create(CategoryCreateVM dto)
         {
             if (!ModelState.IsValid)
             {
@@ -39,12 +39,12 @@ namespace Final_Backend_Project.Areas.Admin.Controllers
 
         public async Task<IActionResult> Edit(int id)
         {
-            var edit = await _categoryService.GetCategoryUpdate(id);
+            var edit = await _categoryService.CategoryUpdateVM(id);
             return View(edit);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Edit(CategoryEditDto dto)
+        public async Task<IActionResult> Edit(CategoryEditVM dto)
         {
             if (!ModelState.IsValid)
             {

@@ -11,7 +11,7 @@ using Service.Services.Interface;
 
 namespace Service.Services;
 
-public class ProductService : CrudService<Product, ProductCreateDto, ProductEditDto, ProductDto>, IProductService
+public class ProductService : CrudService<Product, ProductCreateVM, ProductEditVM, ProductVM>, IProductService
 {
     private readonly IProductRepository _repository;
     private readonly IMapper _mapper;
@@ -19,8 +19,10 @@ public class ProductService : CrudService<Product, ProductCreateDto, ProductEdit
     private readonly ICategoryService _categoryService;
     private readonly IProductImageRepository _productImageRepository;
     private readonly IBrandService _brandService;
+    private readonly ISubscribeService _subscribeService;
+    private readonly IEmailService _emailService;
 
-    public ProductService(IProductRepository repository, IMapper mapper, ICloudinaryManager cloudinaryManager, ICategoryService categoryService, IProductImageRepository productImageRepository, IBrandService brandService) : base(repository, mapper)
+    public ProductService(IProductRepository repository, IMapper mapper, ICloudinaryManager cloudinaryManager, ICategoryService categoryService, IProductImageRepository productImageRepository, IBrandService brandService, ISubscribeService subscribeService, IEmailService emailService) : base(repository, mapper)
     {
         _repository = repository;
         _mapper = mapper;
@@ -28,8 +30,26 @@ public class ProductService : CrudService<Product, ProductCreateDto, ProductEdit
         _categoryService = categoryService;
         _productImageRepository = productImageRepository;
         _brandService = brandService;
+        _subscribeService = subscribeService;
+        _emailService = emailService;
     }
-    public async Task<(bool Success, List<string> Errors)> UpdateProductAsync(ProductEditDto dto)
+
+    public async Task<PaginationResponse<ProductVM>> GetPaginateAsync(int page, int take)
+    {
+        var products = _repository.GetAll();
+
+        int count = products.Count();
+        int totalPage = (int)Math.Ceiling((decimal)count / take);
+        
+        var data =  _mapper.Map<List<ProductVM>>(products
+            .Skip((page - 1) * take)
+            .Take(take)
+            .ToList());
+
+
+        return new PaginationResponse<ProductVM>(data, totalPage , page ,count);
+    }
+    public async Task<(bool Success, List<string> Errors)> UpdateAsync(ProductEditVM dto)
     {
         var errors = new List<string>();
 
@@ -124,7 +144,7 @@ public class ProductService : CrudService<Product, ProductCreateDto, ProductEdit
     }
 
 
-    public async Task<ProductEditDto> GetProductUpdateDto(int productId)
+    public async Task<ProductEditVM> ProductUpdateVM(int productId)
     {
         var product = await _repository.GetAsync(productId);
         if (product == null) return null;
@@ -133,7 +153,7 @@ public class ProductService : CrudService<Product, ProductCreateDto, ProductEdit
         var brands = await _brandService.GetAllAsync();
         var images = _productImageRepository.GetAll().Where(x => x.ProductId == productId).ToList();
 
-        var productUpdateDto = new ProductEditDto
+        var productUpdateDto = new ProductEditVM
         {
             Id = product.Id,
             Name = product.Name,
@@ -166,7 +186,7 @@ public class ProductService : CrudService<Product, ProductCreateDto, ProductEdit
     }
 
 
-    public async Task<(bool Success, List<string> Errors)> ProductCreate(ProductCreateDto dto)
+    public async Task<(bool Success, List<string> Errors)> CreateAsync(ProductCreateVM dto)
     {
         var errors = new List<string>();
 
@@ -278,6 +298,17 @@ public class ProductService : CrudService<Product, ProductCreateDto, ProductEdit
             await _productImageRepository.CreateAsync(imageRecord);
         }
 
+
+        var subscribers = await _subscribeService.GetAllAsync();
+        foreach (var subscriber in subscribers)
+        {
+            string body = $"<h2>Yeni məhsul əlavə olundu!</h2>" +
+                          $"<p><strong>{dto.Name}</strong> - <strong>{dto.Price} AZN</strong></p>" +
+                          $"<p>{dto.Description}</p>" +
+            $"<p>Ətraflı məlumat üçün saytımıza baxın.</p>";
+
+            _emailService.SendEmail(subscriber.Email, "Yeni məhsul xəbərdarlığı", body);
+        }
         return (true, new List<string>());
 
 
@@ -285,12 +316,12 @@ public class ProductService : CrudService<Product, ProductCreateDto, ProductEdit
     }
 
 
-    public async Task<ProductCreateDto> GetCreatedProductDto()
+    public async Task<ProductCreateVM> CreateProductVM()
     {
         var categories = await _categoryService.GetAllAsync();
         var brands = await _brandService.GetAllAsync();
 
-        var model = new ProductCreateDto
+        var model = new ProductCreateVM
         {
             Categories = categories.Select(c => new SelectListItem
             {
@@ -307,5 +338,47 @@ public class ProductService : CrudService<Product, ProductCreateDto, ProductEdit
 
         return model;
     }
+
+    public async Task<PaginationResponse<ProductVM>> GetFilteredPaginatedProductsAsync(
+    string? search,
+    string? sort,
+    int? categoryId,
+    int page,
+    int take)
+    {
+        var products = await GetAllAsync();
+
+        if (!string.IsNullOrWhiteSpace(search))
+        {
+            products = products
+                .Where(p => p.Name.Contains(search, StringComparison.OrdinalIgnoreCase))
+                .ToList();
+        }
+
+        if (categoryId.HasValue)
+        {
+            products = products
+                .Where(p => p.CategoryId == categoryId.Value)
+                .ToList();
+        }
+
+        products = sort switch
+        {
+            "az" => products.OrderBy(p => p.Name).ToList(),
+            "za" => products.OrderByDescending(p => p.Name).ToList(),
+            "priceLowHigh" => products.OrderBy(p => p.Price).ToList(),
+            "priceHighLow" => products.OrderByDescending(p => p.Price).ToList(),
+            _ => products
+        };
+
+        var totalCount = products.Count;
+        var paginated = products
+            .Skip((page - 1) * take)
+            .Take(take)
+            .ToList();
+
+        return new PaginationResponse<ProductVM>(paginated, (int)Math.Ceiling((decimal)totalCount / take), page, totalCount);
+    }
+
 
 }

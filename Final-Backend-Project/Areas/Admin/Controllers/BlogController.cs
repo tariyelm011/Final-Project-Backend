@@ -27,13 +27,13 @@ public class BlogController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> Create(BlogCreateDto dto)
+    public async Task<IActionResult> Create(BlogCreateVM dto)
     {
         if (!ModelState.IsValid)
         {
             return View(dto);
         }
-        var result = await _blogService.CreateBlog(dto);
+        var result = await _blogService.CreateAsync(dto);
         if (!result.Success)
         {
             foreach (var error in result.Errors)
@@ -55,15 +55,15 @@ public class BlogController : Controller
 
     public async Task<IActionResult> Edit(int id)
     {
-        var model = await _blogService.BlogUpdateDto(id);
+        var model = await _blogService.BlogUpdateVM(id);
         return View(model);
     }
 
     [HttpPost]
-    public async Task<IActionResult> Edit(BlogEditDto dto)
+    public async Task<IActionResult> Edit(BlogEditVM dto)
     {
       
-        var result = await _blogService.Update(dto);
+        var result = await _blogService.UpdateAsync(dto);
        
         return RedirectToAction("index");
     }

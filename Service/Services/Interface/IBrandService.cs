@@ -4,9 +4,9 @@ using Service.Services.Interface.Generic;
 
 namespace Service.Services.Interface;
 
-public interface IBrandService : ICrudService<Brand, BrandCreateDto, BrandEditDto, BrandDto>
+public interface IBrandService : ICrudService<Brand, BrandCreateVM, BrandEditVM, BrandVM>
 {
-    Task<bool> CreateAsync(BrandCreateDto dto);
-    Task<bool> UpdateAsync(BrandEditDto dto);
-    Task<BrandEditDto> GetBrandUpdate(int id);
+    Task<bool> CreateAsync(BrandCreateVM dto);
+    Task<bool> UpdateAsync(BrandEditVM dto);
+    Task<BrandEditVM> BrandUpdateVM(int id);
 }

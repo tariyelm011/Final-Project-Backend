@@ -7,7 +7,7 @@ using Service.Services.Interface;
 
 namespace Service.Services;
 
-public class SubscribeService : CrudService<Subscribe, SubscribeCreateDto, SubscribeEditDto, SubscribeDto>, ISubscribeService
+public class SubscribeService : CrudService<Subscribe, SubscribeCreateVM, SubscribeEditVM, SubscribeVM>, ISubscribeService
 {
     private readonly ISubscribeRepository _subscribeRepository;
     public SubscribeService(ISubscribeRepository repository, IMapper mapper) : base(repository, mapper)
@@ -16,7 +16,7 @@ public class SubscribeService : CrudService<Subscribe, SubscribeCreateDto, Subsc
     }
 
 
-    public async Task SubscribeCreate(SubscribeCreateDto dto)
+    public async Task CreateAsync(SubscribeCreateVM dto)
     {
         if (string.IsNullOrWhiteSpace(dto.Email))
             return;

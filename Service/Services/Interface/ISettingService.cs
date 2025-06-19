@@ -4,9 +4,9 @@ using Service.Services.Interface.Generic;
 
 namespace Service.Services.Interface;
 
-public interface ISettingService : ICrudService<Setting, SettingCreateDto, SettingEditDto, SettingDto>
+public interface ISettingService : ICrudService<Setting, SettingCreateVM, SettingEditVM, SettingVM>
 {
     string GetSetting(string key);
-    Task<SettingEditDto> SettingUpdateDto(int id);
-    Task UpdateSettingAsync(SettingEditDto settingUpdateDTO);
+    Task<SettingEditVM> SettingUpdateVM(int id);
+    Task UpdateAsync(SettingEditVM settingUpdateDTO);
 }

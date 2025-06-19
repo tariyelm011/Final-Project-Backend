@@ -25,7 +25,7 @@ public class SliderController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> Create(SliderCreateDto dto)
+    public async Task<IActionResult> Create(SliderCreateVM dto)
     {
         if (!ModelState.IsValid)
         {
@@ -36,25 +36,25 @@ public class SliderController : Controller
     }
     public async Task<IActionResult> Edit(int id)
     {
-        var model = await _sliderService.GetUpdateSliderDto(id);
+        var model = await _sliderService.UpdateSliderVM(id);
         return View(model);
     }
     [HttpPost]
-    public async Task<IActionResult> Edit(SliderEditDto dto)
+    public async Task<IActionResult> Edit(SliderEditVM dto)
     {
         if (!ModelState.IsValid)
         {
-            var model = await _sliderService.GetUpdateSliderDto(dto.Id);
+            var model = await _sliderService.UpdateSliderVM(dto.Id);
             return View(model);
         }
-        await _sliderService.UpdateSlider(dto);
+        await _sliderService.UpdateAsync(dto);
 
         return RedirectToAction("Index");
     }
 
     public async Task<IActionResult> Delete(int id)
     {
-      await  _sliderService.DeleteSlider(id);
+      await  _sliderService.DeleteAsync(id);
         return RedirectToAction("index");
     }
 }

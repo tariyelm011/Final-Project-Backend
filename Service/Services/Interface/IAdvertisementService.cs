@@ -6,6 +6,6 @@ namespace Service.Services.Interface;
 
 public interface IAdvertisementService : ICrudService<Advertisement, AdvertisementCreateVM, AdvertisementEditVM, AdvertisementVM>
 {
-    Task<AdvertisementEditVM> AdvertisementsAsync(int id);
+    Task<AdvertisementEditVM> AdvertisementsVM(int id);
 
 }

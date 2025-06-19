@@ -27,19 +27,19 @@ namespace Final_Backend_Project.Areas.Admin.Controllers
         }
         public async Task<IActionResult> Edit(int id)
         {
-            var updateDto = await _settingService.SettingUpdateDto(id);
+            var updateDto = await _settingService.SettingUpdateVM(id);
 
             return View(updateDto);
 
         }
         [HttpPost]
-        public async Task<IActionResult> Edit(SettingEditDto dto)
+        public async Task<IActionResult> Edit(SettingEditVM dto)
         {
             if (!ModelState.IsValid)
             {
                 return View(dto);
             }
-            await _settingService.UpdateSettingAsync(dto);
+            await _settingService.UpdateAsync(dto);
 
             return RedirectToAction("index");
         }

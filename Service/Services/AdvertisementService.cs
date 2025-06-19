@@ -18,7 +18,7 @@ public class AdvertisementService : CrudService<Advertisement, AdvertisementCrea
         _mapper = mapper;
     }
 
-    public async Task<AdvertisementEditVM> AdvertisementsAsync(int id)
+    public async Task<AdvertisementEditVM> AdvertisementsVM(int id)
     {
         var advertisements = await _advertisementRepository.GetAsync(id);
         var vm = _mapper.Map<AdvertisementEditVM>(advertisements);

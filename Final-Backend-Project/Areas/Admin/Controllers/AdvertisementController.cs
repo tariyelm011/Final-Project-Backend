@@ -40,7 +40,7 @@ public class AdvertisementController : Controller
 
     public async Task<IActionResult> Edit(int id)
     {
-      var advertisement = await _advertisementService.AdvertisementsAsync(id);
+      var advertisement = await _advertisementService.AdvertisementsVM(id);
         return View(advertisement);
     }
 

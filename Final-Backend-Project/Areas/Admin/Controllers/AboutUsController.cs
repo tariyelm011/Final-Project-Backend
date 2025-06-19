@@ -36,7 +36,7 @@ public class AboutUsController : Controller
         {
             return View(vm);
         }
-        await _aboutUsService.CreateAboutUs(vm);
+        await _aboutUsService.CreateAsync(vm);
         return RedirectToAction("index");
 
     }
@@ -44,14 +44,14 @@ public class AboutUsController : Controller
 
     public async Task<IActionResult> Edit(int id)
     {
-        var vm = await _aboutUsService.AboutUsAsync(id);
+        var vm = await _aboutUsService.AboutUsVm(id);
         return View(vm);
     }
 
     [HttpPost]
     public async Task<IActionResult> Edit(AboutUsEditVM vm)
     {
-        await _aboutUsService.UpdateAboutUs(vm);
+        await _aboutUsService.UpdateAsync(vm);
         return RedirectToAction("index");
 
     }

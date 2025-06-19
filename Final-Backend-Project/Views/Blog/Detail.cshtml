@@ -1,0 +1,36 @@
+﻿@using Service.Dtos.Blog
+@model BlogVM
+<main class="blogdetail">
+    <section id="blog-detail">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-12">
+                    <img src="@Model.ImageUrl" alt="">
+                </div>
+                <div class="col-12">
+                    <div class="blog-detail-info">
+                        <h1>@Model.Title</h1>
+                        <h2>
+                            <i class="bi bi-person"></i>    <span>@Model.AppUser.FullName</span><i class="bi bi-calendar3"></i><span>
+                                @(Model.CreatedDate.HasValue ? Model.CreatedDate.Value.ToString("MMM dd, yyyy") : "")
+                            </span>
+                        </h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. Store your odds and ends in a breezy, beach house style with these stylish agora bins! Handcrafted of 100% jute for a natural, casual feel, these baskets are perfect for plants, laundry, toys…</p>
+                        <p>As important as dreams are, they arent enough. Dreams don’t take you where you want to go.</p>
+                        <img src="@Model.ImageUrl" alt="">
+                        <div class="detail-info-warning">
+                            <p>Bethany Hamilton lives in Hawaii — her passion is surfing — her dream is to become a professional surfer. She spends every available minute in the water, even home-schooling so she can have more time to pursue her vision. At 8 years of age she entered her first major competition taking the division championships that year.</p>
+                        </div>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. Store your odds and ends in a breezy, beach house style with these stylish agora bins! Handcrafted of 100% jute for a natural, casual feel, these baskets are perfect for plants, laundry, toys…</p>
+                        <ul>
+                            <li><a href=""><i class="bi bi-facebook"></i> Facebook</a></li>
+                            <li><a href=""><i class="bi bi-twitter-x"></i> Twitter</a></li>
+                            <li><a href=""><i class="bi bi-instagram"></i> instagram</a></li>
+                            <li><a href=""><i class="bi bi-upload"></i> Share</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

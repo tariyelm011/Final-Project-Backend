@@ -14,11 +14,11 @@ namespace Final_Backend_Project.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Subscribe(SubscribeCreateDto dto)
+        public async Task<IActionResult> Subscribe(SubscribeCreateVM dto)
         {
             if (!ModelState.IsValid) return RedirectToAction("Index", "Home");
 
-            await _subscribeService.SubscribeCreate(dto);
+            await _subscribeService.CreateAsync(dto);
             return RedirectToAction("Index", "Home");
         }
     }

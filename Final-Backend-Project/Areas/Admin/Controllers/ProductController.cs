@@ -23,14 +23,14 @@ namespace Final_Backend_Project.Areas.Admin.Controllers
 
         public async Task< IActionResult> Create()
         {
-            var dto = await _productService.GetCreatedProductDto();
+            var dto = await _productService.CreateProductVM();
             return View(dto);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(ProductCreateDto dto)
+        public async Task<IActionResult> Create(ProductCreateVM dto)
         {
-            var dtos = await _productService.GetCreatedProductDto();
+            var dtos = await _productService.CreateProductVM();
             dto.Categories = dtos.Categories;
             dto.Brands = dtos.Brands;
 
@@ -38,7 +38,7 @@ namespace Final_Backend_Project.Areas.Admin.Controllers
             {
                 return View(dto);
             }
-            var result = await _productService.ProductCreate(dto);
+            var result = await _productService.CreateAsync(dto);
 
             if (!result.Success)
             {
@@ -46,7 +46,7 @@ namespace Final_Backend_Project.Areas.Admin.Controllers
                 {
                     ModelState.AddModelError("", error);
                 }
-                var categories = await _productService.GetCreatedProductDto();
+                var categories = await _productService.CreateProductVM();
                 dto.Categories = categories.Categories;
                 dto.Brands = categories.Brands;
                 return View(dto);
@@ -65,7 +65,7 @@ namespace Final_Backend_Project.Areas.Admin.Controllers
 
         public async Task<IActionResult>  Edit(int id)
         {
-         var edit = await _productService.GetProductUpdateDto(id);
+         var edit = await _productService.ProductUpdateVM(id);
 
             return View(edit);
         }
@@ -74,16 +74,16 @@ namespace Final_Backend_Project.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(ProductEditDto dto)
+        public async Task<IActionResult> Edit(ProductEditVM dto)
         {
-            var dtos = await _productService.GetProductUpdateDto(dto.Id);
+            var dtos = await _productService.ProductUpdateVM(dto.Id);
             dto.Categories = dtos.Categories;
             if (!ModelState.IsValid)
             {
                 return View(dto);
             }
 
-            var result = await _productService.UpdateProductAsync(dto);
+            var result = await _productService.UpdateAsync(dto);
             if (!result.Success)
             {
                 foreach (var error in result.Errors)

@@ -32,7 +32,7 @@ public class ExpertController : Controller
         {
             return View(vm);
         }
-        await _expertService.CreateExpert(vm);
+        await _expertService.CreateAsync(vm);
         return RedirectToAction("index");
 
     }
@@ -40,14 +40,14 @@ public class ExpertController : Controller
 
     public async Task <IActionResult> Edit(int id)
     {
-        var vm = await _expertService.ExpertsAsync(id);
+        var vm = await _expertService.ExpertUpdateAsyncVM(id);
         return View(vm);
     }
 
     [HttpPost]
     public async Task<IActionResult> Edit(ExpertEditVM vm)
     {
-      await _expertService.UpdateExpert(vm);
+      await _expertService.UpdateAsync(vm);
         return RedirectToAction("index");
 
     }

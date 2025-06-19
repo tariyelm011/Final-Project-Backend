@@ -4,6 +4,6 @@ using Service.Services.Interface.Generic;
 
 namespace Service.Services.Interface;
 
-public interface IProductImageService : ICrudService<ProductImage, ProductImageCreateDto, ProductImageEditDto, ProductImageDto>
+public interface IProductImageService : ICrudService<ProductImage, ProductImageCreateVM, ProductImageEditVM, ProductImageVM>
 {
 }

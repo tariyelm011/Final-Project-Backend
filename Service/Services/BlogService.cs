@@ -1,8 +1,10 @@
 ﻿using AutoMapper;
 using Domain.Entity;
 using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 using Repository.Repositories.Interface;
 using Service.Dtos.Blog;
+using Service.Dtos.Product;
 using Service.Helpers;
 using Service.Helpers.Exceptions;
 using Service.Services.Generic;
@@ -11,11 +13,11 @@ using System.Security.Claims;
 
 namespace Service.Services;
 
-public class BlogService : CrudService<Blog, BlogCreateDto, BlogEditDto, BlogDto>, IBlogService
+public class BlogService : CrudService<Blog, BlogCreateVM, BlogEditVM, BlogVM>, IBlogService
 {
     private readonly IBlogRepository _repository;
     private readonly ICloudinaryManager _cloudinaryManager;
-
+    private readonly IMapper _mapper;
     private readonly IHttpContextAccessor _httpContextAccessor;
 
     public BlogService(IBlogRepository repository, IMapper mapper, ICloudinaryManager cloudinaryManager, IHttpContextAccessor httpContextAccessor) : base(repository, mapper)
@@ -23,23 +25,14 @@ public class BlogService : CrudService<Blog, BlogCreateDto, BlogEditDto, BlogDto
         _repository = repository;
         _cloudinaryManager = cloudinaryManager;
         _httpContextAccessor = httpContextAccessor;
+        _mapper = mapper;
     }
-    public async Task<(bool Success, List<string> Errors)> CreateBlog(BlogCreateDto dto)
+    public async Task<(bool Success, List<string> Errors)> CreateAsync(BlogCreateVM dto)
     {
         var errors = new List<string>();
 
-        if (dto == null)
-        {
-            errors.Add("Blog data is null.");
-            return (false, errors);
 
-        }
-
-        if (dto.ImageUrl is null)
-        {
-            errors.Add($" IMAGE Is requared");
-            return (false, errors);
-        }
+       
         var result = FileHelper.ValidateImage(dto.ImageUrl);
 
         if (!result.IsSuccess)
@@ -81,7 +74,7 @@ public class BlogService : CrudService<Blog, BlogCreateDto, BlogEditDto, BlogDto
 
     }
 
-    public async Task<BlogEditDto> BlogUpdateDto(int id)
+    public async Task<BlogEditVM> BlogUpdateVM(int id)
     {
         var blog = await _repository.GetAsync(id);
 
@@ -90,12 +83,12 @@ public class BlogService : CrudService<Blog, BlogCreateDto, BlogEditDto, BlogDto
             throw new NotFoundException("Not Found");
         }
 
-        var blopUpdateDto = new BlogEditDto { Id = blog.Id, Title = blog.Title, Content = blog.Content, ImageUrl = blog.ImageUrl };
+        var blopUpdateDto = new BlogEditVM { Id = blog.Id, Title = blog.Title, Content = blog.Content, ImageUrl = blog.ImageUrl };
 
         return blopUpdateDto;
 
     }
-    public async Task<bool> Update(BlogEditDto dto)
+    public async Task<bool> UpdateAsync(BlogEditVM dto)
     {
         if (dto == null)
             throw new NotFoundException("Blog not found");
@@ -135,7 +128,21 @@ public class BlogService : CrudService<Blog, BlogCreateDto, BlogEditDto, BlogDto
     }
 
 
+    public async Task<PaginationResponse<BlogVM>> GetPaginateAsync(int page, int take)
+    {
+        var products = _repository.GetAll( include: x=>x.Include(a=>a.AppUser));
 
+        int count = products.Count();
+        int totalPage = (int)Math.Ceiling((decimal)count / take);
+
+        var data = _mapper.Map<List<BlogVM>>(products
+            .Skip((page - 1) * take)
+            .Take(take)
+            .ToList());
+
+
+        return new PaginationResponse<BlogVM>(data, totalPage, page, count);
+    }
 
 
 }

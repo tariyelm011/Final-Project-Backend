@@ -12,9 +12,7 @@ namespace Service.Services.Generic;
 
 public class CrudService<TEntity, TCreateDto, TUpdateDto, TDto> : ICrudService<TEntity, TCreateDto, TUpdateDto, TDto>
 where TEntity : BaseEntity
-where TCreateDto : IDto
-where TUpdateDto : IDto
-where TDto : IDto
+
 {
     private readonly IBaseRepository<TEntity> _repository;
     private readonly IMapper _mapper;

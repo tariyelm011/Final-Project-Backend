@@ -20,7 +20,7 @@ public class ExpertService : CrudService<Expert, ExpertCreateVM, ExpertEditVM, E
     }
 
 
-    public async Task<ExpertEditVM> ExpertsAsync(int id)
+    public async Task<ExpertEditVM> ExpertUpdateAsyncVM(int id)
     {
         var experts = await _expertRepository.GetAsync(id);
         var vm = _mapper.Map<ExpertEditVM>(experts);
@@ -28,7 +28,7 @@ public class ExpertService : CrudService<Expert, ExpertCreateVM, ExpertEditVM, E
         return vm;
     }
 
-    public async Task CreateExpert(ExpertCreateVM vm)
+    public async Task CreateAsync(ExpertCreateVM vm)
     {
 
         
@@ -46,7 +46,7 @@ public class ExpertService : CrudService<Expert, ExpertCreateVM, ExpertEditVM, E
 
     }
 
-    public async Task UpdateExpert(ExpertEditVM vm)
+    public async Task UpdateAsync(ExpertEditVM vm)
     {
         var expert = await _expertRepository.GetAsync(vm.Id);
         if (expert == null) throw new Exception("Expert is not found!");

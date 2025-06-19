@@ -56,7 +56,7 @@ public class AccountService : IAccountService
     {
         return await _userManager.HasPasswordAsync(user);
     }
-    public async Task<IdentityResult> RegisterUserAsync(RegisterDto registerDto)
+    public async Task<IdentityResult> RegisterUserAsync(RegisterVM registerDto)
     {
         var user = new AppUser
         {
@@ -114,7 +114,7 @@ public class AccountService : IAccountService
     public async Task<IdentityResult> ConfirmEmailAsync(AppUser user, string token) =>
         await _userManager.ConfirmEmailAsync(user, token);
 
-    public async Task<SignInResult> LoginUserAsync(LoginDto loginDto)
+    public async Task<SignInResult> LoginUserAsync(LoginVM loginDto)
     {
         var user = await _userManager.FindByEmailAsync(loginDto.Email);
         if (user == null || !user.EmailConfirmed )

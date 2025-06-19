@@ -9,7 +9,7 @@ using Service.Services.Interface;
 
 namespace Service.Services;
 
-public class CategoryService : CrudService<Category, CategoryCreateDto, CategoryEditDto, CategoryDto>, ICategoryService
+public class CategoryService : CrudService<Category, CategoryCreateVM, CategoryEditVM, CategoryVM>, ICategoryService
 {
     private readonly ICategoryRepository _repository;
     private readonly IMapper _mapper;
@@ -21,7 +21,7 @@ public class CategoryService : CrudService<Category, CategoryCreateDto, Category
         _mapper = mapper;
         _cloudinaryManager = cloudinaryManager;
     }
-    public async Task<bool> CreateAsync(CategoryCreateDto dto)
+    public async Task<bool> CreateAsync(CategoryCreateVM dto)
     {
         if (dto == null) return false;
 
@@ -55,7 +55,7 @@ public class CategoryService : CrudService<Category, CategoryCreateDto, Category
         return true;
     }
 
-    public async Task<bool> UpdateAsync(CategoryEditDto dto)
+    public async Task<bool> UpdateAsync(CategoryEditVM dto)
     {
         if (dto == null) return false;
 
@@ -86,7 +86,7 @@ public class CategoryService : CrudService<Category, CategoryCreateDto, Category
         await _repository.SaveChangesAsync();
         return true;
     }
-    public async Task<CategoryEditDto> GetCategoryUpdate(int id)
+    public async Task<CategoryEditVM> CategoryUpdateVM(int id)
     {
         var category = await _repository.GetAsync(id);
         if (category is null)
@@ -94,7 +94,7 @@ public class CategoryService : CrudService<Category, CategoryCreateDto, Category
             throw new NotFoundException("category is null ");
         }
 
-        var model = new CategoryEditDto
+        var model = new CategoryEditVM
         {
             Name = category.Name,
             Image = category.ImageUrl

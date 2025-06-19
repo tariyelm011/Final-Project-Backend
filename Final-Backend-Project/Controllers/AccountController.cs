@@ -21,7 +21,7 @@ public class AccountController : Controller
     public IActionResult Register() => View();
 
     [HttpPost]
-    public async Task<IActionResult> Register(RegisterDto registerDto)
+    public async Task<IActionResult> Register(RegisterVM registerDto)
     {
         if (!ModelState.IsValid)
             return View();
@@ -68,7 +68,7 @@ public class AccountController : Controller
     public IActionResult Login() => View();
 
     [HttpPost]
-    public async Task<IActionResult> Login(LoginDto loginDto)
+    public async Task<IActionResult> Login(LoginVM loginDto)
     {
         if (!ModelState.IsValid)
             return View();
@@ -105,7 +105,7 @@ public class AccountController : Controller
     public IActionResult ForgotPassword() => View();
 
     [HttpPost]
-    public async Task<IActionResult> ForgotPassword(ForgotPasswordDto forgotPasswordDto)
+    public async Task<IActionResult> ForgotPassword(ForgotPasswordVM forgotPasswordDto)
     {
         if (!ModelState.IsValid)
             return View();
@@ -128,13 +128,13 @@ public class AccountController : Controller
         if (token == null || email == null)
             return BadRequest("Invalid password reset request.");
 
-        var model = new ResetPasswordDto { Token = token, Email = email };
+        var model = new ResetPasswordVM { Token = token, Email = email };
         return View(model);
     }
 
 
     [HttpPost]
-    public async Task<IActionResult> ResetPassword(ResetPasswordDto resetPasswordDto)
+    public async Task<IActionResult> ResetPassword(ResetPasswordVM resetPasswordDto)
     {
         if (!ModelState.IsValid)
             return View(resetPasswordDto);

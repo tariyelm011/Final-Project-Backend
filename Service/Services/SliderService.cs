@@ -11,7 +11,7 @@ using Service.Services.Interface;
 
 namespace Service.Services;
 
-public class SliderService : CrudService<Slider, SliderCreateDto, SliderEditDto, SliderDto>, ISliderService
+public class SliderService : CrudService<Slider, SliderCreateVM, SliderEditVM, SliderVM>, ISliderService
 {
 
     private readonly ISliderRepository _repository;
@@ -23,7 +23,7 @@ public class SliderService : CrudService<Slider, SliderCreateDto, SliderEditDto,
     }
 
 
-    public async Task<bool> CreateAsync(SliderCreateDto dto)
+    public async Task<bool> CreateAsync(SliderCreateVM dto)
     {
         if (dto == null) return false;
 
@@ -58,12 +58,12 @@ public class SliderService : CrudService<Slider, SliderCreateDto, SliderEditDto,
 
     }
 
-    public async Task<SliderEditDto> GetUpdateSliderDto(int id)
+    public async Task<SliderEditVM> UpdateSliderVM(int id)
     {
         var dto = await _repository.GetAsync(id);
         if (dto == null) throw new NotFoundException();
 
-        var update = new SliderEditDto
+        var update = new SliderEditVM
         {
             Id = id,
             BoldWrite = dto.BoldWrite,
@@ -77,7 +77,7 @@ public class SliderService : CrudService<Slider, SliderCreateDto, SliderEditDto,
 
 
     }
-    public async Task<bool> UpdateSlider(SliderEditDto updateSliderDto)
+    public async Task<bool> UpdateAsync(SliderEditVM updateSliderDto)
     {
         if (updateSliderDto is null)
         {
@@ -111,7 +111,7 @@ public class SliderService : CrudService<Slider, SliderCreateDto, SliderEditDto,
     }
 
 
-    public async Task DeleteSlider(int id)
+    public async Task DeleteAsync(int id)
     {
         var allSliders = await _repository.GetAll().ToListAsync(); 
 

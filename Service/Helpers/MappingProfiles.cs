@@ -19,40 +19,40 @@ public class MappingProfiles : Profile
 {
     public MappingProfiles()
     {
-        CreateMap<Category, CategoryDto>().ReverseMap();
-        CreateMap<Category, CategoryCreateDto>().ReverseMap();
-        CreateMap<Category, CategoryEditDto>().ReverseMap();
+        CreateMap<Category, CategoryVM>().ReverseMap();
+        CreateMap<Category, CategoryCreateVM>().ReverseMap();
+        CreateMap<Category, CategoryEditVM>().ReverseMap();
 
-        CreateMap<Product, ProductDto>().ReverseMap();
-        CreateMap<Product, ProductCreateDto>().ReverseMap();
-        CreateMap<Product, ProductEditDto>().ReverseMap();
-
-
-        CreateMap<ProductImage, ProductImageDto>().ReverseMap();
-        CreateMap<ProductImage, ProductImageCreateDto>().ReverseMap();
-        CreateMap<ProductImage, ProductImageEditDto>().ReverseMap();
-
-        CreateMap<Slider, SliderDto>().ReverseMap();
-        CreateMap<Slider, SliderCreateDto>().ReverseMap();
-        CreateMap<Slider, SliderEditDto>().ReverseMap();
-
-        CreateMap<Setting, SettingCreateDto>().ReverseMap();
-        CreateMap<Setting, SettingDto>().ReverseMap();
-        CreateMap<Setting, SettingEditDto>().ReverseMap();
+        CreateMap<Product, ProductVM>().ReverseMap();
+        CreateMap<Product, ProductCreateVM>().ReverseMap();
+        CreateMap<Product, ProductEditVM>().ReverseMap();
 
 
-        CreateMap<Subscribe, SubscribeDto>().ReverseMap();
-        CreateMap<Subscribe, SubscribeCreateDto>().ReverseMap();
-        CreateMap<Subscribe, SubscribeEditDto>().ReverseMap();
+        CreateMap<ProductImage, ProductImageVM>().ReverseMap();
+        CreateMap<ProductImage, ProductImageCreateVM>().ReverseMap();
+        CreateMap<ProductImage, ProductImageEditVM>().ReverseMap();
+
+        CreateMap<Slider, SliderVM>().ReverseMap();
+        CreateMap<Slider, SliderCreateVM>().ReverseMap();
+        CreateMap<Slider, SliderEditVM>().ReverseMap();
+
+        CreateMap<Setting, SettingCreateVM>().ReverseMap();
+        CreateMap<Setting, SettingVM>().ReverseMap();
+        CreateMap<Setting, SettingEditVM>().ReverseMap();
 
 
-        CreateMap<Blog, BlogDto>().ReverseMap();
-        CreateMap<Blog, BlogCreateDto>().ReverseMap();
-        CreateMap<Blog, BlogEditDto>().ReverseMap();
+        CreateMap<Subscribe, SubscribeVM>().ReverseMap();
+        CreateMap<Subscribe, SubscribeCreateVM>().ReverseMap();
+        CreateMap<Subscribe, SubscribeEditVM>().ReverseMap();
 
-        CreateMap<Brand, BrandDto>().ReverseMap();
-        CreateMap<Brand, BrandCreateDto>().ReverseMap();
-        CreateMap<Brand, BrandEditDto>().ReverseMap();
+
+        CreateMap<Blog, BlogVM>().ReverseMap();
+        CreateMap<Blog, BlogCreateVM>().ReverseMap();
+        CreateMap<Blog, BlogEditVM>().ReverseMap();
+
+        CreateMap<Brand, BrandVM>().ReverseMap();
+        CreateMap<Brand, BrandCreateVM>().ReverseMap();
+        CreateMap<Brand, BrandEditVM>().ReverseMap();
 
 
         CreateMap<Advertisement, AdvertisementVM>().ReverseMap();

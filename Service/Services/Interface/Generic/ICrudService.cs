@@ -7,9 +7,7 @@ namespace Service.Services.Interface.Generic;
 
 public interface ICrudService<TEntity, TCreateDto, TUpdateDto, TDto>
 where TEntity : BaseEntity
-where TCreateDto : IDto
-where TUpdateDto : IDto
-where TDto : IDto
+
 {
     Task SaveChangesAsync();
     Task<TDto?> GetAsync(int id);

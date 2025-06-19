@@ -29,7 +29,7 @@ public class BrandController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> Create(BrandCreateDto dto)
+    public async Task<IActionResult> Create(BrandCreateVM dto)
     {
         if (!ModelState.IsValid)
         {
@@ -41,12 +41,12 @@ public class BrandController : Controller
 
     public async Task<IActionResult> Edit(int id)
     {
-        var edit = await _brandService.GetBrandUpdate(id);
+        var edit = await _brandService.BrandUpdateVM(id);
         return View(edit);
     }
 
     [HttpPost]
-    public async Task<IActionResult> Edit(BrandEditDto dto)
+    public async Task<IActionResult> Edit(BrandEditVM dto)
     {
         if (!ModelState.IsValid)
         {
