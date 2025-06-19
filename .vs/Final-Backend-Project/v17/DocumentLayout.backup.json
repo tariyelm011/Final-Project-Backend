@@ -3,6 +3,158 @@
   "WorkspaceRootPath": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\final-backend-project\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|solutionrelative:final-backend-project\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\final-backend-project\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|solutionrelative:final-backend-project\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\final-backend-project\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|solutionrelative:final-backend-project\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\repository\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|solutionrelative:repository\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\servicedependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\servicedependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\wishlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\wishlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\expertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\expertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\interface\\isubscribeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\interface\\isubscribeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\viewmodels\\wishlist\\wishlistcardvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\viewmodels\\wishlist\\wishlistcardvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{415F353E-B1CE-4F09-9214-80A199ACCDD4}|Domain\\Domain.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\domain\\entity\\wishlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{415F353E-B1CE-4F09-9214-80A199ACCDD4}|Domain\\Domain.csproj|solutionrelative:domain\\entity\\wishlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\interface\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\interface\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\productimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\productimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\viewmodels\\basket\\basketitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\viewmodels\\basket\\basketitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\settingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\settingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\subscribeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\subscribeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\interface\\ibrandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\interface\\ibrandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\viewmodels\\basket\\cardvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\viewmodels\\basket\\cardvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\repository\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\repository\\repositories\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\repository\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|solutionrelative:repository\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Migrations\\20250619113850_BasketWishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repository\\Migrations\\20250619113850_BasketWishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{415F353E-B1CE-4F09-9214-80A199ACCDD4}|Domain\\Domain.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\domain\\entity\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{415F353E-B1CE-4F09-9214-80A199ACCDD4}|Domain\\Domain.csproj|solutionrelative:domain\\entity\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\final-backend-project\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|solutionrelative:final-backend-project\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\final-backend-project\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|solutionrelative:final-backend-project\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\helpers\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\helpers\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\interface\\iadvertisementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\interface\\iadvertisementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\brandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\brandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\viewmodels\\contact\\contactvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\viewmodels\\contact\\contactvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{415F353E-B1CE-4F09-9214-80A199ACCDD4}|Domain\\Domain.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\domain\\entity\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{415F353E-B1CE-4F09-9214-80A199ACCDD4}|Domain\\Domain.csproj|solutionrelative:domain\\entity\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\repository\\repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\repository\\repositories\\blogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\blogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\repository\\repositories\\interface\\isliderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\interface\\isliderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Migrations\\20250619095757_Contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repository\\Migrations\\20250619095757_Contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{415F353E-B1CE-4F09-9214-80A199ACCDD4}|Domain\\Domain.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\domain\\entity\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{415F353E-B1CE-4F09-9214-80A199ACCDD4}|Domain\\Domain.csproj|solutionrelative:domain\\entity\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\final-backend-project\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|solutionrelative:final-backend-project\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -31,10 +183,6 @@
       "RelativeMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|solutionrelative:final-backend-project\\views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\final-backend-project\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|solutionrelative:final-backend-project\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\final-backend-project\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|solutionrelative:final-backend-project\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -45,10 +193,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\interface\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\interface\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,10 +213,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\viewmodels\\subscribe\\subscribevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\viewmodels\\subscribe\\subscribevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\subscribeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\subscribeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\viewmodels\\subscribe\\subscribeeditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -223,36 +363,8 @@
       "RelativeMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|solutionrelative:final-backend-project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\settingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\settingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\productimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\productimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\expertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\expertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\cloudinarymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\cloudinarymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\brandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\brandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\advertisementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -273,10 +385,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\interface\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\interface\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\interface\\ibrandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\interface\\ibrandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\final-backend-project\\areas\\admin\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -305,14 +413,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\final-backend-project\\areas\\admin\\views\\aboutus\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|solutionrelative:final-backend-project\\areas\\admin\\views\\aboutus\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\helpers\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\helpers\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\servicedependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\servicedependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\final-backend-project\\areas\\admin\\views\\expert\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -371,10 +471,6 @@
       "RelativeMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|solutionrelative:final-backend-project\\areas\\admin\\views\\advertisement\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\interface\\iadvertisementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\interface\\iadvertisementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\final-backend-project\\areas\\admin\\views\\advertisement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|solutionrelative:final-backend-project\\areas\\admin\\views\\advertisement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -395,28 +491,12 @@
       "RelativeMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|solutionrelative:final-backend-project\\areas\\admin\\controllers\\subscribecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\interface\\isubscribeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\interface\\isubscribeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\repository\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|solutionrelative:repository\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\repository\\repositories\\blogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\blogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\repository\\repositories\\interface\\ibrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\interface\\ibrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\repository\\repositories\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\repository\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|solutionrelative:repository\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\final-backend-project\\controllers\\subscribecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -515,20 +595,12 @@
       "RelativeMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|solutionrelative:final-backend-project\\areas\\admin\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\interface\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\interface\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\repository\\repositories\\interface\\iblogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\interface\\iblogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{415F353E-B1CE-4F09-9214-80A199ACCDD4}|Domain\\Domain.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\domain\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{415F353E-B1CE-4F09-9214-80A199ACCDD4}|Domain\\Domain.csproj|solutionrelative:domain\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{415F353E-B1CE-4F09-9214-80A199ACCDD4}|Domain\\Domain.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\domain\\entity\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{415F353E-B1CE-4F09-9214-80A199ACCDD4}|Domain\\Domain.csproj|solutionrelative:domain\\entity\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\repository\\migrations\\20250615104415_brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -562,7 +634,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -574,683 +646,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Detail.cshtml",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Blog\\Detail.cshtml",
-              "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Blog\\Detail.cshtml",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Blog\\Detail.cshtml",
-              "RelativeToolTip": "Final-Backend-Project\\Views\\Blog\\Detail.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-19T08:09:57.835Z",
+              "DocumentIndex": 2,
+              "Title": "WishlistController.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\WishlistController.cs",
+              "RelativeDocumentMoniker": "Final-Backend-Project\\Controllers\\WishlistController.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\WishlistController.cs",
+              "RelativeToolTip": "Final-Backend-Project\\Controllers\\WishlistController.cs",
+              "ViewState": "AgIAAA0AAABgMzMzM1MwwBoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T16:12:14.09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "BlogController.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\BlogController.cs",
-              "RelativeDocumentMoniker": "Final-Backend-Project\\Controllers\\BlogController.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\BlogController.cs",
-              "RelativeToolTip": "Final-Backend-Project\\Controllers\\BlogController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBkAAAAAAAAAAAAAAA==",
+              "Title": "WishlistService.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\WishlistService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\WishlistService.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\WishlistService.cs",
+              "RelativeToolTip": "Service\\Services\\WishlistService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAKIAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T07:00:54.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\Components\\Blog\\Default.cshtml",
-              "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Shared\\Components\\Blog\\Default.cshtml",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\Components\\Blog\\Default.cshtml",
-              "RelativeToolTip": "Final-Backend-Project\\Views\\Shared\\Components\\Blog\\Default.cshtml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAACYAAACDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-15T13:20:27.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "RelativeToolTip": "Final-Backend-Project\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-15T12:31:00.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ShopController.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\ShopController.cs",
-              "RelativeDocumentMoniker": "Final-Backend-Project\\Controllers\\ShopController.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\ShopController.cs",
-              "RelativeToolTip": "Final-Backend-Project\\Controllers\\ShopController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAMwB8AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T13:06:39.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Blog\\Index.cshtml",
-              "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Blog\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Blog\\Index.cshtml",
-              "RelativeToolTip": "Final-Backend-Project\\Views\\Blog\\Index.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAmwD0AAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-19T07:05:03.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CrudService.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Generic\\CrudService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\Generic\\CrudService.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Generic\\CrudService.cs",
-              "RelativeToolTip": "Service\\Services\\Generic\\CrudService.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAMwEUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T13:13:10.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Final-Backend-Project\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAN8DAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-15T12:35:40.6Z",
+              "WhenOpened": "2025-06-19T16:08:30.399Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Final-Backend-Project\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAawB8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T06:11:30.141Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IBlogService.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IBlogService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\Interface\\IBlogService.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IBlogService.cs",
-              "RelativeToolTip": "Service\\Services\\Interface\\IBlogService.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAApwA0AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T10:52:26.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shop\\Index.cshtml",
-              "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Shop\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shop\\Index.cshtml",
-              "RelativeToolTip": "Final-Backend-Project\\Views\\Shop\\Index.cshtml",
-              "ViewState": "AgIAAAUBAAAAAAAAAAAmwB0BAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-18T13:07:08.723Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BlogService.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\BlogService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\BlogService.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\BlogService.cs",
-              "RelativeToolTip": "Service\\Services\\BlogService.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAArwIQAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T10:51:17.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\ProductService.cs",
-              "RelativeToolTip": "Service\\Services\\ProductService.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T11:24:10.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ShopVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\ViewModelsUI\\ShopVM.cs",
-              "RelativeDocumentMoniker": "Final-Backend-Project\\ViewModelsUI\\ShopVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\ViewModelsUI\\ShopVM.cs",
-              "RelativeToolTip": "Final-Backend-Project\\ViewModelsUI\\ShopVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T06:32:09.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IProductService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\Interface\\IProductService.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IProductService.cs",
-              "RelativeToolTip": "Service\\Services\\Interface\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAACAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T13:35:07.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ProductVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Product\\ProductVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Product\\ProductVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Product\\ProductVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Product\\ProductVM.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T12:26:25.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "SubscribeCreateVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Subscribe\\SubscribeCreateVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Subscribe\\SubscribeCreateVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Subscribe\\SubscribeCreateVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Subscribe\\SubscribeCreateVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T12:28:23.989Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "SubscribeEditVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Subscribe\\SubscribeEditVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Subscribe\\SubscribeEditVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Subscribe\\SubscribeEditVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Subscribe\\SubscribeEditVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T12:28:38.026Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SliderVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Slider\\SliderVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Slider\\SliderVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Slider\\SliderVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Slider\\SliderVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T12:28:09.026Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "SliderEditVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Slider\\SliderEditVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Slider\\SliderEditVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Slider\\SliderEditVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Slider\\SliderEditVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T11:39:53.333Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "SubscribeVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Subscribe\\SubscribeVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Subscribe\\SubscribeVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Subscribe\\SubscribeVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Subscribe\\SubscribeVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T16:14:19.114Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "SubscribeService.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\SubscribeService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\SubscribeService.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\SubscribeService.cs",
-              "RelativeToolTip": "Service\\Services\\SubscribeService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA+wBIAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T11:05:30.829Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "SliderCreateVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Slider\\SliderCreateVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Slider\\SliderCreateVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Slider\\SliderCreateVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Slider\\SliderCreateVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T12:27:59.521Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "SettingVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Setting\\SettingVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Setting\\SettingVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Setting\\SettingVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Setting\\SettingVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T15:32:45.562Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "SettingEditVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Setting\\SettingEditVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Setting\\SettingEditVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Setting\\SettingEditVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Setting\\SettingEditVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T15:32:40.067Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "SettingCreateVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Setting\\SettingCreateVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Setting\\SettingCreateVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Setting\\SettingCreateVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Setting\\SettingCreateVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T12:27:14.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ProductImageVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\ProductImage\\ProductImageVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\ProductImage\\ProductImageVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\ProductImage\\ProductImageVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\ProductImage\\ProductImageVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T12:26:56.503Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ProductImageEditVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\ProductImage\\ProductImageEditVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\ProductImage\\ProductImageEditVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\ProductImage\\ProductImageEditVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\ProductImage\\ProductImageEditVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T12:27:03.034Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AdvertisementCreateVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Advertisement\\AdvertisementCreateVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Advertisement\\AdvertisementCreateVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Advertisement\\AdvertisementCreateVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Advertisement\\AdvertisementCreateVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T03:25:08.688Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "AboutUsEditVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\AboutUs\\AboutUsEditVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\AboutUs\\AboutUsEditVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\AboutUs\\AboutUsEditVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\AboutUs\\AboutUsEditVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T05:22:05.637Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ProductImageCreateVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\ProductImage\\ProductImageCreateVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\ProductImage\\ProductImageCreateVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\ProductImage\\ProductImageCreateVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\ProductImage\\ProductImageCreateVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T12:26:47.26Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ProductEditVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Product\\ProductEditVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Product\\ProductEditVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Product\\ProductEditVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Product\\ProductEditVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T11:52:51.027Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ProductCreateVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Product\\ProductCreateVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Product\\ProductCreateVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Product\\ProductCreateVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Product\\ProductCreateVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T11:27:11.51Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ExpertVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Expert\\ExpertVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Expert\\ExpertVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Expert\\ExpertVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Expert\\ExpertVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T18:36:51.493Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ExpertEditVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Expert\\ExpertEditVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Expert\\ExpertEditVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Expert\\ExpertEditVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Expert\\ExpertEditVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T04:35:09.41Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "ExpertCreateVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Expert\\ExpertCreateVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Expert\\ExpertCreateVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Expert\\ExpertCreateVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Expert\\ExpertCreateVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T04:49:23.213Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "CategoryVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Category\\CategoryVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Category\\CategoryVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Category\\CategoryVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Category\\CategoryVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T11:00:22.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "CategoryEditVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Category\\CategoryEditVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Category\\CategoryEditVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Category\\CategoryEditVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Category\\CategoryEditVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T11:01:43.364Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "CategoryCreateVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Category\\CategoryCreateVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Category\\CategoryCreateVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Category\\CategoryCreateVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Category\\CategoryCreateVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T11:01:32.415Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "BrandVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Brand\\BrandVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Brand\\BrandVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Brand\\BrandVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Brand\\BrandVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T11:00:59.328Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "BrandEditVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Brand\\BrandEditVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Brand\\BrandEditVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Brand\\BrandEditVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Brand\\BrandEditVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T11:04:34.56Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "BrandCreateVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Brand\\BrandCreateVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Brand\\BrandCreateVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Brand\\BrandCreateVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Brand\\BrandCreateVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T11:04:30.679Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "BlogEditVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Blog\\BlogEditVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Blog\\BlogEditVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Blog\\BlogEditVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Blog\\BlogEditVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T12:24:56.842Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "BlogCreateVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Blog\\BlogCreateVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Blog\\BlogCreateVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Blog\\BlogCreateVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Blog\\BlogCreateVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T12:23:49.324Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "AdvertisementVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Advertisement\\AdvertisementVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Advertisement\\AdvertisementVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Advertisement\\AdvertisementVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Advertisement\\AdvertisementVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:44:00.014Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "AdvertisementEditVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Advertisement\\AdvertisementEditVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Advertisement\\AdvertisementEditVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Advertisement\\AdvertisementEditVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Advertisement\\AdvertisementEditVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T03:16:23.943Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "AboutUsVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\AboutUs\\AboutUsVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\AboutUs\\AboutUsVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\AboutUs\\AboutUsVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\AboutUs\\AboutUsVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T18:39:16.216Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "AboutUsCreateVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\AboutUs\\AboutUsCreateVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\AboutUs\\AboutUsCreateVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\AboutUs\\AboutUsCreateVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\AboutUs\\AboutUsCreateVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T12:22:01.825Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "ICrudService.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\Generic\\ICrudService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\Interface\\Generic\\ICrudService.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\Generic\\ICrudService.cs",
-              "RelativeToolTip": "Service\\Services\\Interface\\Generic\\ICrudService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T13:18:45.311Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "ResetPasswordVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Account\\ResetPasswordVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Account\\ResetPasswordVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Account\\ResetPasswordVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Account\\ResetPasswordVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T12:23:37.363Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "RegisterVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Account\\RegisterVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Account\\RegisterVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Account\\RegisterVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Account\\RegisterVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T12:23:28.456Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "LoginVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Account\\LoginVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Account\\LoginVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Account\\LoginVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Account\\LoginVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T12:22:20.857Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "ForgotPasswordVM.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Account\\ForgotPasswordVM.cs",
-              "RelativeDocumentMoniker": "Service\\ViewModels\\Account\\ForgotPasswordVM.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Account\\ForgotPasswordVM.cs",
-              "RelativeToolTip": "Service\\ViewModels\\Account\\ForgotPasswordVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T12:22:05.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "DbContextInitalizer.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\DataInitalizers\\DbContextInitalizer.cs",
-              "RelativeDocumentMoniker": "Repository\\DataInitalizers\\DbContextInitalizer.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\DataInitalizers\\DbContextInitalizer.cs",
-              "RelativeToolTip": "Repository\\DataInitalizers\\DbContextInitalizer.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwBgAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T11:59:04.865Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\appsettings.json",
-              "RelativeDocumentMoniker": "Final-Backend-Project\\appsettings.json",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\appsettings.json",
-              "RelativeToolTip": "Final-Backend-Project\\appsettings.json",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-18T11:59:32.499Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\EmailService.cs",
@@ -1258,11 +680,25 @@
               "RelativeToolTip": "Service\\Services\\EmailService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T10:57:06.118Z"
+              "WhenOpened": "2025-06-18T10:57:06.118Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 8,
+              "Title": "ISubscribeService.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\ISubscribeService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\Interface\\ISubscribeService.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\ISubscribeService.cs",
+              "RelativeToolTip": "Service\\Services\\Interface\\ISubscribeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T17:50:32.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ExpertService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\ExpertService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\ExpertService.cs",
@@ -1275,31 +711,137 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shop\\Index.cshtml*",
+              "RelativeToolTip": "Final-Backend-Project\\Views\\Shop\\Index.cshtml*",
+              "ViewState": "AgIAAFEBAAAAAAAAAAAmwHIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T13:07:08.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BasketController.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\BasketController.cs",
+              "RelativeDocumentMoniker": "Final-Backend-Project\\Controllers\\BasketController.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\BasketController.cs",
+              "RelativeToolTip": "Final-Backend-Project\\Controllers\\BasketController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T16:11:00.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WishListCardVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Wishlist\\WishListCardVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Wishlist\\WishListCardVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Wishlist\\WishListCardVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Wishlist\\WishListCardVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T16:04:44.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceDependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ServiceDependencyInjection.cs",
+              "RelativeDocumentMoniker": "Service\\ServiceDependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ServiceDependencyInjection.cs",
+              "RelativeToolTip": "Service\\ServiceDependencyInjection.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwC0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T02:55:44.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Repository\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\DependencyInjection.cs",
+              "RelativeToolTip": "Repository\\DependencyInjection.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T18:33:58.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WishlistItem.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\WishlistItem.cs",
+              "RelativeDocumentMoniker": "Domain\\Entity\\WishlistItem.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\WishlistItem.cs",
+              "RelativeToolTip": "Domain\\Entity\\WishlistItem.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAlwAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T11:37:03.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ProductImageService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\ProductImageService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\ProductImageService.cs",
               "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\ProductImageService.cs",
               "RelativeToolTip": "Service\\Services\\ProductImageService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T11:16:02.311Z"
+              "WhenOpened": "2025-06-18T11:16:02.311Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 6,
+              "Title": "BlogService.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\BlogService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\BlogService.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\BlogService.cs",
+              "RelativeToolTip": "Service\\Services\\BlogService.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAADwv5QAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T10:51:17.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BasketItemVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Basket\\BasketItemVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Basket\\BasketItemVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Basket\\BasketItemVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Basket\\BasketItemVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:13:56.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "SettingService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\SettingService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\SettingService.cs",
               "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\SettingService.cs",
               "RelativeToolTip": "Service\\Services\\SettingService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T15:29:08.036Z"
+              "WhenOpened": "2025-06-15T15:29:08.036Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 16,
               "Title": "SliderService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\SliderService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\SliderService.cs",
@@ -1312,7 +854,921 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SubscribeService.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\SubscribeService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\SubscribeService.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\SubscribeService.cs",
+              "RelativeToolTip": "Service\\Services\\SubscribeService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwBIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T11:05:30.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Service\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T10:56:24.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\Interface\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IEmailService.cs",
+              "RelativeToolTip": "Service\\Services\\Interface\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T11:05:25.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IBrandService.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IBrandService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\Interface\\IBrandService.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IBrandService.cs",
+              "RelativeToolTip": "Service\\Services\\Interface\\IBrandService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T11:05:26.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CardVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Basket\\CardVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Basket\\CardVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Basket\\CardVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Basket\\CardVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:13:25.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "Repository\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T11:40:11.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\Interface\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repositories\\Interface\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\Interface\\ICategoryRepository.cs",
+              "RelativeToolTip": "Repository\\Repositories\\Interface\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T11:39:47.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20250619113850_BasketWishlist.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Migrations\\20250619113850_BasketWishlist.cs",
+              "RelativeDocumentMoniker": "Repository\\Migrations\\20250619113850_BasketWishlist.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Migrations\\20250619113850_BasketWishlist.cs",
+              "RelativeToolTip": "Repository\\Migrations\\20250619113850_BasketWishlist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T11:38:50.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "Final-Backend-Project\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T10:42:39.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "Final-Backend-Project\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "Final-Backend-Project\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAkwBkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T09:54:17.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MappingProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Helpers\\MappingProfiles.cs",
+              "RelativeDocumentMoniker": "Service\\Helpers\\MappingProfiles.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Helpers\\MappingProfiles.cs",
+              "RelativeToolTip": "Service\\Helpers\\MappingProfiles.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAowEoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T03:13:21.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\Category.cs",
+              "RelativeDocumentMoniker": "Domain\\Entity\\Category.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\Category.cs",
+              "RelativeToolTip": "Domain\\Entity\\Category.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T10:41:58.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Repository\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Repository\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T10:43:39.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IAdvertisementService.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IAdvertisementService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\Interface\\IAdvertisementService.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IAdvertisementService.cs",
+              "RelativeToolTip": "Service\\Services\\Interface\\IAdvertisementService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T03:11:18.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BrandService.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\BrandService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\BrandService.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\BrandService.cs",
+              "RelativeToolTip": "Service\\Services\\BrandService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T11:06:51.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ContactVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Contact\\ContactVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Contact\\ContactVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Contact\\ContactVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Contact\\ContactVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T10:01:15.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\Contact.cs",
+              "RelativeDocumentMoniker": "Domain\\Entity\\Contact.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\Contact.cs",
+              "RelativeToolTip": "Domain\\Entity\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T10:01:30.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ContactRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\ContactRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repositories\\ContactRepository.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\ContactRepository.cs",
+              "RelativeToolTip": "Repository\\Repositories\\ContactRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T09:59:41.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ISliderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\Interface\\ISliderRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repositories\\Interface\\ISliderRepository.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\Interface\\ISliderRepository.cs",
+              "RelativeToolTip": "Repository\\Repositories\\Interface\\ISliderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T09:58:22.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20250619095757_Contact.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Migrations\\20250619095757_Contact.cs",
+              "RelativeDocumentMoniker": "Repository\\Migrations\\20250619095757_Contact.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Migrations\\20250619095757_Contact.cs",
+              "RelativeToolTip": "Repository\\Migrations\\20250619095757_Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T09:57:57.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Setting.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\Setting.cs",
+              "RelativeDocumentMoniker": "Domain\\Entity\\Setting.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\Setting.cs",
+              "RelativeToolTip": "Domain\\Entity\\Setting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T09:55:05.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "RelativeToolTip": "Final-Backend-Project\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T12:31:00.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\Components\\Blog\\Default.cshtml",
+              "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Shared\\Components\\Blog\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\Components\\Blog\\Default.cshtml",
+              "RelativeToolTip": "Final-Backend-Project\\Views\\Shared\\Components\\Blog\\Default.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACYAAACDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T13:20:27.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BlogRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\BlogRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repositories\\BlogRepository.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\BlogRepository.cs",
+              "RelativeToolTip": "Repository\\Repositories\\BlogRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T10:56:58.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "Final-Backend-Project\\Controllers\\BlogController.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "Final-Backend-Project\\Controllers\\BlogController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T07:00:54.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "Final-Backend-Project\\Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "Final-Backend-Project\\Controllers\\ShopController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAMwB8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T13:06:39.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Blog\\Index.cshtml",
+              "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Blog\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Blog\\Index.cshtml",
+              "RelativeToolTip": "Final-Backend-Project\\Views\\Blog\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAmwD0AAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T07:05:03.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Blog\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Blog\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Blog\\Detail.cshtml",
+              "RelativeToolTip": "Final-Backend-Project\\Views\\Blog\\Detail.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T08:09:57.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CrudService.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Generic\\CrudService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\Generic\\CrudService.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Generic\\CrudService.cs",
+              "RelativeToolTip": "Service\\Services\\Generic\\CrudService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAMwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T13:13:10.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Final-Backend-Project\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAN8DAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T12:35:40.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Final-Backend-Project\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAawB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T06:11:30.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IBlogService.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IBlogService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\Interface\\IBlogService.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IBlogService.cs",
+              "RelativeToolTip": "Service\\Services\\Interface\\IBlogService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAApwA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T10:52:26.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\ProductService.cs",
+              "RelativeToolTip": "Service\\Services\\ProductService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T11:24:10.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ShopVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\ViewModelsUI\\ShopVM.cs",
+              "RelativeDocumentMoniker": "Final-Backend-Project\\ViewModelsUI\\ShopVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\ViewModelsUI\\ShopVM.cs",
+              "RelativeToolTip": "Final-Backend-Project\\ViewModelsUI\\ShopVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T06:32:09.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IProductService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\Interface\\IProductService.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IProductService.cs",
+              "RelativeToolTip": "Service\\Services\\Interface\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T13:35:07.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ProductVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Product\\ProductVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Product\\ProductVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Product\\ProductVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Product\\ProductVM.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T12:26:25.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "SubscribeCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Subscribe\\SubscribeCreateVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Subscribe\\SubscribeCreateVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Subscribe\\SubscribeCreateVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Subscribe\\SubscribeCreateVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T12:28:23.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "SubscribeEditVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Subscribe\\SubscribeEditVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Subscribe\\SubscribeEditVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Subscribe\\SubscribeEditVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Subscribe\\SubscribeEditVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T12:28:38.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "SliderVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Slider\\SliderVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Slider\\SliderVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Slider\\SliderVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Slider\\SliderVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T12:28:09.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "SliderEditVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Slider\\SliderEditVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Slider\\SliderEditVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Slider\\SliderEditVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Slider\\SliderEditVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T11:39:53.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "SubscribeVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Subscribe\\SubscribeVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Subscribe\\SubscribeVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Subscribe\\SubscribeVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Subscribe\\SubscribeVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:14:19.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "SliderCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Slider\\SliderCreateVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Slider\\SliderCreateVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Slider\\SliderCreateVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Slider\\SliderCreateVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T12:27:59.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "SettingVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Setting\\SettingVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Setting\\SettingVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Setting\\SettingVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Setting\\SettingVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T15:32:45.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "SettingEditVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Setting\\SettingEditVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Setting\\SettingEditVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Setting\\SettingEditVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Setting\\SettingEditVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T15:32:40.067Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 60,
+              "Title": "SettingCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Setting\\SettingCreateVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Setting\\SettingCreateVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Setting\\SettingCreateVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Setting\\SettingCreateVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T12:27:14.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ProductImageVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\ProductImage\\ProductImageVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\ProductImage\\ProductImageVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\ProductImage\\ProductImageVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\ProductImage\\ProductImageVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T12:26:56.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ProductImageEditVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\ProductImage\\ProductImageEditVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\ProductImage\\ProductImageEditVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\ProductImage\\ProductImageEditVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\ProductImage\\ProductImageEditVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T12:27:03.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "AdvertisementCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Advertisement\\AdvertisementCreateVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Advertisement\\AdvertisementCreateVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Advertisement\\AdvertisementCreateVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Advertisement\\AdvertisementCreateVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T03:25:08.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "AboutUsEditVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\AboutUs\\AboutUsEditVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\AboutUs\\AboutUsEditVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\AboutUs\\AboutUsEditVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\AboutUs\\AboutUsEditVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T05:22:05.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ProductImageCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\ProductImage\\ProductImageCreateVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\ProductImage\\ProductImageCreateVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\ProductImage\\ProductImageCreateVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\ProductImage\\ProductImageCreateVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T12:26:47.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ProductEditVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Product\\ProductEditVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Product\\ProductEditVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Product\\ProductEditVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Product\\ProductEditVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T11:52:51.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "ProductCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Product\\ProductCreateVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Product\\ProductCreateVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Product\\ProductCreateVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Product\\ProductCreateVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T11:27:11.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "ExpertVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Expert\\ExpertVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Expert\\ExpertVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Expert\\ExpertVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Expert\\ExpertVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T18:36:51.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ExpertEditVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Expert\\ExpertEditVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Expert\\ExpertEditVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Expert\\ExpertEditVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Expert\\ExpertEditVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T04:35:09.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "ExpertCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Expert\\ExpertCreateVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Expert\\ExpertCreateVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Expert\\ExpertCreateVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Expert\\ExpertCreateVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T04:49:23.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "CategoryVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Category\\CategoryVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Category\\CategoryVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Category\\CategoryVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Category\\CategoryVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T11:00:22.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "CategoryEditVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Category\\CategoryEditVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Category\\CategoryEditVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Category\\CategoryEditVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Category\\CategoryEditVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T11:01:43.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "CategoryCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Category\\CategoryCreateVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Category\\CategoryCreateVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Category\\CategoryCreateVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Category\\CategoryCreateVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T11:01:32.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "BrandVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Brand\\BrandVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Brand\\BrandVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Brand\\BrandVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Brand\\BrandVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T11:00:59.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "BrandEditVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Brand\\BrandEditVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Brand\\BrandEditVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Brand\\BrandEditVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Brand\\BrandEditVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T11:04:34.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "BrandCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Brand\\BrandCreateVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Brand\\BrandCreateVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Brand\\BrandCreateVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Brand\\BrandCreateVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T11:04:30.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "BlogEditVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Blog\\BlogEditVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Blog\\BlogEditVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Blog\\BlogEditVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Blog\\BlogEditVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T12:24:56.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "BlogCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Blog\\BlogCreateVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Blog\\BlogCreateVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Blog\\BlogCreateVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Blog\\BlogCreateVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T12:23:49.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "AdvertisementVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Advertisement\\AdvertisementVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Advertisement\\AdvertisementVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Advertisement\\AdvertisementVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Advertisement\\AdvertisementVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T02:44:00.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "AdvertisementEditVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Advertisement\\AdvertisementEditVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Advertisement\\AdvertisementEditVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Advertisement\\AdvertisementEditVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Advertisement\\AdvertisementEditVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T03:16:23.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "AboutUsVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\AboutUs\\AboutUsVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\AboutUs\\AboutUsVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\AboutUs\\AboutUsVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\AboutUs\\AboutUsVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T18:39:16.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "AboutUsCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\AboutUs\\AboutUsCreateVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\AboutUs\\AboutUsCreateVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\AboutUs\\AboutUsCreateVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\AboutUs\\AboutUsCreateVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T12:22:01.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "ICrudService.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\Generic\\ICrudService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\Interface\\Generic\\ICrudService.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\Generic\\ICrudService.cs",
+              "RelativeToolTip": "Service\\Services\\Interface\\Generic\\ICrudService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T13:18:45.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "ResetPasswordVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Account\\ResetPasswordVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Account\\ResetPasswordVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Account\\ResetPasswordVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Account\\ResetPasswordVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T12:23:37.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "RegisterVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Account\\RegisterVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Account\\RegisterVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Account\\RegisterVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Account\\RegisterVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T12:23:28.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Account\\LoginVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Account\\LoginVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Account\\LoginVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Account\\LoginVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T12:22:20.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "ForgotPasswordVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Account\\ForgotPasswordVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\Account\\ForgotPasswordVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Account\\ForgotPasswordVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\Account\\ForgotPasswordVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T12:22:05.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "DbContextInitalizer.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\DataInitalizers\\DbContextInitalizer.cs",
+              "RelativeDocumentMoniker": "Repository\\DataInitalizers\\DbContextInitalizer.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\DataInitalizers\\DbContextInitalizer.cs",
+              "RelativeToolTip": "Repository\\DataInitalizers\\DbContextInitalizer.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwBgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T11:59:04.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\appsettings.json",
+              "RelativeDocumentMoniker": "Final-Backend-Project\\appsettings.json",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\appsettings.json",
+              "RelativeToolTip": "Final-Backend-Project\\appsettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-18T11:59:32.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
               "Title": "CloudinaryManager.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\CloudinaryManager.cs",
               "RelativeDocumentMoniker": "Service\\Services\\CloudinaryManager.cs",
@@ -1324,32 +1780,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\CategoryService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\CategoryService.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\CategoryService.cs",
-              "RelativeToolTip": "Service\\Services\\CategoryService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwAsAAAB0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T10:56:24.341Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "BrandService.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\BrandService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\BrandService.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\BrandService.cs",
-              "RelativeToolTip": "Service\\Services\\BrandService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T11:06:51.308Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 91,
               "Title": "AdvertisementService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\AdvertisementService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\AdvertisementService.cs",
@@ -1361,7 +1792,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 92,
               "Title": "AboutUsService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\AboutUsService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\AboutUsService.cs",
@@ -1373,7 +1804,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 93,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\ProductRepository.cs",
@@ -1385,7 +1816,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 94,
               "Title": "ProductImageRepository.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\ProductImageRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\ProductImageRepository.cs",
@@ -1397,7 +1828,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 96,
               "Title": "BrandController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\BrandController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Controllers\\BrandController.cs",
@@ -1410,7 +1841,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 97,
               "Title": "BlogController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\BlogController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Controllers\\BlogController.cs",
@@ -1423,19 +1854,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
-              "Title": "IBrandService.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IBrandService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\Interface\\IBrandService.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IBrandService.cs",
-              "RelativeToolTip": "Service\\Services\\Interface\\IBrandService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T11:05:26.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 95,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\ICategoryService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\Interface\\ICategoryService.cs",
@@ -1447,7 +1866,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 98,
               "Title": "AccountService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\AccountService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\AccountService.cs",
@@ -1459,7 +1878,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 100,
               "Title": "AdvertisementController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\AdvertisementController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Controllers\\AdvertisementController.cs",
@@ -1472,19 +1891,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
-              "Title": "MappingProfiles.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Helpers\\MappingProfiles.cs",
-              "RelativeDocumentMoniker": "Service\\Helpers\\MappingProfiles.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Helpers\\MappingProfiles.cs",
-              "RelativeToolTip": "Service\\Helpers\\MappingProfiles.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAowDoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T03:13:21.088Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 99,
               "Title": "AboutUsController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\AboutUsController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Controllers\\AboutUsController.cs",
@@ -1496,19 +1903,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
-              "Title": "ServiceDependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ServiceDependencyInjection.cs",
-              "RelativeDocumentMoniker": "Service\\ServiceDependencyInjection.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ServiceDependencyInjection.cs",
-              "RelativeToolTip": "Service\\ServiceDependencyInjection.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCcAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:55:44.315Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 103,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Expert\\Create.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Expert\\Create.cshtml",
@@ -1520,7 +1915,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 101,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\AboutUs\\Edit.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\AboutUs\\Edit.cshtml",
@@ -1532,7 +1927,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 104,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\AboutUs\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\AboutUs\\Index.cshtml",
@@ -1544,7 +1939,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 102,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\AboutUs\\Create.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\AboutUs\\Create.cshtml",
@@ -1556,7 +1951,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 105,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Expert\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Expert\\Index.cshtml",
@@ -1568,7 +1963,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 106,
               "Title": "ExpertController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\ExpertController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Controllers\\ExpertController.cs",
@@ -1580,7 +1975,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 107,
               "Title": "IAboutUsService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IAboutUsService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\Interface\\IAboutUsService.cs",
@@ -1592,7 +1987,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 110,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Controllers\\CategoryController.cs",
@@ -1605,7 +2000,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 108,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Expert\\Edit.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Expert\\Edit.cshtml",
@@ -1617,7 +2012,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 111,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
@@ -1629,7 +2024,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 109,
               "Title": "BlogViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\ViewComponents\\BlogViewComponent.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\ViewComponents\\BlogViewComponent.cs",
@@ -1641,7 +2036,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 112,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Blog\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Blog\\Index.cshtml",
@@ -1653,7 +2048,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 113,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Blog\\Create.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Blog\\Create.cshtml",
@@ -1665,7 +2060,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 114,
               "Title": "IExpertService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IExpertService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\Interface\\IExpertService.cs",
@@ -1677,7 +2072,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 115,
               "Title": "SliderController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\SliderController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Controllers\\SliderController.cs",
@@ -1690,7 +2085,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 116,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Advertisement\\Edit.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Advertisement\\Edit.cshtml",
@@ -1702,19 +2097,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
-              "Title": "IAdvertisementService.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IAdvertisementService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\Interface\\IAdvertisementService.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IAdvertisementService.cs",
-              "RelativeToolTip": "Service\\Services\\Interface\\IAdvertisementService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T03:11:18.729Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 119,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Brand\\Create.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Brand\\Create.cshtml",
@@ -1726,7 +2109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 117,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Advertisement\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Advertisement\\Index.cshtml",
@@ -1738,7 +2121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 118,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Advertisement\\Create.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Advertisement\\Create.cshtml",
@@ -1750,7 +2133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 120,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Setting\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Setting\\Index.cshtml",
@@ -1762,7 +2145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 121,
               "Title": "SubscribeController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\SubscribeController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Controllers\\SubscribeController.cs",
@@ -1774,7 +2157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 134,
+              "DocumentIndex": 152,
               "Title": "AboutUs.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\AboutUs.cs",
               "RelativeDocumentMoniker": "Domain\\Entity\\AboutUs.cs",
@@ -1786,7 +2169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 135,
+              "DocumentIndex": 153,
               "Title": "Expert.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\Expert.cs",
               "RelativeDocumentMoniker": "Domain\\Entity\\Expert.cs",
@@ -1798,31 +2181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Repository\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\DependencyInjection.cs",
-              "RelativeToolTip": "Repository\\DependencyInjection.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T18:33:58.212Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 98,
-              "Title": "ISubscribeService.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\ISubscribeService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\Interface\\ISubscribeService.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\ISubscribeService.cs",
-              "RelativeToolTip": "Service\\Services\\Interface\\ISubscribeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T17:50:32.523Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 122,
               "Title": "IBrandRepository.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\Interface\\IBrandRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\Interface\\IBrandRepository.cs",
@@ -1834,7 +2193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 123,
               "Title": "BrandRepository.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\BrandRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\BrandRepository.cs",
@@ -1846,7 +2205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 136,
+              "DocumentIndex": 154,
               "Title": "Advertisement.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\Advertisement.cs",
               "RelativeDocumentMoniker": "Domain\\Entity\\Advertisement.cs",
@@ -1858,7 +2217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 137,
+              "DocumentIndex": 155,
               "Title": "20250617183005_ExpertAdvertistmentAboutUs.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Migrations\\20250617183005_ExpertAdvertistmentAboutUs.cs",
               "RelativeDocumentMoniker": "Repository\\Migrations\\20250617183005_ExpertAdvertistmentAboutUs.cs",
@@ -1870,7 +2229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 124,
               "Title": "SubscribeController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\SubscribeController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Controllers\\SubscribeController.cs",
@@ -1883,19 +2242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
-              "Title": "BlogRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\BlogRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Repositories\\BlogRepository.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\BlogRepository.cs",
-              "RelativeToolTip": "Repository\\Repositories\\BlogRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T10:56:58.777Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 125,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\Components\\Footer\\Default.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Shared\\Components\\Footer\\Default.cshtml",
@@ -1907,19 +2254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Repository\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Repository\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T10:43:39.315Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 129,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Subscribe\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Subscribe\\Index.cshtml",
@@ -1931,7 +2266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 128,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Product\\Index.cshtml",
@@ -1943,7 +2278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 127,
               "Title": "Subscribe.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\Subscribe.cs",
               "RelativeDocumentMoniker": "Domain\\Entity\\Subscribe.cs",
@@ -1955,7 +2290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 133,
+              "DocumentIndex": 151,
               "Title": "20250615161752_Subscribe.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Migrations\\20250615161752_Subscribe.cs",
               "RelativeDocumentMoniker": "Repository\\Migrations\\20250615161752_Subscribe.cs",
@@ -1967,7 +2302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 132,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
@@ -1979,7 +2314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 130,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Setting\\Edit.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Setting\\Edit.cshtml",
@@ -1991,7 +2326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 134,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Setting\\Create.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Setting\\Create.cshtml",
@@ -2003,7 +2338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 133,
               "Title": "SettingController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\SettingController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Controllers\\SettingController.cs",
@@ -2015,7 +2350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 135,
               "Title": "ISettingService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\ISettingService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\Interface\\ISettingService.cs",
@@ -2027,7 +2362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 137,
               "Title": "ISettingRepository.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\Interface\\ISettingRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\Interface\\ISettingRepository.cs",
@@ -2039,7 +2374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 136,
               "Title": "SettingRepository.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\SettingRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\SettingRepository.cs",
@@ -2051,7 +2386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 140,
               "Title": "BrandViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\ViewComponents\\BrandViewComponent.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\ViewComponents\\BrandViewComponent.cs",
@@ -2063,7 +2398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 141,
               "Title": "SliderViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\ViewComponents\\SliderViewComponent.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\ViewComponents\\SliderViewComponent.cs",
@@ -2075,7 +2410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 139,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\Components\\Slider\\Default.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Shared\\Components\\Slider\\Default.cshtml",
@@ -2087,7 +2422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 142,
               "Title": "FooterViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\ViewComponents\\FooterViewComponent.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\ViewComponents\\FooterViewComponent.cs",
@@ -2099,7 +2434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 126,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Shared\\_Layout.cshtml",
@@ -2111,7 +2446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 138,
               "Title": "HeaderViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\ViewComponents\\HeaderViewComponent.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\ViewComponents\\HeaderViewComponent.cs",
@@ -2123,7 +2458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 143,
               "Title": "FileHelper.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Helpers\\FileHelper.cs",
               "RelativeDocumentMoniker": "Service\\Helpers\\FileHelper.cs",
@@ -2135,7 +2470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 144,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Product\\Create.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Product\\Create.cshtml",
@@ -2147,7 +2482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 131,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
@@ -2159,7 +2494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 126,
+              "DocumentIndex": 146,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Category\\Create.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Category\\Create.cshtml",
@@ -2171,7 +2506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 127,
+              "DocumentIndex": 147,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
@@ -2183,7 +2518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 125,
+              "DocumentIndex": 145,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
@@ -2195,19 +2530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 128,
-              "Title": "IEmailService.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IEmailService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\Interface\\IEmailService.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IEmailService.cs",
-              "RelativeToolTip": "Service\\Services\\Interface\\IEmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T11:05:25.145Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 129,
+              "DocumentIndex": 148,
               "Title": "IBlogRepository.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\Interface\\IBlogRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\Interface\\IBlogRepository.cs",
@@ -2219,7 +2542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 132,
+              "DocumentIndex": 150,
               "Title": "20250615104415_brand.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Migrations\\20250615104415_brand.cs",
               "RelativeDocumentMoniker": "Repository\\Migrations\\20250615104415_brand.cs",
@@ -2231,7 +2554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 130,
+              "DocumentIndex": 149,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\Product.cs",
               "RelativeDocumentMoniker": "Domain\\Entity\\Product.cs",
@@ -2240,18 +2563,6 @@
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwA8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-15T10:42:32.728Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 131,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\Category.cs",
-              "RelativeDocumentMoniker": "Domain\\Entity\\Category.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\Category.cs",
-              "RelativeToolTip": "Domain\\Entity\\Category.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA5wA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T10:41:58.651Z"
             }
           ]
         }

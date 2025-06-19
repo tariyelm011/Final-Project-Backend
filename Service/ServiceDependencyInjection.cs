@@ -39,6 +39,12 @@ namespace Service
 
             services.AddScoped<IAboutUsService, AboutUsService>();
 
+            services.AddScoped<IContactService, ContactService>();
+
+            services.AddScoped<IWishlistService, WishlistService>();
+
+            services.AddScoped<IBasketService, BasketService>();
+
 
 
             return services;

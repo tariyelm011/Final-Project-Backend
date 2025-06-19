@@ -93,17 +93,17 @@
                         </div>
                     </div>
                 </div>
-              <div class="submenu-sort-menu">
-    <label>Sort by:</label>
+                <div class="submenu-sort-menu">
+                    <label>Sort by:</label>
                     <form method="get" id="sortForm">
                         <select class="select-forms" name="sort" onchange="document.getElementById('sortForm').submit()">
 
-                        
+
                             <option value="az" selected="@(Model.Sort == "az")">A-Z</option>
                             <option value="za" selected="@(Model.Sort == "za")">Z-A</option>
                             <option value="priceLowHigh" selected="@(Model.Sort == "priceLowHigh")">Price, low to high</option>
                             <option value="priceHighLow" selected="@(Model.Sort == "priceHighLow")">Price, high to low</option>
-                         
+
                         </select>
 
                         <input type="hidden" name="search" value="@Model.Search" />
@@ -111,7 +111,7 @@
                         <input type="hidden" name="page" value="1" />
                     </form>
 
-</div>
+                </div>
 
             </div>
             <div class="submenu-footer">
@@ -242,16 +242,28 @@
                                         {
                                             <div class="col">
                                                 <div class="card">
-                                                    <a href="#"><img href src="@product.ImageUrl" class="card-img-top" alt="..."></a>
+                                                    <a href="#"><img src="@product.ImageUrl" class="card-img-top" alt="..."></a>
+
                                                     <div class="cart-shortcut">
                                                         <ul>
-                                                            <li><button><i class="bi bi-heart"></i></button></li>
-                                                            <li><button><i class="bi bi-eye"></i></button></li>
-                                                            <li><button><i class="bi bi-basket2-fill"></i></button></li>
+                                                            <li>
+                                                                <button class="add-to-wishlist" data-product-id="@product.Id">
+                                                                    <i class="bi bi-heart"></i>
+                                                                </button>
+                                                            </li>
+                                                            <li>
+                                                                <button><i class="bi bi-eye"></i></button>
+                                                            </li>
+                                                            <li>
+                                                                <button class="add-to-basket" data-product-id="@product.Id">
+                                                                    <i class="bi bi-basket2-fill"></i>
+                                                                </button>
+                                                            </li>
                                                         </ul>
                                                     </div>
+
                                                     <div class="card-body">
-                                                       
+
                                                         <h5 class="card-title">@product.Name</h5>
                                                         <p class="card-text">@product.Price</p>
                                                     </div>
@@ -260,7 +272,7 @@
 
 
                                         }
-                                    
+
                                     </div>
                                     <div class="col-12">
                                         <div class="shop-pagination">
@@ -295,5 +307,66 @@
             </div>
         </div>
     </section>
- 
+
 </main>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const wishlistButtons = document.querySelectorAll(".add-to-wishlist");
+
+        wishlistButtons.forEach(button => {
+            button.addEventListener("click", function () {
+                const productId = this.dataset.productId;
+
+                fetch('/Wishlist/AddToWishList?id=' + productId, {
+                    method: 'POST'
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.success) {
+                            // Sayı yenilə
+                            fetch('/Wishlist/WishlistCount')
+                                .then(res => res.json())
+                                .then(data => {
+                                    document.getElementById("wishlist-count").innerText = data.count;
+                                });
+                        } else {
+                            alert("Məhsul əlavə edilə bilmədi.");
+                        }
+                    })
+                    .catch(err => console.error("Xəta:", err));
+            });
+        });
+    });
+
+
+</script>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const basketButtons = document.querySelectorAll(".add-to-basket");
+
+        basketButtons.forEach(button => {
+            button.addEventListener("click", function () {
+                const productId = this.dataset.productId;
+
+                fetch('/Basket/AddToBasket?id=' + productId, {
+                    method: 'POST'
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.success) {
+                            // Count və Total Price yenilənir
+                            document.getElementById("basket-count").innerText = data.count;
+                            document.getElementById("basket-total").innerText = data.total.toFixed(2) + " ₼";
+                        } else {
+                            alert("Səbətə əlavə edilə bilmədi.");
+                        }
+                    })
+                    .catch(err => console.error("Xəta:", err));
+            });
+        });
+    });
+
+</script>

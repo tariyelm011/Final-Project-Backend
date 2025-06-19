@@ -11,3 +11,4 @@ internal class CategoryRepository : BaseRepository<Category>, ICategoryRepositor
     {
     }
 }
+

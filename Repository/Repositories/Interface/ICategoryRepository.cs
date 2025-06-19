@@ -6,4 +6,3 @@ namespace Repository.Repositories.Interface;
 public interface ICategoryRepository : IBaseRepository<Category>
 {
 }
-

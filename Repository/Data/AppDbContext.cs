@@ -22,6 +22,9 @@ public class AppDbContext : IdentityDbContext<AppUser>
     public DbSet<AboutUs> AboutUs { get; set; }
     public DbSet<Advertisement> Advertisements { get; set; }
     public DbSet<Expert> Experts { get; set; }
+    public DbSet<Contact> Contacts { get; set; }
+    public DbSet<BasketItem> BasketItems { get; set; }
+    public DbSet<WishlistItem> WishlistItems { get; set; }
 
 
 
