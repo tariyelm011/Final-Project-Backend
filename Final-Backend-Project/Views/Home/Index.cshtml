@@ -292,28 +292,8 @@
             </div>
         </div>
     </section>
-    <section id="home-video">
-        <div class="container-xl">
-            <div class="row">
-                <div class="video_content">
-                    <p>Your Signature Scent</p>
-                    <h2>
-                        Find The Perfect Perfume To
-                        <br />
-                        Express Your Unique Style.
-                    </h2>
-                </div>
-                <div class="video_section">
-                    <iframe src="https://www.youtube-nocookie.com/embed/_9VUPq3SxOc?si=MUYhgYkdT6ENoyN6"
-                            title="YouTube video player"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin"
-                            allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </section>
+    @await Component.InvokeAsync("Advertisement")
+
     <section id="home-popular">
         <div class="container-xl">
             <div class="row">

@@ -1,0 +1,49 @@
+﻿@using Service.Dtos.Advertisement
+
+@model AdvertisementVM
+
+
+
+@{
+    string embedUrl = string.Empty;
+
+    if (!string.IsNullOrWhiteSpace(Model.YoutubeLink))
+    {
+        if (Model.YoutubeLink.Contains("watch?v="))
+        {
+            var videoId = Model.YoutubeLink.Split("v=").Last().Split('&').First();
+            embedUrl = $"https://www.youtube.com/embed/{videoId}";
+        }
+        else if (Model.YoutubeLink.Contains("youtu.be/"))
+        {
+            var videoId = Model.YoutubeLink.Split("youtu.be/").Last().Split('?').First();
+            embedUrl = $"https://www.youtube.com/embed/{videoId}";
+        }
+    }
+}
+
+
+<section id="home-video">
+    <div class="container-xl">
+        <div class="row">
+            <div class="video_content">
+                <p>Your Signature Scent</p>
+                <h2>
+                    @Model.Title
+
+                </h2>
+            </div>
+            <div class="video_section">
+
+
+                <iframe src="@embedUrl"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                </iframe>
+
+            </div>
+        </div>
+    </div>
+</section>

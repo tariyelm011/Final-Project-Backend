@@ -1,4 +1,7 @@
-﻿<header class="navbar">
+﻿@using Final_Backend_Project.ViewModelsUI
+@model HeaderVM
+
+<header class="navbar">
     <div class="container-xl">
         <div class="row">
             <div class="col-12 sub-search hidden">
@@ -24,11 +27,11 @@
                             <i class="bi bi-list"></i>
                         </button>
                         <ul class="desktop-menu">
-                            <li><a asp-controller="Home">Home</a></li>
-                            <li><a asp-controller="shop" >Shop</a></li>
-                            <li><a asp-controller="Blog" >Blog</a></li>
-                            <li><a asp-controller="AboutUs" >About Us</a></li>
-                            <li><a asp-controller="Contact" >Contact</a></li>
+                            <li><a asp-controller="Home" asp-action="index">Home</a></li>
+                            <li><a asp-controller="shop" asp-action="index">Shop</a></li>
+                            <li><a asp-controller="Blog" asp-action="index">Blog</a></li>
+                            <li><a asp-controller="AboutUs" asp-action="index">About Us</a></li>
+                            <li><a asp-controller="Contact" asp-action="index">Contact</a></li>
                         </ul>
                     </div>
                     <div class="navbar-center col-4 col-sm-4 col-md-4 col-lg-2">
@@ -57,11 +60,36 @@
                         <button onclick="shownsearch()" class="small-navbar-search">
                             <i class="bi bi-search"></i>
                         </button>
-                        <a href="./Login.html" class="navbar-login">
-                            <i class="bi bi-person"></i>
-                        </a>
-                        <a href="./Wishlist.html" class="navbar-wishlist"><i class="bi bi-heart"></i><span>3</span></a>
-                        <a href="./Card.html" class="navbar-cart"><i class="bi bi-basket-fill"></i><span>0</span></a>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <div class="navbar-login d-flex align-items-center gap-2">
+                                @if (User.IsInRole("Admin") || User.IsInRole("Moderator"))
+                                {
+                                    <a asp-area="Admin" asp-controller="Dashboard" asp-action="Index" class="text-decoration-none">
+                                        <i class="bi bi-person"></i> @User.Identity.Name
+                                    </a>
+                                }
+                                else
+                                {
+                                    <span class="text-black"><i class="bi bi-person"></i> @User.Identity.Name</span>
+                                }
+
+                                <form asp-controller="Account" asp-action="Logout" method="post" style="display:inline;">
+                                    <button type="submit" style="background:none; border:none; color:inherit; cursor:pointer;">
+                                        <i class="bi bi-box-arrow-right"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        }
+                        else
+                        {
+                            <a asp-controller="Account" asp-action="Login" class="navbar-login">
+                                <i class="bi bi-person"></i>
+                            </a>
+                        }
+
+                        <a href="./Wishlist.html" class="navbar-wishlist"><i class="bi bi-heart"></i><span id="wishlist-count">@Model.WishListCount</span></a>
+                        <a href="./Card.html" class="navbar-cart"><i class="bi bi-basket-fill"></i><span id="basket-count">@Model.BasketCount</span></a>
                     </div>
                 </div>
             </div>

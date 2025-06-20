@@ -1,0 +1,83 @@
+﻿@using Service.ViewModels.Contact
+@model List<ContactVM>
+
+
+
+        <div class="col-lg-12 grid-margin stretch-card">
+
+    <div class="card">
+        <div class="card-body">
+          <h1> Contact </h1>
+            <a asp-action="Create" style="display: inline-block; background-color: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold;">
+                Create
+            </a>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                Name
+                            </th>
+                            <th>
+                                Email
+                            </th>
+                            <th>
+                                ISAnswer
+                            </th>
+                            <th>
+                                Answer
+                            </th>
+                            <th>
+                                Oparations
+                            </th>
+                           
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var contact in Model)
+                        {
+                            <tr>
+                               
+                                <td>
+                                    @contact.Name
+
+                                </td>
+
+
+                                <td>
+                                    @contact.Email;
+                                </td>
+                                <td>
+                                    @contact.IsAnswer;
+                                </td>
+
+                             
+                                <td>
+                                    <a asp-action="Answer" asp-route-id ="@contact.Id" style="display:inline-block; background-color:#ffc107; color:black; padding:10px 20px; text-decoration:none; border-radius:6px; font-weight:bold;">
+                                        Answer
+                                    </a>
+                                   
+
+                                </td>
+                                <td>
+                                    <a asp-action="Detail" asp-route-id="@contact.Id" style="display:inline-block; background-color:#ffc107; color:white; padding:10px 20px; text-decoration:none; border-radius:6px; font-weight:bold;">
+                                        Detail
+                                    </a>
+                                    <a asp-action="Delete" asp-route-id="@contact.Id" style="display:inline-block; background-color:#dc3545; color:white; padding:10px 20px; text-decoration:none; border-radius:6px; font-weight:bold;">
+                                        Delete
+                                    </a>
+                                   
+                                </td>
+                              
+                            </tr>
+
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

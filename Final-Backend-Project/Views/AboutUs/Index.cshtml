@@ -1,0 +1,75 @@
+﻿@using Final_Backend_Project.ViewModelsUI
+@model AboutUsUiVM
+<main class="aboutus">
+    <section id="aboutus-header">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-12 col-md-8 col-lg-6 aboutus-img">
+                    <img src="@Model.AboutUsVM.Image" alt="">
+                </div>
+                <div class="col-12 col-md-4 col-lg-6 aboutus-title">
+                    <h6>@Model.AboutUsVM.Title</h6>
+                    <h2>@Model.AboutUsVM.BoldWrite</h2>
+                    <p>@Model.AboutUsVM.Description </p>
+                    <a asp-action="index" asp-controller="shop">@Model.AboutUsVM.Button</a>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 aboutus-stars">
+                            <h3>1.5K</h3>
+                            <p>RETAIL OUTLETS</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 aboutus-stars">
+                            <h3>1.5K</h3>
+                            <p>RETAIL OUTLETS</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 aboutus-stars">
+                            <h3>1.5K</h3>
+                            <p>RETAIL OUTLETS</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 aboutus-stars">
+                            <h3>1.5K</h3>
+                            <p>RETAIL OUTLETS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="aboutus-carusel">
+        <div class="container-xl ">
+            <div class="carousel-header text-center mb-4">
+                <h2 class="fw-bold">Meet Our Experts</h2>
+                <span class="text-muted">OUR TEAM</span>
+            </div>
+            <div class="carousel"
+                 data-flickity='{
+                "wrapAround": true,
+                "pageDots": false,
+                "prevNextButtons": false,
+                "cellAlign": "left",
+                "contain": true ,
+                "autoPlay": 1000
+              }'>
+             
+             
+              @foreach (var expert in Model.Experts)
+                {
+                    <div class="carousel-cell">
+                        <img src="@expert.Image" alt="Michael Murray" />
+                        <div class="team-card">
+                            <div class="icons">
+                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-twitter-x"></i>
+                                <i class="bi bi-youtube"></i>
+                            </div>
+                            <h5>@expert.Name</h5>
+                            <p>@expert.Job</p>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+    </section>
+</main>

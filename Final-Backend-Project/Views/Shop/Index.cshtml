@@ -324,7 +324,6 @@
                     .then(res => res.json())
                     .then(data => {
                         if (data.success) {
-                            // Sayı yenilə
                             fetch('/Wishlist/WishlistCount')
                                 .then(res => res.json())
                                 .then(data => {

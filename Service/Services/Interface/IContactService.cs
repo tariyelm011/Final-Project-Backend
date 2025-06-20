@@ -6,5 +6,6 @@ namespace Service.Services.Interface;
 
 public interface IContactService : ICrudService<Contact, ContactCreateVM, ContactEditVM, ContactVM>
 {
-
+    Task<ContactCreateVM> ContactCreateVMAsync(int id);
+    Task<bool> SendEmailContact(ContactCreateVM vm);
 }

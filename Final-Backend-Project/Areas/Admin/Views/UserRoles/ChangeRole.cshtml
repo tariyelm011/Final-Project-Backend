@@ -1,0 +1,37 @@
+﻿@using Service.ViewModels.User
+@model ChangeUserRoleVM
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header bg-success text-white">
+            <h4 class="mb-0">Change Roles</h4>
+        </div>
+        <div class="card-body">
+            <form asp-action="ChangeRole" method="post">
+                <input type="hidden" asp-for="UserId" />
+
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Email:</label>
+                    <p class="form-control-plaintext">@Model.Email</p>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Cuurent Role:</label>
+                    <p class="form-control-plaintext">@Model.CurrentRole</p>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="SelectedRole" class="form-label fw-bold">New Role:</label>
+                    <select asp-for="SelectedRole" asp-items="@(new SelectList(Model.AllRoles))" class="form-select"></select>
+                </div>
+                <span asp-validation-for="SelectedRole" class="text-danger"></span>
+
+
+                <button type="submit" class="btn btn-success">Change</button>
+                <a asp-action="Index" class="btn btn-secondary ms-2">Back</a>
+            </form>
+        </div>
+    </div>
+</div>

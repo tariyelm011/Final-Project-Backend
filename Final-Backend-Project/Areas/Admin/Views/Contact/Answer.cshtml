@@ -1,0 +1,45 @@
+﻿@using Service.ViewModels.Contact
+@model ContactCreateVM
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <form asp-action="Answer" method="post" enctype="multipart/form-data" class="forms-sample">
+
+                <div class="mb-3">
+                    <h5><strong>Name:</strong> @Model.Name</h5>
+                </div>
+
+                <div class="mb-3">
+                    <span><strong>Email:</strong> @Model.Email</span>
+                </div>
+
+                <div class="mb-3">
+                    <span><strong>Message:</strong> @Model.Message</span>
+                </div>
+                <div class="mb-3">
+                    <span><strong>Phone Number:</strong> @Model.PhoneNumber</span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Answer">Answer</label>
+                    <textarea asp-for="Answer" type="text" class="form-control" placeholder="Type your answer..."></textarea>
+                    <span asp-validation-for="Answer" class="text-danger"></span>
+                </div>
+
+                <div class="mt-4">
+                    <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                    <a asp-action="Index" class="btn btn-light">Cancel</a>
+                </div>
+
+                @* Hidden inputs *@
+                <input type="hidden" asp-for="Email" />
+                <input type="hidden" asp-for="Name" />
+                <input type="hidden" asp-for="Message" />
+                <input type="hidden" asp-for="IsAnswer" />
+                <input type="hidden" asp-for="Id" />
+
+            </form>
+        </div>
+    </div>
+</div>
