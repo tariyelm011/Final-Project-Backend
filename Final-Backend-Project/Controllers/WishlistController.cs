@@ -15,8 +15,8 @@ public class WishlistController : Controller
 
     public async Task<IActionResult> Index()
     {
-        var dto = await _wishlistService.WishListCardDto();
-        return View(dto);
+        var vm = await _wishlistService.WishListCardVM();
+        return View(vm);
     }
 
     [HttpPost]

@@ -117,11 +117,11 @@ public class WishlistService : IWishlistService
     }
 
 
-    public async Task<WishListCardVM> WishListCardDto()
+    public async Task<WishListCardVM> WishListCardVM()
     {
         var result = new WishListCardVM
         {
-            Prroduct = new List<WishlistItemCard>()
+            Product = new List<WishlistItemCard>()
         };
 
         var user = _httpContextAccessor.HttpContext?.User;
@@ -135,7 +135,7 @@ public class WishlistService : IWishlistService
                 .GetFilter(x => x.AppUserId == userId, include: x => x.Include(p => p.Product))
                 .ToList();
 
-            result.Prroduct = wishlistItems.Select(x => new WishlistItemCard
+            result.Product = wishlistItems.Select(x => new WishlistItemCard
             {
                 ProductId = x.ProductId,
                 Name = x.Product?.Name,
@@ -156,7 +156,7 @@ public class WishlistService : IWishlistService
                         var product = await _productService.GetAsync(item.ProductId);
                         if (product != null)
                         {
-                            result.Prroduct.Add(new WishlistItemCard
+                            result.Product.Add(new WishlistItemCard
                             {
                                 ProductId = product.Id,
                                 Name = product.Name,

@@ -1,0 +1,80 @@
+﻿@using Service.ViewModels.Wishlist
+@model WishListCardVM
+
+<main class="wishlist">
+    <section id="wishlist-item">
+        <div class="container-xl">
+            <div class="row">
+                <div class="products-title col-12">
+                    <h2>My favorites</h2>
+                </div>
+                <div class="produsts-items col-12">
+                    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
+                        @foreach (var item in Model.Product)
+                        {
+                            <div class="col">
+                                <div class="card">
+                                    <a href="#"><img href src="@item.ImageUrl" class="card-img-top" alt="..."></a>
+                                    <div class="cart-shortcut">
+                                        <ul>
+                                            <li><button><i class="bi bi-heartbreak" data-product-id="@item.ProductId"></i></button></li>
+                                            <li><button><i class="bi bi-eye"></i></button></li>
+                                            <li>
+                                                <button class="add-to-basket" data-product-id="@item.ProductId">
+                                                    <i class="bi bi-basket2-fill"></i>
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body">
+                                      
+                                        <h5 class="card-title">@item.Name</h5>
+                                        <p class="card-text">$@item.Price</p>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                       
+                     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const wishlistButtons = document.querySelectorAll(".bi-heartbreak");
+
+        wishlistButtons.forEach(button => {
+            button.addEventListener("click", function () {
+                const productId = this.dataset.productId;
+
+                fetch('/Wishlist/AddToWishList?id=' + productId, {
+                    method: 'POST'
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.success) {
+                            // UI-dən həmin məhsulun blokunu silirik
+                            const colElement = this.closest(".col");
+                            if (colElement) {
+                                colElement.remove();
+                            }
+
+                            // Wishlist count yenilənir
+                            fetch('/Wishlist/WishlistCount')
+                                .then(res => res.json())
+                                .then(data => {
+                                    document.getElementById("wishlist-count").innerText = data.count;
+                                });
+                        } else {
+                            alert("Məhsul silinə bilmədi.");
+                        }
+                    })
+                    .catch(err => console.error("Xəta:", err));
+            });
+        });
+    });
+</script>

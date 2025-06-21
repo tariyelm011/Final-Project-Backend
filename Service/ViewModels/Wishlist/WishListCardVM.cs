@@ -4,5 +4,5 @@ namespace Service.ViewModels.Wishlist;
 
 public class WishListCardVM
 {
-    public List<WishlistItemCard> Prroduct { get; set; } = new List<WishlistItemCard>();
+    public List<WishlistItemCard> Product { get; set; } = new List<WishlistItemCard>();
 }
