@@ -1,0 +1,186 @@
+﻿@using Service.ViewModels.Basket
+@model CardVM
+
+<main class="shopping-card">
+    <section id="shopping-card-item">
+        <div class="container-xl">
+            <div class="row">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="col-5 col-sm-5 col-md-6 col-lg-7">Product</th>
+                            <th class="col-5 col-sm-5 col-md-3 col-lg-3" ">Quantity</th>
+                            <th class="col-2 col-sm-2 col-md-3 col-lg-2" style="text-align: end;">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                         @foreach (var card in Model.Prroduct)
+                            {
+                            <tr id="product-row-@card.ProductId">
+                                <td>
+                                    <div class="card-table-product">
+                                        <div class="table-product-img">
+                                            <img src="@card.img" alt="">
+                                        </div>
+                                        <div class="table-product-title">
+                                            <h2>@card.ProductName</h2>
+                                            <p>$@card.ProductPrice</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="align-middle">
+                                    <div class="card-table-quantity">
+                                        <span class="quantity">
+                                            <button class="qty-btn decrement"
+                                                    onclick="RemoveToBasket(@card.ProductId)"
+                                                    data-product-id="@card.ProductId"
+                                                    data-price="@card.ProductPrice">
+                                                -
+                                            </button>
+                                            <span class="qty-display" id="product-count-@card.ProductId">@card.Count</span>
+                                            <button class="qty-btn increment"
+                                                    onclick="addToBasket(@card.ProductId)"
+                                                    data-product-id="@card.ProductId"
+                                                    data-price="@card.ProductPrice">
+                                                +
+                                            </button>
+                                        </span>
+
+                                        <button class="delete-btn"><i class="bi bi-trash3"></i></button>
+                                    </div>
+                                </td>
+                                <td class="align-middle">
+                                    <div class="card-table-total d-flex align-items-center justify-content-end h-100" id="product-total-@card.ProductId">
+                                        $@card.TotalProductPrice.ToString("00.0")
+                                    </div>
+                                </td>
+                            </tr>
+                            }
+                       
+                      
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section id="shopping-card-total">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 total-iformation ">
+                    <label for="Cart-note">Order special instructions</label>
+                    <textarea class="text-area" form="cart" name="note" id="Cart-note" style="height: 108px;"></textarea>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 total-country  ">
+                    <h6>Estimate shipping rates <i class="bi bi-question-circle"></i></h6>
+                    <select class="form-select" id="countrySelect">
+                        <option selected>Choose...</option>
+                        <option value="us">United States</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="de">Germany</option>
+                        <option value="tr">Turkey</option>
+                        <option value="az">Azerbaijan</option>
+                    </select>
+                    <input type="text" placeholder="Postal/ZIP code" autocomplete="postal-code">
+                    <button>CALCULATE</button>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 total-money ">
+                    <h3>Subtotal <p id="basketViewTotal">$@Model.TotalAmount USD</p></h3>
+                    <p>Taxes and shipping calculated at checkout</p>
+                    <button>CHECK OUT</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="shopping-card-suggested">
+        <div class="container-xl">
+            <div class="row">
+                <div class="products-title col-12">
+                    <h2>Featured collection</h2>
+                    <p>YOU MAY LIKE THIS</p>
+                </div>
+                <div class="produsts-items col-12">
+                    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
+                        <div class="col">
+                            <div class="card">
+                                <a href="#"><img href src="~/Assets/İMG/Home/Products/1.jpg" class="card-img-top" alt="..."></a>
+                                <div class="cart-shortcut">
+                                    <ul>
+                                        <li><button><i class="bi bi-heart"></i></button></li>
+                                        <li><button><i class="bi bi-eye"></i></button></li>
+                                        <li><button><i class="bi bi-basket2-fill"></i></button></li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <span>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                    </span>
+                                    <h5 class="card-title">Arome Le Parfum</h5>
+                                    <p class="card-text">$79.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <a href="#"><img href src="~/Assets/İMG/Home/Products/2.jpg" class="card-img-top" alt="..."></a>
+                                <div class="cart-shortcut">
+                                    <ul>
+                                        <li><button><i class="bi bi-heart"></i></button></li>
+                                        <li><button><i class="bi bi-eye"></i></button></li>
+                                        <li><button><i class="bi bi-basket2-fill"></i></button></li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <span>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                    </span>
+                                    <h5 class="card-title">Arome Le Parfum</h5>
+                                    <p class="card-text">$79.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <a href="#"><img href src="~/Assets/İMG/Home/Products/3.jpg" class="card-img-top" alt="..."></a>
+                                <div class="cart-shortcut">
+                                    <ul>
+                                        <li><button><i class="bi bi-heart"></i></button></li>
+                                        <li><button><i class="bi bi-eye"></i></button></li>
+                                        <li><button><i class="bi bi-basket2-fill"></i></button></li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <span>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                    </span>
+                                    <h5 class="card-title">Arome Le Parfum</h5>
+                                    <p class="card-text">$79.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <a href="#"><img href src="~/Assets/İMG/Home/Products/4.jpg" class="card-img-top" alt="..."></a>
+                                <div class="cart-shortcut">
+                                    <ul>
+                                        <li><button><i class="bi bi-heart"></i></button></li>
+                                        <li><button><i class="bi bi-eye"></i></button></li>
+                                        <li><button><i class="bi bi-basket2-fill"></i></button></li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <span>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                    </span>
+                                    <h5 class="card-title">Arome Le Parfum</h5>
+                                    <p class="card-text">$79.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+

@@ -2919,3 +2919,400 @@ $text-color: #333;
     }
   }
 }
+
+.wishlist {
+  #wishlist-item {
+    margin: 30px 0 50px;
+    .products-title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px 0 40px 0;
+
+      h2 {
+        font-size: 32px;
+        font-weight: 700;
+      }
+    }
+
+    .produsts-items {
+      .card {
+        border: none;
+        position: relative;
+
+        &:hover {
+          .cart-shortcut {
+            display: block;
+          }
+        }
+
+        .card-img-top {
+          @include respond-to("desktop") {
+            height: 360px;
+          }
+        }
+
+        .cart-shortcut {
+          display: none;
+          position: absolute;
+          margin: 20px 20px 0 0;
+          right: 0;
+
+          li {
+            button {
+              background-color: white;
+              border-radius: 50%;
+              width: 40px;
+              height: 40px;
+              border: none;
+              margin-bottom: 5px;
+
+              @include respond-to("mobil") {
+                width: 20px;
+                height: 20px;
+              }
+
+              &:hover {
+                background-color: violet;
+                color: white;
+              }
+            }
+          }
+        }
+
+        .card-body {
+          text-align: center;
+
+          span i {
+            font-size: 12px;
+            font-weight: 400;
+          }
+
+          h5 {
+            font-size: 14px;
+            font-weight: 700;
+            margin: 5px 0;
+          }
+
+          p {
+            font-size: 19px;
+            font-weight: 900;
+          }
+        }
+      }
+    }
+  }
+}
+.card {
+      border: none;
+      position: relative;
+      margin: 0 20px;
+
+      &:hover {
+        .cart-shortcut {
+          display: block;
+        }
+      }
+
+      .card-img-top {
+        @include respond-to("desktop") {
+          height: 360px;
+        }
+      }
+
+      .cart-shortcut {
+        display: none;
+        position: absolute;
+        margin: 20px 20px 0 0;
+        right: 0;
+
+        li {
+          button {
+            background-color: white;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            border: none;
+            margin-bottom: 5px;
+
+            @include respond-to("mobil") {
+              width: 20px;
+              height: 20px;
+            }
+
+            &:hover {
+              background-color: violet;
+              color: white;
+            }
+          }
+        }
+      }
+
+      .card-body {
+        text-align: center;
+
+        span i {
+          font-size: 12px;
+          font-weight: 400;
+        }
+
+        h5 {
+          font-size: 14px;
+          font-weight: 700;
+          margin: 5px 0;
+        }
+
+        p {
+          font-size: 19px;
+          font-weight: 900;
+        }
+      }
+    }
+    .shopping-card {
+  #shopping-card-item {
+    th {
+      font-size: 17px;
+      font-weight: 400;
+      color: #1c1c1c;
+    }
+    .table-group-divider {
+      color: #f6f6f6;
+      .card-table-product {
+        display: flex;
+        .table-product-img {
+          img {
+            @include respond-to("mobil") {
+              width: 60px !important;
+            }
+            @include respond-to("tablet") {
+              width: 100px;
+            }
+            @include respond-to("desktop") {
+              width: 140px;
+            }
+          }
+        }
+        .table-product-title {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin-left: 10px;
+          h2,
+          p {
+            font-size: 17px;
+            font-weight: 400;
+            color: #1c1c1c;
+          }
+        }
+      }
+      .card-table-quantity {
+        height: 100%;
+        .quantity {
+          border: 2px solid #f6f6f6;
+          border-radius: 10px;
+          padding: 10px;
+          @include respond-to("mobil") {
+            padding: 5px;
+          }
+          button {
+            border: none;
+            background: none;
+          }
+          .qty-display {
+            padding: 0 10px;
+          }
+        }
+        .delete-btn {
+          border: none;
+          background: none;
+          padding: 10px 30px;
+          @include respond-to("mobil") {
+            padding: 10px;
+          }
+          border-radius: 10px;
+          &:hover {
+            background-color: #5c2a55;
+          }
+        }
+      }
+      .card-table-total {
+        text-align: end;
+        font-size: 18px;
+        font-weight: 700;
+        color: #5d3754;
+      }
+    }
+  }
+  #shopping-card-total {
+    .total-iformation {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      label {
+        font-size: 16px;
+        font-weight: 400;
+        color: #1c1c1c;
+        margin-bottom: 10px;
+      }
+      textarea {
+        width: 100%;
+        padding: 10px;
+      }
+    }
+    .total-country {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      h6 {
+        font-size: 16px;
+        font-weight: 700;
+        color: #1c1c1c;
+        margin-bottom: 10px;
+      }
+      select {
+        margin-bottom: 10px;
+      }
+      input {
+        border: 1px solid #dee2e6;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+      }
+      button {
+        margin: 10px 0;
+        color: white;
+        background-color: #5d3754;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 12px 0;
+        border-radius: 10px;
+        &:hover {
+          background-color: black;
+        }
+      }
+    }
+    .total-money {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      h3 {
+        display: flex;
+        margin-bottom: 10px;
+        font-size: 17px;
+        font-weight: 700;
+        color: #1c1c1c;
+        p {
+          margin-left: 15px;
+          font-size: 19px;
+          font-weight: 400;
+        }
+      }
+      p {
+        margin-bottom: 10px;
+        font-size: 17px;
+        font-weight: 700;
+        color: #1c1c1c;
+      }
+      button {
+        width: 100%;
+        margin: 10px 0;
+        color: white;
+        background-color: #5d3754;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 12px 0;
+        border-radius: 10px;
+        &:hover {
+          background-color: black;
+        }
+      }
+    }
+  }
+  #shopping-card-suggested {
+    margin-top: 30px;
+
+    .products-title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px 0 40px 0;
+
+      h2 {
+        font-size: 32px;
+        font-weight: 700;
+      }
+
+      p {
+        margin: 10px;
+      }
+    }
+
+    .produsts-items {
+      .card {
+        border: none;
+        position: relative;
+
+        &:hover {
+          .cart-shortcut {
+            display: block;
+          }
+        }
+
+        .card-img-top {
+          @include respond-to("desktop") {
+            height: 360px;
+          }
+        }
+
+        .cart-shortcut {
+          display: none;
+          position: absolute;
+          margin: 20px 20px 0 0;
+          right: 0;
+
+          li {
+            button {
+              background-color: white;
+              border-radius: 50%;
+              width: 40px;
+              height: 40px;
+              border: none;
+              margin-bottom: 5px;
+
+              @include respond-to("mobil") {
+                width: 20px;
+                height: 20px;
+              }
+
+              &:hover {
+                background-color: violet;
+                color: white;
+              }
+            }
+          }
+        }
+
+        .card-body {
+          text-align: center;
+
+          span i {
+            font-size: 12px;
+            font-weight: 400;
+          }
+
+          h5 {
+            font-size: 14px;
+            font-weight: 700;
+            margin: 5px 0;
+          }
+
+          p {
+            font-size: 19px;
+            font-weight: 900;
+          }
+        }
+      }
+    }
+  }
+}

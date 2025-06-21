@@ -1,0 +1,180 @@
+﻿@using Service.Dtos.Product
+@model List<ProductVM>
+
+@{
+    var group1 = Model.Take(4).ToList();
+    var group2 = Model.Skip(4).Take(4).ToList();
+    var group3 = Model.Skip(8).Take(4).ToList();
+}
+<section id="home-products2">
+    <div class="container-xl">
+        <div class="row">
+            <div class="col-12 other-product">
+                <h2>Shop The Lookbook</h2>
+                <span>Each fragrance crafted to complement unique essence</span>
+            </div>
+            <div class="col-12">
+                <div id="carouselExampleDark"
+                     class="carousel carousel-dark slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
+                            
+                               @foreach (var p1 in group1)
+                                {
+                                    <div class="col-6 col-md-4 col-lg-3">
+                                        <div class="card">
+                                            <a href="#">
+                                                <img href
+                                                     src="@p1.ImageUrl"
+                                                     class="card-img-top"
+                                                     alt="..." />
+                                            </a>
+                                            <div class="cart-shortcut">
+                                                <ul>
+                                                    <li>
+                                                        <button class="add-to-wishlist" data-product-id="@p1.Id">
+                                                            <i class="bi bi-heart"></i>
+                                                        </button>
+                                                    </li>
+                                                    <li>
+                                                        <button><i class="bi bi-eye"></i></button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="add-to-basket" data-product-id="@p1.Id">
+                                                            <i class="bi bi-basket2-fill"></i>
+                                                        </button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body">
+                                                <span>
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                                </span>
+                                                <h5 class="card-title">@p1.Name</h5>
+                                                <p class="card-text">$@p1.Price</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
+
+                                @foreach (var p2 in group2)
+                                {
+                                    <div class="col-6 col-md-4 col-lg-3">
+                                        <div class="card">
+                                            <a href="#">
+                                                <img href
+                                                     src="@p2.ImageUrl"
+                                                     class="card-img-top"
+                                                     alt="..." />
+                                            </a>
+                                            <div class="cart-shortcut">
+                                                <li>
+                                                    <button class="add-to-wishlist" data-product-id="@p2.Id">
+                                                        <i class="bi bi-heart"></i>
+                                                    </button>
+                                                </li>
+                                                <li>
+                                                    <button><i class="bi bi-eye"></i></button>
+                                                </li>
+                                                <li>
+                                                    <button class="add-to-basket" data-product-id="@p2.Id">
+                                                        <i class="bi bi-basket2-fill"></i>
+                                                    </button>
+                                                </li>
+                                            </div>
+                                            <div class="card-body">
+                                                <span>
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                                </span>
+                                                <h5 class="card-title">@p2.Name</h5>
+                                                <p class="card-text">$@p2.Price</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
+
+                                @foreach (var p1 in group3)
+                                {
+                                    <div class="col-6 col-md-4 col-lg-3">
+                                        <div class="card">
+                                            <a href="#">
+                                                <img href
+                                                     src="@p1.ImageUrl"
+                                                     class="card-img-top"
+                                                     alt="..." />
+                                            </a>
+                                            <div class="cart-shortcut">
+                                                <ul>
+                                                    <li>
+                                                        <button class="add-to-wishlist" data-product-id="@p1.Id">
+                                                            <i class="bi bi-heart"></i>
+                                                        </button>
+                                                    </li>
+                                                    <li>
+                                                        <button><i class="bi bi-eye"></i></button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="add-to-basket" data-product-id="@p1.Id">
+                                                            <i class="bi bi-basket2-fill"></i>
+                                                        </button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body">
+                                                <span>
+                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                                </span>
+                                                <h5 class="card-title">@p1.Name</h5>
+                                                <p class="card-text">$@p1.Price</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-indicators">
+                        <button type="button"
+                                data-bs-target="#carouselExampleDark"
+                                data-bs-slide-to="0"
+                                class="active"
+                                aria-label="Slide 1"></button>
+                        <button type="button"
+                                data-bs-target="#carouselExampleDark"
+                                data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        <button type="button"
+                                data-bs-target="#carouselExampleDark"
+                                data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                    </div>
+                    <button class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#carouselExampleDark"
+                            data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"
+                              aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#carouselExampleDark"
+                            data-bs-slide="next">
+                        <span class="carousel-control-next-icon"
+                              aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

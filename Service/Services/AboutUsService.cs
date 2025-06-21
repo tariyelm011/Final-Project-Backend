@@ -2,7 +2,10 @@
 using Domain.Entity;
 using Repository.Repositories.Interface;
 using Service.Dtos.AboutUs;
+using Service.Dtos.Common;
 using Service.Dtos.Expert;
+using Service.Helpers.Exceptions;
+using Service.Helpers;
 using Service.Services.Generic;
 using Service.Services.Interface;
 
@@ -30,6 +33,10 @@ public class AboutUsService : CrudService<AboutUs, AboutUsCreateVM, AboutUsEditV
     public async Task CreateAsync(AboutUsCreateVM vm)
     {
 
+        var validationResult = FileHelper.ValidateImage(vm.Image);
+        if (!validationResult.IsSuccess)
+            throw new NotFoundException("File is not image və size is not 200MB.");
+
 
         var image = await _cloudinaryManager.FileCreateAsync(vm.Image);
 
@@ -51,6 +58,10 @@ public class AboutUsService : CrudService<AboutUs, AboutUsCreateVM, AboutUsEditV
     {
         var about = await _aboutUsRepository.GetAsync(vm.Id);
         if (about == null) throw new Exception("Expert is not found!");
+
+        var validationResult = FileHelper.ValidateImage(vm.ImageUrl);
+        if (!validationResult.IsSuccess)
+            throw new NotFoundException("File is not image və size is not 200MB.");
 
         if (vm.ImageUrl != null)
         {

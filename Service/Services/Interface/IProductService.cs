@@ -13,6 +13,7 @@ public interface IProductService : ICrudService<Product, ProductCreateVM, Produc
     Task<(bool Success, List<string> Errors)> UpdateAsync(ProductEditVM dto);
 
     Task<PaginationResponse<ProductVM>> GetPaginateAsync(int page, int take);
+    Task<List<ProductVM>> GetLatestProductsAsync();
 
     Task<PaginationResponse<ProductVM>> GetFilteredPaginatedProductsAsync( string? search,string? sort,int? categoryId,int page,int take);
 

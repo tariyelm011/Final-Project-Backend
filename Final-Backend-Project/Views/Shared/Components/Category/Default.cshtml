@@ -1,0 +1,26 @@
+﻿@using Service.Dtos.Category
+@model List<CategoryWithProductCountVM>
+
+<section id="home-collection">
+    <div class="container-xl">
+        <div class="row">
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                var category = Model[i];
+                var colClass = i == 0
+                ? "col-12 col-sm-12 col-md-6 collection__item"
+                : "col-6 col-sm-6 col-md-3 collection__item";
+
+                <div class="@colClass">
+                    <div class="collection__item-img">
+                        <img src="@category.ImageUrl" alt="@category.Name" />
+                    </div>
+                    <div class="collection__item-title">
+                        <h3>@category.Name</h3>
+                        <span>(@category.ProductCount items)</span>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>

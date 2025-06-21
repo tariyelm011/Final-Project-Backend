@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Domain.Entity;
+using Microsoft.EntityFrameworkCore;
 using Repository.Repositories.Interface;
 using Service.Dtos.Category;
 using Service.Helpers;
@@ -101,6 +102,25 @@ public class CategoryService : CrudService<Category, CategoryCreateVM, CategoryE
         };
 
         return model;
+    }
+
+    public async Task<List<CategoryWithProductCountVM>> CategoriesWithProductCountAsync()
+    {
+        var categories = await _repository
+            .GetAll()
+            .Take(3)
+            .Include(c => c.Products) 
+            .ToListAsync();
+
+        var result = categories.Select(c => new CategoryWithProductCountVM
+        {
+            Id = c.Id,
+            Name = c.Name,
+            ImageUrl = c.ImageUrl,
+            ProductCount = c.Products?.Count ?? 0
+        }).ToList();
+
+        return result;
     }
 
 }

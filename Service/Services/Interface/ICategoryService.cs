@@ -9,4 +9,5 @@ public interface ICategoryService : ICrudService<Category, CategoryCreateVM, Cat
     Task<bool> CreateAsync(CategoryCreateVM dto);
     Task<bool> UpdateAsync(CategoryEditVM dto);
     Task<CategoryEditVM> CategoryUpdateVM(int id);
+    Task<List<CategoryWithProductCountVM>> CategoriesWithProductCountAsync();
 }

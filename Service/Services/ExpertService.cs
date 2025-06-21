@@ -1,7 +1,10 @@
 ﻿using AutoMapper;
 using Domain.Entity;
 using Repository.Repositories.Interface;
+using Service.Dtos.Common;
 using Service.Dtos.Expert;
+using Service.Helpers.Exceptions;
+using Service.Helpers;
 using Service.Services.Generic;
 using Service.Services.Interface;
 
@@ -24,14 +27,17 @@ public class ExpertService : CrudService<Expert, ExpertCreateVM, ExpertEditVM, E
     {
         var experts = await _expertRepository.GetAsync(id);
         var vm = _mapper.Map<ExpertEditVM>(experts);
-
         return vm;
     }
 
     public async Task CreateAsync(ExpertCreateVM vm)
     {
 
-        
+        var validationResult = FileHelper.ValidateImage(vm.Image);
+        if (!validationResult.IsSuccess)
+            throw new NotFoundException("File is not image və size is not 200MB.");
+
+
         var image = await _cloudinaryManager.FileCreateAsync(vm.Image);
 
         var expert = new Expert

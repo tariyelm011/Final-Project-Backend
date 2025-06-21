@@ -34,6 +34,20 @@ public class ProductService : CrudService<Product, ProductCreateVM, ProductEditV
         _emailService = emailService;
     }
 
+
+    public async Task<List<ProductVM>> GetLatestProductsAsync()
+    {
+        var products = _repository
+            .GetAll()
+            .OrderByDescending(p => p.CreatedDate)
+            .Take(12)
+            .ToList();
+
+        var mapped = _mapper.Map<List<ProductVM>>(products);
+
+        return mapped;
+    }
+
     public async Task<PaginationResponse<ProductVM>> GetPaginateAsync(int page, int take)
     {
         var products = _repository.GetAll();
