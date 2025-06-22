@@ -12,6 +12,7 @@ using Service.Dtos.Setting;
 using Service.Dtos.Slider;
 using Service.Dtos.Subscribe;
 using Service.ViewModels.Contact;
+using Service.ViewModels.FeaturedProduct;
 using System.Linq;
 
 namespace Service.Helpers;
@@ -73,6 +74,11 @@ public class MappingProfiles : Profile
         CreateMap<Contact, ContactVM>().ReverseMap();
         CreateMap<Contact, ContactCreateVM>().ReverseMap();
         CreateMap<Contact, ContactEditVM>().ReverseMap();
+
+        CreateMap<FeaturedProduct, FeaturedProductCreateVM>().ReverseMap();
+        CreateMap<FeaturedProduct, FeaturedProductEditVM>().ReverseMap();
+        CreateMap<FeaturedProduct, FeaturedProductVM>().ReverseMap();
+
 
     }
 }

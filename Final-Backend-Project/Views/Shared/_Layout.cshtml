@@ -17,10 +17,12 @@
 
     @RenderBody()
     @await Component.InvokeAsync("Footer")
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.6/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.6/js/bootstrap.bundle.min.js"></script>
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
 
 
 
@@ -29,8 +31,83 @@
 <script src="~/Assets/JS/Login.js"></script>
 <script src="~/Assets/JS/Footer.js"></script>
 
+<form id="antiForgeryForm" style="display:none;">
+    @Html.AntiForgeryToken()
+</form>
 </html>
 
+
+<script>
+     function initializeCountdowns() {
+         const timers = document.querySelectorAll('.countdown-timer');
+
+         timers.forEach(timer => {
+             const endDateStr = timer.getAttribute('data-enddate');
+             const endDate = new Date(endDateStr);
+
+             const parent = timer.closest('.countdown-title');
+             const shopNowBtn = parent?.querySelector('.shop-now-btn');
+             const productId = shopNowBtn?.getAttribute('data-product-id');
+
+             if (!productId) {
+                 console.warn("⚠️ Product ID tapılmadı!");
+                 return;
+             }
+
+             function updateCountdown() {
+                 const now = new Date();
+                 const diff = endDate - now;
+
+                 if (diff <= 0) {
+                     timer.innerHTML = "<strong>Time's up!</strong>";
+
+                     fetch(`/Admin/FeaturedProduct/RestoreOriginalPriceAndRemoveFromFeatured?productId=${encodeURIComponent(productId)}`, {
+                         method: 'POST',
+                         headers: {
+                             'RequestVerificationToken': getRequestVerificationToken()
+                         }
+                     })
+                         .then(response => {
+                             if (response.ok) {
+                                 console.log('✅ Featured product silindi və qiymət bərpa olundu.');
+                                 // İstəsən, bitmiş məhsulun DOM elementini də silə bilərsən:
+                                 // parent.closest('.row')?.remove();
+                             } else {
+                                 console.error('❌ Serverdən xəta gəldi.');
+                             }
+                         })
+                         .catch(error => {
+                             console.error('❌ Fetch xətası:', error);
+                         });
+
+                     clearInterval(interval);
+                     return;
+                 }
+
+                 const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                 const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+                 const minutes = Math.floor((diff / (1000 * 60)) % 60);
+                 const seconds = Math.floor((diff / 1000) % 60);
+
+                 timer.querySelector('.countdown-day').textContent = String(days).padStart(2, '0');
+                 timer.querySelector('.countdown-hour').textContent = String(hours).padStart(2, '0');
+                 timer.querySelector('.countdown-minunt').textContent = String(minutes).padStart(2, '0');
+                 timer.querySelector('.countdown-second').textContent = String(seconds).padStart(2, '0');
+             }
+
+             updateCountdown();
+             const interval = setInterval(updateCountdown, 1000);
+         });
+     }
+
+     function getRequestVerificationToken() {
+         const tokenElement = document.querySelector('input[name="__RequestVerificationToken"]');
+         return tokenElement ? tokenElement.value : '';
+     }
+
+     document.addEventListener('DOMContentLoaded', initializeCountdowns);
+
+</script>
 
 <script>
 

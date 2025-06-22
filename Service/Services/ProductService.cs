@@ -158,6 +158,19 @@ public class ProductService : CrudService<Product, ProductCreateVM, ProductEditV
     }
 
 
+    public async Task<List<ProductVM>> GetProductsBySellCountAsync()
+    {
+        var products = _repository
+            .GetAll()
+            .OrderByDescending(p => p.SellCount)
+            .ToList();
+
+        var mapped = _mapper.Map<List<ProductVM>>(products);
+
+        return mapped;
+    }
+
+
     public async Task<ProductEditVM> ProductUpdateVM(int productId)
     {
         var product = await _repository.GetAsync(productId);
@@ -354,11 +367,13 @@ public class ProductService : CrudService<Product, ProductCreateVM, ProductEditV
     }
 
     public async Task<PaginationResponse<ProductVM>> GetFilteredPaginatedProductsAsync(
-    string? search,
-    string? sort,
-    int? categoryId,
-    int page,
-    int take)
+      string? search,
+      string? sort,
+      List<int>? categoryIds,
+      decimal? priceFrom,
+      decimal? priceTo,
+      int page,
+      int take)
     {
         var products = await GetAllAsync();
 
@@ -369,10 +384,24 @@ public class ProductService : CrudService<Product, ProductCreateVM, ProductEditV
                 .ToList();
         }
 
-        if (categoryId.HasValue)
+        if (categoryIds != null && categoryIds.Any())
         {
             products = products
-                .Where(p => p.CategoryId == categoryId.Value)
+                .Where(p => categoryIds.Contains(p.CategoryId))
+                .ToList();
+        }
+
+        if (priceFrom.HasValue)
+        {
+            products = products
+                .Where(p => p.Price >= priceFrom.Value)
+                .ToList();
+        }
+
+        if (priceTo.HasValue)
+        {
+            products = products
+                .Where(p => p.Price <= priceTo.Value)
                 .ToList();
         }
 

@@ -47,6 +47,16 @@ public static class DependencyInjection
         services.AddScoped<IBasketRepository, BasketRepository>();
 
         services.AddScoped<IWishlistRepository, WishlistRepository>();
+
+        services.AddScoped<IOrderRepository, OrderRepository>();
+
+        services.AddScoped<IOrderItemRepository, OrderItemRepository>();
+
+        services.AddScoped<IStatusRepository, StatusRepository>();
+
+        services.AddScoped<IFeaturedProductRepository, FeaturedProductRepository>();
+
+
         return services;
     }
 }

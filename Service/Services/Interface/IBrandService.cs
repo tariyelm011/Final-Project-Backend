@@ -10,3 +10,4 @@ public interface IBrandService : ICrudService<Brand, BrandCreateVM, BrandEditVM,
     Task<bool> UpdateAsync(BrandEditVM dto);
     Task<BrandEditVM> BrandUpdateVM(int id);
 }
+

@@ -25,6 +25,11 @@ public class AppDbContext : IdentityDbContext<AppUser>
     public DbSet<Contact> Contacts { get; set; }
     public DbSet<BasketItem> BasketItems { get; set; }
     public DbSet<WishlistItem> WishlistItems { get; set; }
+    public DbSet<Payment> Payments { get; set; }
+    public DbSet<Order> Orders { get; set; }
+    public DbSet<Status> Statuses { get; set; }
+    public DbSet<OrderItem> OrderItems { get; set; }
+    public DbSet<FeaturedProduct> FeaturedProducts { get; set; }
 
 
 

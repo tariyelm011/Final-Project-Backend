@@ -1,0 +1,38 @@
+﻿@using Service.ViewModels.FeaturedProduct
+@model FeaturedProductEditVM
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <p class="card-description">
+                Featured Product Yarat
+            </p>
+            <form asp-action="Edit" method="post" class="forms-sample">
+                <div class="form-group">
+                    <label asp-for="ProductId"></label>
+                    <select asp-for="ProductId" asp-items="Model.Products" class="form-control">
+                        <option value="">Məhsul seçin</option>
+                    </select>
+                    <span asp-validation-for="ProductId" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="DiscountedPrice"></label>
+                    <input asp-for="DiscountedPrice" type="number" step="0.01" class="form-control" placeholder="Endirimli qiymət" />
+                    <span asp-validation-for="DiscountedPrice" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="CountdownEndDate"></label>
+                    <input asp-for="CountdownEndDate" type="datetime-local" class="form-control" />
+                    <span asp-validation-for="CountdownEndDate" class="text-danger"></span>
+                </div>
+
+                <div class="mt-3">
+                    <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                    <a asp-action="Index" class="btn btn-light">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

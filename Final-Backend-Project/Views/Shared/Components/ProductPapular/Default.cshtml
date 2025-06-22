@@ -1,0 +1,60 @@
+﻿@using Service.Dtos.Product
+@model List<ProductVM>
+
+<section id="home-popular">
+    <div class="container-xl">
+        <div class="row">
+            <div class="popular-header col-12">
+                <h2>Popular Perfumes</h2>
+                <span>Each fragrance crafted to complement unique essence</span>
+            </div>
+            <div class="card-slider-container col-12">
+                <button class="slider-control slider-control-prev" id="prevBtn">
+                    &lt;
+                </button>
+                <div class="card-slider" id="cardSlider">
+
+                    @foreach (var item in Model)
+                    {
+                        <div class="card-item col-6 com-sm-6 col-md-4 col-lg-3">
+                            <div class="card">
+                                <a href="#">
+                                    <img href
+                                         src="@item.ImageUrl"
+                                         class="card-img-top"
+                                         alt="..." />
+                                </a>
+                                <div class="cart-shortcut">
+                                    <ul>
+                                        <li>
+                                            <button><i class="bi bi-heart"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-eye"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="bi bi-basket2-fill"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                 
+                                    <h5 class="card-title">@item.Name</h5>
+                                    <p class="card-text">$@item.Price</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    }
+                   
+                </div>
+                <button class="slider-control slider-control-next" id="nextBtn">
+                    &gt;
+                </button>
+            </div>
+            <div class="popular-button col-12">
+                <a href="#">VIEW ALL</a>
+            </div>
+        </div>
+    </div>
+</section>

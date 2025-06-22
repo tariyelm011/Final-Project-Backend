@@ -45,6 +45,8 @@ namespace Service
 
             services.AddScoped<IBasketService, BasketService>();
 
+            services.AddScoped<IFeaturedProductService, FeaturedProductService>();
+
 
 
             return services;

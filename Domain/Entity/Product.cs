@@ -9,6 +9,7 @@ namespace Domain.Entity
         public string ImageUrl { get; set; } = null!;
         public decimal Price { get; set; }
         public int Stock { get; set; }
+        public int SellCount { get; set; }
         public string VideoUrl { get; set; } = null!;
         public int CategoryId { get; set; }
         public Category? Category { get; set; }

@@ -1,0 +1,50 @@
+﻿@using Service.ViewModels.FeaturedProduct
+@model List<FeaturedProductVM>
+
+<section id="home-countdown">
+    <div class="container-xl">
+        @foreach (var item in Model)
+        {
+            <div class="row">
+                <div class="countdown-img col-12 col-md-12 col-lg-6">
+                    <img src="@item.ProductImageUrl" alt="" />
+                </div>
+                <div class="countdown-title col-12 col-md-12 col-lg-6">
+                    <p>Features Product Of This Week</p>
+                    <h2>
+                        <span>@item.ProductName</span>
+                    </h2>
+                    <div class="countdown-timer" data-enddate="@item.CountdownEndDate.ToString("yyyy-MM-ddTHH:mm:ss")">
+                        <div class="countdown-item">
+                            <span class="countdown-day"></span>DAYS
+                        </div>
+                        <span class="span_colon"> : </span>
+                        <div class="countdown-item">
+                            <span class="countdown-hour"></span>HRS
+                        </div>
+                        <span class="span_colon"> : </span>
+                        <div class="countdown-item">
+                            <span class="countdown-minunt"></span>MIN
+                        </div>
+                        <span class="span_colon"> : </span>
+                        <div class="countdown-item">
+                            <span class="countdown-second"></span>SEC
+                        </div>
+                    </div>
+                    <div class="countdown-text">
+                       @item.CountdownEndDate
+                    </div>
+                    <a class="shop-now-btn"
+                       data-product-id="@item.ProductId"
+                       data-discounted="@item.DiscountedPrice"
+                       data-original="@item.OriginalPrice">SHOP NOW AT $@item.DiscountedPrice</a>
+                </div>
+            </div>
+        }
+      
+    </div>
+</section>
+
+
+
+
