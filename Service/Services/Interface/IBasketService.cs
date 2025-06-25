@@ -10,5 +10,6 @@ public interface IBasketService
     Task<decimal> GetBasketTotalAsync();
     Task<bool> DecreaseFromBasketAsync(int productId);
     Task<bool> RemoveAllFromBasketAsync(int productId);
+    Task<CardVM> GetBasketOrderAsync();
 
 }

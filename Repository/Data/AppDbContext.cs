@@ -36,9 +36,15 @@ public class AppDbContext : IdentityDbContext<AppUser>
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
 
+        //modelBuilder.AddSeedData();
         modelBuilder.Entity<Product>()
     .Property(p => p.Price)
     .HasPrecision(18, 2);
+
+        modelBuilder.Entity<Order>()
+               .HasOne(o => o.Payment)
+               .WithOne(p => p.Order)
+               .HasForeignKey<Payment>(p => p.OrderId);
 
         base.OnModelCreating(modelBuilder);
     }

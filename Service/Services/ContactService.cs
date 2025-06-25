@@ -3,6 +3,8 @@ using Domain.Entity;
 using Repository.Repositories.Interface;
 using Service.Helpers.Exceptions;
 using Service.Services.Generic;
+using Microsoft.AspNetCore.Hosting;
+
 using Service.Services.Interface;
 using Service.ViewModels.Contact;
 

@@ -2,6 +2,7 @@
 using Service.Services.Interface;
 using Service.Services;
 using System.Reflection;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 
 namespace Service
 {
@@ -46,6 +47,15 @@ namespace Service
             services.AddScoped<IBasketService, BasketService>();
 
             services.AddScoped<IFeaturedProductService, FeaturedProductService>();
+
+            services.AddScoped<IOrderService, OrderService>();
+
+            services.AddSingleton<IActionContextAccessor, ActionContextAccessor>();
+
+            services.AddScoped<IPaymentService, PaymentService>();
+
+
+
 
 
 

@@ -27,23 +27,22 @@ public class DbContextInitalizer
 
     public async Task InitDatabaseAsync()
     {
-        await _context.Database.MigrateAsync();
-        await _createRolesAsync();
-        await _createAdminAsync();
+        //await _createRolesAsync();
+        //await _createAdminAsync();
     }
 
-    private async Task _createRolesAsync()
-    {
-        foreach (string role in Enum.GetNames(typeof(IdentityRoles)))
-        {
-            var isExist = await _roleManager.Roles.AnyAsync(x => x.Name == role);
-            if (isExist)
-                continue;
+    //private async Task _createRolesAsync()
+    //{
+    //    foreach (string role in Enum.GetNames(typeof(IdentityRoles)))
+    //    {
+    //        var isExist = await _roleManager.Roles.AnyAsync(x => x.Name == role);
+    //        if (isExist)
+    //            continue;
 
-            IdentityRole identityRole = new() { Name = role };
-            await _roleManager.CreateAsync(identityRole);
-        }
-    }
+    //        IdentityRole identityRole = new() { Name = role };
+    //        await _roleManager.CreateAsync(identityRole);
+    //    }
+    //}
 
 
     private async Task _createAdminAsync()

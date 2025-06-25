@@ -173,6 +173,85 @@ public partial class BasketService : IBasketService
 
 
     }
+    public async Task<CardVM> GetBasketOrderAsync()
+    {
+        var user = _httpContextAccessor.HttpContext.User;
+
+        if (user.Identity is not null && user.Identity.IsAuthenticated)
+        {
+            var userId = user.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            var itemsQuery = _basketItemRepository.GetFilter(
+                expression: b => b.AppUserId == userId,
+                include: query => query.Include(b => b.Product),
+                asNotTracking: true
+            );
+
+
+
+            var items = await itemsQuery
+                .Select(b => new BasketItemVM
+                {
+                    ProductId = b.ProductId,
+                    Count = b.Count,
+                    ProductName = b.Product.Name,
+                    ProductPrice = b.Product.Price,
+                    img = b.Product.ImageUrl,
+                    TotalProductPrice = b.Count * b.Product.Price,
+
+                })
+                .ToListAsync();
+
+            var card = new CardVM
+            {
+                Prroduct = items,
+                Count = await GetBasketCountAsync(),
+                TotalAmount = await GetBasketTotalAsync()
+            };
+
+            return card;
+        }
+        else
+        {
+            var cookie = _httpContextAccessor.HttpContext.Request.Cookies["basket"];
+
+            if (cookie == null)
+                return new CardVM();
+
+            var items = JsonConvert.DeserializeObject<List<BasketCookieItemVM>>(cookie);
+
+            var result = new List<BasketItemVM>();
+
+            foreach (var item in items)
+            {
+                var product = await _productService.GetAsync(item.ProductId);
+                if (product == null) continue;
+
+                result.Add(new BasketItemVM
+                {
+                    ProductId = product.Id,
+                    Count = item.Count,
+                    ProductName = product.Name,
+                    ProductPrice = product.Price,
+                    img = product.ImageUrl,
+                    TotalProductPrice = product.Price * item.Count
+
+                });
+            }
+            var card = new CardVM
+            {
+                Prroduct = result,
+                Count = await GetBasketCountAsync(),
+                TotalAmount = await GetBasketTotalAsync()
+
+            };
+
+
+            return card;
+        }
+
+
+    }
 
     public async Task<bool> DecreaseFromBasketAsync(int productId)
     {
@@ -265,7 +344,7 @@ public partial class BasketService : IBasketService
     {
         decimal totalPrice = 0;
 
-        var user = _httpContextAccessor.HttpContext.User;
+        var user = _httpContextAccessor.HttpContext?.User;
 
         if (user.Identity is not null && user.Identity.IsAuthenticated)
         {

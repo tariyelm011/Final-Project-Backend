@@ -1,0 +1,65 @@
+﻿@using Service.ViewModels.Order
+@model OrderCreateVM
+
+
+<main class="login-register">
+    <section id="Sing-in_up-section">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-12">
+                    <div class="registration">
+                        <div id="sign-in">
+                            <h1>Checkout</h1>
+
+                            <form asp-action="Checkout" method="post">
+                                <label>First Name</label>
+                                <input asp-for="Name" type="text" placeholder="First name">
+                                <span asp-validation-for="Name" class="text-danger"></span>
+
+                                <label>Last Name</label>
+                                <input asp-for="Surname" type="text" placeholder="Last name">
+                                <span asp-validation-for="Surname" class="text-danger"></span>
+
+                                <label>Email</label>
+                                <input asp-for="Email" type="email" placeholder="Email">
+                                <span asp-validation-for="Email" class="text-danger"></span>
+
+                                <label>Phone Number</label>
+                                <input asp-for="PhoneNumber" type="text" placeholder="Phone Number">
+                                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+
+                                <label>City</label>
+                                <input asp-for="City" type="text" placeholder="City">
+                                <span asp-validation-for="City" class="text-danger"></span>
+
+                                <label>Street</label>
+                                <input asp-for="Street" type="text" placeholder="Street">
+                                <span asp-validation-for="Street" class="text-danger"></span>
+
+                                <label>Apartment</label>
+                                <input asp-for="Apartment" type="text" placeholder="Apartment (optional)">
+
+                                <label>Company Name</label>
+                                <input asp-for="CompanyName" type="text" placeholder="Company name (optional)">
+
+                                <label>Payment Type</label>
+                                <select asp-for="IsPaid">
+                                    <option value="true">Online (Card)</option>
+                                    <option value="false">Cash</option>
+                                </select>
+
+                                <div class="sing-up-btn">
+                                    <button class="sign-btn">Place Order</button>
+                                </div>
+                            </form>
+
+                            <button class="sign-up-link">
+                                <a asp-controller="Basket" asp-action="Index">Back to Basket</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
