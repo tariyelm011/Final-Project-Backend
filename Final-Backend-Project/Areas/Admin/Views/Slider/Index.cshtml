@@ -49,10 +49,10 @@
 
 
                                 <td>
-                                    @slider.CreatedDate;
+                                    @(slider.CreatedDate.ToString("dd.MM.yyyy") ?? "N/A")
                                 </td>
                                 <td>
-                                    @slider.EditDate;
+                                    @(slider.EditDate?.ToString("dd.MM.yyyy") ?? "N/A")
                                 </td>
                                 <td>
                                     <a asp-action="Detail" asp-route-id="@slider.Id" style="display:inline-block; background-color:#ffc107; color:black; padding:10px 20px; text-decoration:none; border-radius:6px; font-weight:bold;">

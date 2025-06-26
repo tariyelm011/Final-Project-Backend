@@ -14773,6 +14773,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.16",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.7",
       "Repository >= 1.0.0",
@@ -14812,6 +14813,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Domain.csproj"
+            },
             "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repository.csproj": {
               "projectPath": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repository.csproj"
             },

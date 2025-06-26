@@ -1,5 +1,9 @@
 ﻿@using Final_Backend_Project.ViewModelsUI
+@using Domain.Enum
 @model ShopVM
+@{
+    var sort = Model.Sort;
+}
 <main class="shop">
     <section id="shop-product">
         <div class="shop-product-submenu hidden">
@@ -43,31 +47,21 @@
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse">
                             <div class="accordion-body">
-
-                            
-                         
-
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="submenu-sort-menu">
                     <label>Sort by:</label>
-                    <form method="get" id="sortForm">
-                        <select class="select-forms" name="sort" onchange="document.getElementById('sortForm').submit()">
 
 
-                            <option value="az" selected="@(Model.Sort == "az")">A-Z</option>
-                            <option value="za" selected="@(Model.Sort == "za")">Z-A</option>
-                            <option value="priceLowHigh" selected="@(Model.Sort == "priceLowHigh")">Price, low to high</option>
-                            <option value="priceHighLow" selected="@(Model.Sort == "priceHighLow")">Price, high to low</option>
+                    <div class="filter__sort">
+                        <span>Sort By</span>
+                   
 
-                        </select>
+                    </div>
 
-                        <input type="hidden" name="search" value="@Model.Search" />
-                        <input type="hidden" name="categoryId" value="@Model.CategoryId" />
-                        <input type="hidden" name="page" value="1" />
-                    </form>
+
 
                 </div>
 
@@ -87,20 +81,57 @@
                             </div>
                             <div class="shop-product-shorter">
                                 <label>Sort by:</label>
-                                <form method="get" id="sortForm">
-                                    <select class="select-forms" name="sort" onchange="document.getElementById('sortForm').submit()">
 
+                                <form asp-action="index" method="get" id="sortForm">
+                                    <select class="form-select"
+                                            name="sort"
+                                            onchange="document.getElementById('sortForm').submit()"
+                                            style="appearance: none; border: none; outline: none; padding: 5px; background: transparent; color: inherit; font-size: inherit; text-align: center; border-radius: 0px; cursor: pointer;">
+                                                                    
+                                        @if (sort == "az")
+                                        {
+                                            <option value="az" selected>A-Z</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="az">A-Z</option>
+                                        }
 
-                                        <option value="az" selected="@(Model.Sort == "az")">A-Z</option>
-                                        <option value="za" selected="@(Model.Sort == "za")">Z-A</option>
-                                        <option value="priceLowHigh" selected="@(Model.Sort == "priceLowHigh")">Price, low to high</option>
-                                        <option value="priceHighLow" selected="@(Model.Sort == "priceHighLow")">Price, high to low</option>
+                                        @if (sort == "za")
+                                        {
+                                            <option value="za" selected>Z-A</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="za">Z-A</option>
+                                        }
+
+                                        @if (sort == "priceHighLow")
+                                        {
+                                            <option value="priceHighLow" selected>Price, High to Low</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="priceHighLow">Price, High to Low</option>
+                                        }
+
+                                        @if (sort == "priceLowHigh")
+                                        {
+                                            <option value="priceLowHigh" selected>Price, Low to High</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="priceLowHigh">Price, Low to High</option>
+                                        }
 
                                     </select>
 
                                     <input type="hidden" name="search" value="@Model.Search" />
-                                    <input type="hidden" name="categoryId" value="@Model.CategoryId" />
+                                    <input type="hidden" name="PriceFrom" value="@Model.PriceFrom" />
+                                    <input type="hidden" name="PriceTo" value="@Model.PriceTo" />
+                                    <input type="hidden" name="categoryId" value="@Model.CategoryIds" />
                                     <input type="hidden" name="page" value="1" />
+
                                 </form>
 
                             </div>
@@ -135,10 +166,11 @@
                                             </div>
                                         }
 
-                                    </div>
-
+                                    </div>    <input type="hidden" name="sort" value="@Model.Sort" />
+                                    <input type="hidden" name="search" value="@Model.Search" />
+                                    <input type="hidden" name="page" value="1" />
                                     <!-- Price Range -->
-                                    <button type="submit" class="btn btn-primary" style="background-color : purple" >Apply</button>
+                                    <button type="submit" class="btn btn-primary" style="background-color : purple">Apply</button>
                                     <a href="/Shop/Index" class="btn btn-outline-secondary">Reset</a>
                                 </div>
                             </form>

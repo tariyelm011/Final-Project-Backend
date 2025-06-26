@@ -43,6 +43,8 @@ public class AccountController : Controller
 
 
         var user = await _accountService.FindUserByEmailAsync(registerDto.Email);
+        await _userManager.AddToRoleAsync(user, "User");
+
         var token = await _accountService.GenerateEmailConfirmationTokenAsync(user);
 
         var confirmationLink = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, token }, Request.Scheme);

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Service.Services;
 using Service.Services.Interface;
 
 namespace Final_Backend_Project.Controllers;
@@ -40,12 +41,12 @@ public class BasketController : Controller
 
         return Json(new { success = true, count = count, total = total });
     }
-    [HttpDelete]
+
     public async Task<IActionResult> Delete(int id)
     {
         await _basketService.RemoveAllFromBasketAsync(id);
 
-        return Json(new { success = true });
+        return RedirectToAction("index");
     }
 
     public async Task<IActionResult> GetCountAndTotal()
@@ -70,4 +71,6 @@ public class BasketController : Controller
             totalPrice = product.TotalProductPrice
         });
     }
+
+
 }

@@ -162,7 +162,7 @@
                         .then(res => res.json())
                         .then(data => {
                             document.getElementById("basket-count").innerText = data.count;
-                            document.getElementById("basketViewTotal").innerText = data.total.toFixed(2) + " $";
+                            document.getElementById("basketViewTotal").innerText = data.total.toFixed(2) + " USD";
                             updateProductUI(id);
                         });
                 } else {

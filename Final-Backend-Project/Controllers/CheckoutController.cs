@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Service.Services;
 using Service.Services.Interface;
 using Service.ViewModels.Order;
@@ -6,6 +7,7 @@ using Service.ViewModels.Payment;
 
 namespace Final_Backend_Project.Controllers
 {
+    [Authorize]
     public class CheckoutController : Controller
     {
         private readonly IOrderService _orderService;

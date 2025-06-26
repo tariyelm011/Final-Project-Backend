@@ -8,6 +8,7 @@
                 <div class="col-12 col-sm-6 col-md-6 co-lg-6 product-img">
                     <img src="@Model.ImageUrl" alt="">
                 </div>
+
                 <div class="col-12 col-sm-6 col-md-6 co-lg-6 mt-30">
                     <div class="product-title">
                         <p>Stok: <span>@Model.Stock</span></p>
@@ -81,7 +82,22 @@
                 </div>
             </div>
         </div>
+    <div class="product-info">
+        <h1>Aditional Pictures</h1>
+
+    </div>
     </section>
+    <div class="product-thumbnail-slider mt-3">
+
+        <div class="row gx-2">
+            @foreach (var img in Model.ProductImages)
+            {
+                <div class="col-3">
+                    <img src="@img.ImageUrl" class="img-thumbnail product-thumbnail" />
+                </div>
+            }
+        </div>
+    </div>
     <section id="product-us">
         <div class="container-xl">
             <div class="row">

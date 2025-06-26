@@ -9,13 +9,13 @@
                     <thead>
                         <tr>
                             <th class="col-5 col-sm-5 col-md-6 col-lg-7">Product</th>
-                            <th class="col-5 col-sm-5 col-md-3 col-lg-3" ">Quantity</th>
+                            <th class="col-5 col-sm-5 col-md-3 col-lg-3">Quantity</th>
                             <th class="col-2 col-sm-2 col-md-3 col-lg-2" style="text-align: end;">Total</th>
                         </tr>
                     </thead>
                     <tbody class="table-group-divider">
-                         @foreach (var card in Model.Prroduct)
-                            {
+                        @foreach (var card in Model.Prroduct)
+                        {
                             <tr id="product-row-@card.ProductId">
                                 <td>
                                     <div class="card-table-product">
@@ -45,8 +45,11 @@
                                                 +
                                             </button>
                                         </span>
-
-                                        <button class="delete-btn"><i class="bi bi-trash3"></i></button>
+                                        <form action="/Basket/Delete/@card.ProductId" method="post" style="display:inline;">
+                                            <button type="submit" class="delete-btn">
+                                                <i class="bi bi-trash3"></i>
+                                            </button>
+                                        </form>
                                     </div>
                                 </td>
                                 <td class="align-middle">
@@ -55,44 +58,28 @@
                                     </div>
                                 </td>
                             </tr>
-                            }
-                       
-                      
+                        }
                     </tbody>
                 </table>
             </div>
         </div>
     </section>
+
     <section id="shopping-card-total">
         <div class="container-xl">
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4 total-iformation ">
-                    <label for="Cart-note">Order special instructions</label>
-                    <textarea class="text-area" form="cart" name="note" id="Cart-note" style="height: 108px;"></textarea>
-                </div>
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4 total-country  ">
-                    <h6>Estimate shipping rates <i class="bi bi-question-circle"></i></h6>
-                    <select class="form-select" id="countrySelect">
-                        <option selected>Choose...</option>
-                        <option value="us">United States</option>
-                        <option value="uk">United Kingdom</option>
-                        <option value="de">Germany</option>
-                        <option value="tr">Turkey</option>
-                        <option value="az">Azerbaijan</option>
-                    </select>
-                    <input type="text" placeholder="Postal/ZIP code" autocomplete="postal-code">
-                    <button>CALCULATE</button>
-                </div>
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4 total-money ">
-                    <h3>Subtotal <p id="basketViewTotal">$@Model.TotalAmount USD</p></h3>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 total-money">
+                    <h3>Subtotal</h3>
+                    <p id="basketViewTotal">$@Model.TotalAmount USD</p>
                     <p>Taxes and shipping calculated at checkout</p>
-                    <button>CHECK OUT</button>
+
+                    <form action="/checkout/checkout" method="get">
+                        <button type="submit" class="btn btn-primary w-100">CHECK OUT</button>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
-        @await Component.InvokeAsync("FeaturedProduct")
 
+    @await Component.InvokeAsync("FeaturedProduct")
 </main>
-
-

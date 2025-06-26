@@ -32,7 +32,7 @@ public class OrderCreateVM
     public string Email { get; set; } = null!;
 
     public int StatusId { get; set; }
-    public bool IsPaid { get; set; }
+    public bool IsPaid { get; set; } = true;
 
     public List<OrderItemVM> OrderItems { get; set; } = new();
 }

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Service.Dtos.Blog;
 using Service.Services;
@@ -6,6 +7,7 @@ using Service.Services.Interface;
 
 namespace Final_Backend_Project.Areas.Admin.Controllers;
 
+[Authorize(Roles = "Admin,SuperAdmin")]
     [Area("Admin")]
 public class BlogController : Controller
 {

@@ -1,4 +1,5 @@
 ﻿using Domain.Entity;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Service.ViewModels.User;
@@ -6,6 +7,8 @@ using Service.ViewModels.User;
 namespace Final_Backend_Project.Areas.Admin.Controllers;
 
 [Area("Admin")]
+[Authorize(Roles = "SuperAdmin")]
+
 public class UserRolesController : Controller
 {
     private readonly UserManager<AppUser> _userManager;
@@ -25,7 +28,7 @@ public class UserRolesController : Controller
         {
             var roles = await _userManager.GetRolesAsync(user);
 
-            if (roles.Contains("Admin")) continue;
+            if (roles.Contains("SuperAdmin")) continue;
 
             userRolesViewModel.Add(new UserWithRoleVM
             {
@@ -43,7 +46,7 @@ public class UserRolesController : Controller
     {
         var user = await _userManager.FindByIdAsync(userId);
         var roles = _roleManager.Roles
-            .Where(r => r.Name != "Admin")
+            .Where(r => r.Name != "SuperAdmin")
             .Select(r => r.Name)
             .ToList();
 
@@ -64,9 +67,9 @@ public class UserRolesController : Controller
     [HttpPost]
     public async Task<IActionResult> ChangeRole(ChangeUserRoleVM model)
     {
-        if (model.SelectedRole == "Admin")
+        if (model.SelectedRole == "SuperAdmin")
         {
-            return BadRequest("Admin roles cant chooese");
+            return BadRequest("SuperAdmin roles cant chooese");
         }
 
         var user = await _userManager.FindByIdAsync(model.UserId);

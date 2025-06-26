@@ -63,10 +63,10 @@
                         @if (User.Identity.IsAuthenticated)
                         {
                             <div class="navbar-login d-flex align-items-center gap-2">
-                                @if (User.IsInRole("Admin") || User.IsInRole("Moderator"))
+                                @if (User.IsInRole("Admin") || User.IsInRole("SuperAdmin"))
                                 {
                                     <a asp-area="Admin" asp-controller="Dashboard" asp-action="Index" class="text-decoration-none">
-                                        <i class="bi bi-person"></i> @User.Identity.Name
+                                        <i ></i> @User.Identity.Name
                                     </a>
                                 }
                                 else

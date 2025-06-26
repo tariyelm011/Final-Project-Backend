@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Repository.Repositories.Interface;
@@ -8,7 +9,9 @@ using Service.ViewModels.FeaturedProduct;
 
 namespace Final_Backend_Project.Areas.Admin.Controllers;
 
-    [Area("Admin")]
+[Area("Admin")]
+[Authorize(Roles = "Admin,SuperAdmin")]
+
 public class FeaturedProductController : Controller
 {
     private readonly IFeaturedProductService _featuredProductService;
@@ -20,14 +23,14 @@ public class FeaturedProductController : Controller
         _productRepository = productRepository;
     }
 
-    public async  Task<IActionResult> Index()
+    public async Task<IActionResult> Index()
     {
-        var featuredProducts =await _featuredProductService.FeaturedProductsAsync();
+        var featuredProducts = await _featuredProductService.FeaturedProductsAsync();
         return View(featuredProducts);
     }
     public async Task<IActionResult> Create()
     {
-        var products =  _productRepository.GetAll(); 
+        var products = _productRepository.GetAll();
         var viewModel = new FeaturedProductCreateVM
         {
             Products = products.Select(p => new SelectListItem
@@ -72,7 +75,7 @@ public class FeaturedProductController : Controller
     [HttpPost]
     public async Task<IActionResult> Edit(FeaturedProductEditVM vm)
     {
-      await _featuredProductService.EditAsync(vm);
+        await _featuredProductService.EditAsync(vm);
         return RedirectToAction("index");
 
     }
@@ -87,7 +90,7 @@ public class FeaturedProductController : Controller
     [HttpPost]
     public async Task<IActionResult> RestoreOriginalPriceAndRemoveFromFeatured(int productId)
     {
-       await _featuredProductService.RestoreOrginalPrice(productId);
+        await _featuredProductService.RestoreOrginalPrice(productId);
         return Ok(new { success = true });
     }
 

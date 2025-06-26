@@ -46,10 +46,10 @@
 
 
                                 <td>
-                                    @category.CreatedDate;
+                                    @(category.CreatedDate?.ToString("dd.MM.yyyy") ?? "N/A")
                                 </td>
                                 <td>
-                                    @category.EditDate;
+                                    @(category.EditDate?.ToString("dd.MM.yyyy") ?? "N/A");
                                 </td>
                                 <td>
                                     <a asp-action="Edit" asp-route-id ="@category.Id" style="display:inline-block; background-color:#ffc107; color:black; padding:10px 20px; text-decoration:none; border-radius:6px; font-weight:bold;">
