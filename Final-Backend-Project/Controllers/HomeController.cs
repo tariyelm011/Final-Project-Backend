@@ -1,16 +1,18 @@
 using Final_Backend_Project.Models;
 using Microsoft.AspNetCore.Mvc;
+using Service.Dtos.Product;
+using Service.Services.Interface;
 using System.Diagnostics;
 
 namespace Final_Backend_Project.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly IProductService _productService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IProductService productService)
         {
-            _logger = logger;
+            _productService = productService;
         }
 
         public IActionResult Index()
@@ -18,15 +20,17 @@ namespace Final_Backend_Project.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        [HttpGet]
+        public async Task< IActionResult> FilterProducts(int categoryId = 0)
         {
-            return View();
-        }
+            List<ProductVM> products;
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            if (categoryId == 0)
+                products = await _productService.GetAllAsync();
+            else
+                products = await _productService.GetAllAsync(x=>x.CategoryId == categoryId);
+
+            return PartialView("_ProductsPartial", products);
         }
     }
 }

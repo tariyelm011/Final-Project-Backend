@@ -59,7 +59,7 @@ public class PaymentService : IPaymentService
         UrlActionContext context = new()
         {
             Action = "CheckPayment",
-            Controller = "Order",
+            Controller = "Checkout",
             Values = new { Token = confirmToken },
             Protocol = _contextAccessor.HttpContext?.Request.Scheme
         };

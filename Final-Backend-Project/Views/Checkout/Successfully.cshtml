@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Ödəniş Təsdiqləndi";
+    Layout = null;
+}
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #8e44ad; /* bonevşəyi */
+        font-family: Arial, sans-serif;
+        color: white;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .payment-success-container {
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 40px;
+        border-radius: 16px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    }
+
+    .payment-success-container h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .payment-success-container a {
+        text-decoration: none;
+        background-color: white;
+        color: #8e44ad;
+        padding: 12px 24px;
+        font-size: 16px;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .payment-success-container a:hover {
+        background-color: #7d3c98;
+        color: white;
+    }
+</style>
+
+<div class="payment-success-container">
+    <h1>Payment Successfully</h1>
+    <a asp-controller="Home" asp-action="Index">Back Home</a>
+</div>

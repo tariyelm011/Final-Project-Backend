@@ -35,7 +35,7 @@
                         </ul>
                     </div>
                     <div class="navbar-center col-4 col-sm-4 col-md-4 col-lg-2">
-                        <a href="./Home.html">
+                        <a asp-controller="Home" asp-action="index">
                             <img src="~/Assets/İMG/Navbar/Logo/logo.png" alt="Logo" />
                         </a>
                     </div>
@@ -88,8 +88,8 @@
                             </a>
                         }
 
-                        <a href="./Wishlist.html" class="navbar-wishlist"><i class="bi bi-heart"></i><span id="wishlist-count">@Model.WishListCount</span></a>
-                        <a href="./Card.html" class="navbar-cart"><i class="bi bi-basket-fill"></i><span id="basket-count">@Model.BasketCount</span></a>
+                        <a asp-action="index" asp-controller="wishlist" class="navbar-wishlist"><i class="bi bi-heart"></i><span id="wishlist-count">@Model.WishListCount</span></a>
+                        <a asp-action="index" asp-controller="basket" class="navbar-cart"><i class="bi bi-basket-fill"></i><span id="basket-count">@Model.BasketCount</span></a>
                     </div>
                 </div>
             </div>

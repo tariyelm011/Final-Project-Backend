@@ -60,12 +60,18 @@ namespace Final_Backend_Project.Controllers
             {
 
                 if (User.Identity?.IsAuthenticated ?? false)
-                    return RedirectToAction("List", "Order");
+                    return RedirectToAction("Successfully", "checkout");
             }
 
 
-            return RedirectToAction("Index", "Shop");
+            return RedirectToAction("Order", "Shop");
         }
 
+
+
+        public IActionResult Successfully()
+        {
+            return View();
+        }
     }
 }

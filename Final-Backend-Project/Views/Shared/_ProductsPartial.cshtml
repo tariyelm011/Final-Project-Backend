@@ -1,0 +1,43 @@
+﻿@using Service.Dtos.Product
+@model List<ProductVM>
+
+<div class="row featured__filter">
+    @foreach (var product in Model ?? new List<ProductVM>())
+    {
+        var categoryClasses = product.Categories?.Select(c => c.Name.ToLower().Replace(" ", "-")).ToList() ?? new List<string>();
+        var categoryClass = string.Join(" ", categoryClasses);
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mix @categoryClass">
+            <div class="col">
+                <div class="card">
+                    <a href="#"><img src="@product.ImageUrl" class="card-img-top" alt="..."></a>
+
+                    <div class="cart-shortcut">
+                        <ul>
+                            <li>
+                                <button class="add-to-wishlist" data-product-id="@product.Id">
+                                    <i class="bi bi-heart"></i>
+                                </button>
+                            </li>
+                            <li>
+                                <button><i class="bi bi-eye"></i></button>
+                            </li>
+                            <li>
+                                <button class="add-to-basket" data-product-id="@product.Id">
+                                    <i class="bi bi-basket2-fill"></i>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">@product.Name</h5>
+                        <p class="card-text">@product.Price</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    }
+</div>
