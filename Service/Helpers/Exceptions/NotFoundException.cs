@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Net;
 
-namespace Service.Helpers.Exceptions
+namespace Service.Helpers.Exceptions;
+
+public class NotFoundException : Exception, IBaseException
 {
-    public class NotFoundException : Exception
+    public NotFoundException(string message = "Not found") : base(message)
     {
-        public NotFoundException(string message = "Not found") : base(message)
-        {
 
-        }   
     }
+
+    public HttpStatusCode StatusCode { get; set; } = HttpStatusCode.Conflict;
 }

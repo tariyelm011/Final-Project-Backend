@@ -1,7 +1,9 @@
 using Final_Backend_Project.Models;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using Service.Dtos.Product;
 using Service.Services.Interface;
+using Service.ViewModels;
 using System.Diagnostics;
 
 namespace Final_Backend_Project.Controllers
@@ -31,6 +33,24 @@ namespace Final_Backend_Project.Controllers
                 products = await _productService.GetAllAsync(x=>x.CategoryId == categoryId);
 
             return PartialView("_ProductsPartial", products);
+        }
+
+        public IActionResult Error(string? json)
+        {
+            if (!string.IsNullOrEmpty(json))
+            {
+
+                string decodedJson = Uri.UnescapeDataString(json);
+
+                var dto = JsonConvert.DeserializeObject<ErrorVM>(decodedJson);
+                return View(dto);
+            }
+
+            return View(new ErrorVM
+            {
+                StatusCode = 404,
+                Message = "Error"
+            });
         }
     }
 }

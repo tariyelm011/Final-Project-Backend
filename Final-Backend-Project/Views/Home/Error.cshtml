@@ -1,0 +1,95 @@
+﻿@using Service.ViewModels
+@model ErrorVM
+@{
+    Layout = null;
+}
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color:purple;
+        color: #ffffff;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #notfound {
+        max-width: 600px;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+        padding: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .notfound-404 {
+        font-size: 120px;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+
+    .notfound-404 span {
+        color:white;
+    }
+
+    h3 {
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    a {
+        display: inline-block;
+        padding: 10px 25px;
+        background: #ffffff;
+        color: #007BFF;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    a:hover {
+        background: #007BFF;
+        color: #ffffff;
+        box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+    }
+
+
+        h2 {
+            font-size: 18px;
+        }
+
+        a {
+            padding: 8px 20px;
+            font-size: 14px;
+        }
+    }
+</style>
+<main>
+    <div id="notfound">
+        <div class="notfound-404">
+            <h3>@Model.Name</h3>
+            <h1><span>@Model.StatusCode</span></h1>
+        </div>
+        <h2>@Model.Message</h2>
+        <a href="/">Try Again</a>
+    </div>
+</main>

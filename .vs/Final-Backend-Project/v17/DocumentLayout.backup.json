@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\final-backend-project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|solutionrelative:final-backend-project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\final-backend-project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|solutionrelative:final-backend-project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\final-backend-project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|solutionrelative:final-backend-project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\final-backend-project\\views\\home\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|solutionrelative:final-backend-project\\views\\home\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\helpers\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\helpers\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\helpers\\exceptions\\ibaseexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\helpers\\exceptions\\ibaseexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\final-backend-project\\extension\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|solutionrelative:final-backend-project\\extension\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\viewmodels\\errorvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\viewmodels\\errorvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\final-backend-project\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|solutionrelative:final-backend-project\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -263,10 +295,6 @@
       "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\viewmodels\\aboutus\\aboutusvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\final-backend-project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|solutionrelative:final-backend-project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\final-backend-project\\views\\shared\\_productspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|solutionrelative:final-backend-project\\views\\shared\\_productspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -319,10 +347,6 @@
       "RelativeMoniker": "D:0:0:{415F353E-B1CE-4F09-9214-80A199ACCDD4}|Domain\\Domain.csproj|solutionrelative:domain\\entity\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\final-backend-project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|solutionrelative:final-backend-project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\repository\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3EC63C0-EB80-498B-A202-FB4EC1818C38}|Repository\\Repository.csproj|solutionrelative:repository\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -341,10 +365,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\service\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{357AE4A7-99BB-4807-9717-86E302FB5B50}|Service\\Service.csproj|solutionrelative:service\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\final-backend-project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|solutionrelative:final-backend-project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED8E7D62-4C15-460C-B080-EF5EAA834DD5}|Final-Backend-Project\\Final-Backend-Project.csproj|c:\\users\\muhammad\\source\\repos\\final-backend-project\\final-backend-project\\viewmodelsui\\categoryproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -1050,7 +1070,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -1062,31 +1082,111 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Final-Backend-Project\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAAAKQAAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-15T12:31:08.874Z"
+              "DocumentIndex": 4,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Helpers\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "Service\\Helpers\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Helpers\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "Service\\Helpers\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T20:24:18.169Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Basket\\Index.cshtml",
-              "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Basket\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Basket\\Index.cshtml",
-              "RelativeToolTip": "Final-Backend-Project\\Views\\Basket\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Home\\Error.cshtml",
+              "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Home\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Home\\Error.cshtml",
+              "RelativeToolTip": "Final-Backend-Project\\Views\\Home\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-26T18:43:21.639Z"
+              "WhenOpened": "2025-06-26T20:22:17.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ErrorVM.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\ErrorVM.cs",
+              "RelativeDocumentMoniker": "Service\\ViewModels\\ErrorVM.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\ErrorVM.cs",
+              "RelativeToolTip": "Service\\ViewModels\\ErrorVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T20:20:17.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IBaseException.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Helpers\\Exceptions\\IBaseException.cs",
+              "RelativeDocumentMoniker": "Service\\Helpers\\Exceptions\\IBaseException.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Helpers\\Exceptions\\IBaseException.cs",
+              "RelativeToolTip": "Service\\Helpers\\Exceptions\\IBaseException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T20:18:58.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GlobalExceptionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Extension\\GlobalExceptionHandler.cs",
+              "RelativeDocumentMoniker": "Final-Backend-Project\\Extension\\GlobalExceptionHandler.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Extension\\GlobalExceptionHandler.cs",
+              "RelativeToolTip": "Final-Backend-Project\\Extension\\GlobalExceptionHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwDQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T20:18:03.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Program.cs",
+              "RelativeDocumentMoniker": "Final-Backend-Project\\Program.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Program.cs",
+              "RelativeToolTip": "Final-Backend-Project\\Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAASwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T03:27:10.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Final-Backend-Project\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T12:35:40.6Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Final-Backend-Project\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\HomeController.cs*",
+              "RelativeToolTip": "Final-Backend-Project\\Controllers\\HomeController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T08:18:38.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CheckoutController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\CheckoutController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Controllers\\CheckoutController.cs",
@@ -1099,7 +1199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "Checkout.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Checkout\\Checkout.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Checkout\\Checkout.cshtml",
@@ -1111,7 +1211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\AboutUs\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\AboutUs\\Index.cshtml",
@@ -1123,7 +1223,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Basket\\Index.cshtml",
+              "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Basket\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Basket\\Index.cshtml",
+              "RelativeToolTip": "Final-Backend-Project\\Views\\Basket\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T18:43:21.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Final-Backend-Project\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAAKQAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T12:31:08.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Contact\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Contact\\Index.cshtml",
@@ -1131,12 +1255,11 @@
               "RelativeToolTip": "Final-Backend-Project\\Views\\Contact\\Index.cshtml",
               "ViewState": "AgIAAAEAAAAAAAAAAADwvyAAAAAuAQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-19T10:42:39.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T10:42:39.416Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\Components\\Advertisement\\Default.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Shared\\Components\\Advertisement\\Default.cshtml",
@@ -1148,7 +1271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "AdvertisementController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\AdvertisementController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Controllers\\AdvertisementController.cs",
@@ -1156,12 +1279,11 @@
               "RelativeToolTip": "Final-Backend-Project\\Areas\\Admin\\Controllers\\AdvertisementController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:57:52.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T02:57:52.656Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "OrderCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Order\\OrderCreateVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Order\\OrderCreateVM.cs",
@@ -1173,7 +1295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
@@ -1185,7 +1307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "UserRolesController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\UserRolesController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Controllers\\UserRolesController.cs",
@@ -1197,7 +1319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\Components\\Header\\Default.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Shared\\Components\\Header\\Default.cshtml",
@@ -1209,7 +1331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Controllers\\AccountController.cs",
@@ -1221,7 +1343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "BlogController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\BlogController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Controllers\\BlogController.cs",
@@ -1233,7 +1355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Blog\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Blog\\Index.cshtml",
@@ -1245,7 +1367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "SubscribeController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\SubscribeController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Controllers\\SubscribeController.cs",
@@ -1257,7 +1379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "SliderController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\SliderController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Controllers\\SliderController.cs",
@@ -1269,7 +1391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "SettingController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\SettingController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Controllers\\SettingController.cs",
@@ -1281,7 +1403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Controllers\\ProductController.cs",
@@ -1293,7 +1415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Controllers\\OrderController.cs",
@@ -1305,7 +1427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "FeaturedProductController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\FeaturedProductController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Controllers\\FeaturedProductController.cs",
@@ -1317,7 +1439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "ExpertController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\ExpertController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Controllers\\ExpertController.cs",
@@ -1329,7 +1451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Controllers\\DashboardController.cs",
@@ -1341,7 +1463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Controllers\\CategoryController.cs",
@@ -1353,7 +1475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "ContactController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\ContactController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Controllers\\ContactController.cs",
@@ -1365,7 +1487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "BrandController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\BrandController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Controllers\\BrandController.cs",
@@ -1377,7 +1499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 34,
               "Title": "AboutUsController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Controllers\\AboutUsController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Controllers\\AboutUsController.cs",
@@ -1389,7 +1511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 35,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\_ViewImports.cshtml",
@@ -1401,7 +1523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 39,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\ProductService.cs",
@@ -1413,7 +1535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 37,
               "Title": "BasketController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\BasketController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Controllers\\BasketController.cs",
@@ -1425,7 +1547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 40,
               "Title": "ShopController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\ShopController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Controllers\\ShopController.cs",
@@ -1437,7 +1559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 36,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shop\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Shop\\Index.cshtml",
@@ -1449,7 +1571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 44,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
@@ -1461,7 +1583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 38,
               "Title": "BasketService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\BasketService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\BasketService.cs",
@@ -1473,7 +1595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 43,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Setting\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Setting\\Index.cshtml",
@@ -1485,7 +1607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 45,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Product\\Index.cshtml",
@@ -1497,7 +1619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 46,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Order\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Order\\Index.cshtml",
@@ -1509,7 +1631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 41,
               "Title": "SortTypes.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Enum\\SortTypes.cs",
               "RelativeDocumentMoniker": "Domain\\Enum\\SortTypes.cs",
@@ -1521,7 +1643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 42,
               "Title": "PaymentStatuses.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Enum\\PaymentStatuses.cs",
               "RelativeDocumentMoniker": "Domain\\Enum\\PaymentStatuses.cs",
@@ -1533,7 +1655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 47,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\FeaturedProduct\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\FeaturedProduct\\Index.cshtml",
@@ -1545,7 +1667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 48,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Expert\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Expert\\Index.cshtml",
@@ -1557,7 +1679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 49,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Expert\\Edit.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Expert\\Edit.cshtml",
@@ -1569,7 +1691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 50,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Contact\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Contact\\Index.cshtml",
@@ -1581,7 +1703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 51,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Category\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Category\\Index.cshtml",
@@ -1593,7 +1715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 52,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Advertisement\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Advertisement\\Index.cshtml",
@@ -1605,7 +1727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 53,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
@@ -1617,7 +1739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 54,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Brand\\Detail.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Brand\\Detail.cshtml",
@@ -1629,7 +1751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 55,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\AboutUs\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\AboutUs\\Index.cshtml",
@@ -1641,7 +1763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 56,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shop\\Detail.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Shop\\Detail.cshtml",
@@ -1653,7 +1775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 57,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Slider\\Detail.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Slider\\Detail.cshtml",
@@ -1665,7 +1787,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 58,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Category\\Detail.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Category\\Detail.cshtml",
@@ -1677,7 +1799,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 59,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Blog\\Detail.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Blog\\Detail.cshtml",
@@ -1689,7 +1811,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 60,
               "Title": "SliderVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Slider\\SliderVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Slider\\SliderVM.cs",
@@ -1701,7 +1823,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 61,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Product\\Detail.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Product\\Detail.cshtml",
@@ -1713,7 +1835,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 62,
               "Title": "ProductVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Product\\ProductVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Product\\ProductVM.cs",
@@ -1725,7 +1847,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 63,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Expert\\Detail.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Expert\\Detail.cshtml",
@@ -1737,7 +1859,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 64,
               "Title": "ExpertVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Expert\\ExpertVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Expert\\ExpertVM.cs",
@@ -1749,7 +1871,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 66,
               "Title": "BrandVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Brand\\BrandVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Brand\\BrandVM.cs",
@@ -1761,7 +1883,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 67,
               "Title": "BrandEditVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Brand\\BrandEditVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Brand\\BrandEditVM.cs",
@@ -1773,7 +1895,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 65,
               "Title": "CategoryVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Category\\CategoryVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Category\\CategoryVM.cs",
@@ -1785,7 +1907,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 68,
               "Title": "BlogVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Blog\\BlogVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Blog\\BlogVM.cs",
@@ -1797,7 +1919,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 70,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\AboutUs\\Detail.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\AboutUs\\Detail.cshtml",
@@ -1809,7 +1931,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 69,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Advertisement\\Detail.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Advertisement\\Detail.cshtml",
@@ -1821,7 +1943,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 72,
               "Title": "AboutUsVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\AboutUs\\AboutUsVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\AboutUs\\AboutUsVM.cs",
@@ -1833,7 +1955,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 71,
               "Title": "AdvertisementVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Advertisement\\AdvertisementVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Advertisement\\AdvertisementVM.cs",
@@ -1845,19 +1967,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Final-Backend-Project\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-15T12:35:40.6Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 73,
               "Title": "_ProductsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\_ProductsPartial.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Shared\\_ProductsPartial.cshtml",
@@ -1869,7 +1979,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 74,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\Components\\ProductPapular\\Default.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Shared\\Components\\ProductPapular\\Default.cshtml",
@@ -1881,7 +1991,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 75,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\Components\\Product\\Default.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Shared\\Components\\Product\\Default.cshtml",
@@ -1893,7 +2003,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 76,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\Components\\FeaturedProduct\\Default.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Shared\\Components\\FeaturedProduct\\Default.cshtml",
@@ -1905,7 +2015,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 77,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\Components\\CategoryProduct\\Default.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Shared\\Components\\CategoryProduct\\Default.cshtml",
@@ -1917,7 +2027,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 78,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\Components\\Blog\\Default.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Shared\\Components\\Blog\\Default.cshtml",
@@ -1929,7 +2039,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 79,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Blog\\Detail.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Blog\\Detail.cshtml",
@@ -1941,7 +2051,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 80,
               "Title": "BlogController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\BlogController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Controllers\\BlogController.cs",
@@ -1953,7 +2063,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 81,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Blog\\Create.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Blog\\Create.cshtml",
@@ -1965,7 +2075,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 82,
               "Title": "BlogService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\BlogService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\BlogService.cs",
@@ -1977,7 +2087,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 84,
               "Title": "BlogCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Blog\\BlogCreateVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Blog\\BlogCreateVM.cs",
@@ -1989,7 +2099,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 259,
+              "DocumentIndex": 264,
               "Title": "20250626120504_BlogDetail.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Migrations\\20250626120504_BlogDetail.cs",
               "RelativeDocumentMoniker": "Repository\\Migrations\\20250626120504_BlogDetail.cs",
@@ -2001,7 +2111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 85,
               "Title": "Blog.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\Blog.cs",
               "RelativeDocumentMoniker": "Domain\\Entity\\Blog.cs",
@@ -2013,7 +2123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 83,
               "Title": "BlogEditVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Blog\\BlogEditVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Blog\\BlogEditVM.cs",
@@ -2025,19 +2135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Program.cs",
-              "RelativeDocumentMoniker": "Final-Backend-Project\\Program.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Program.cs",
-              "RelativeToolTip": "Final-Backend-Project\\Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAASwCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T03:27:10.526Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 86,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Repository\\DependencyInjection.cs",
@@ -2049,7 +2147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 87,
               "Title": "IdentityRoles.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Enum\\IdentityRoles.cs",
               "RelativeDocumentMoniker": "Domain\\Enum\\IdentityRoles.cs",
@@ -2061,7 +2159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 89,
               "Title": "Successfully.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Checkout\\Successfully.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Checkout\\Successfully.cshtml",
@@ -2073,7 +2171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 88,
               "Title": "HeaderViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\ViewComponents\\HeaderViewComponent.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\ViewComponents\\HeaderViewComponent.cs",
@@ -2085,7 +2183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 90,
               "Title": "PaymentService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\PaymentService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\PaymentService.cs",
@@ -2097,19 +2195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Final-Backend-Project\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Final-Backend-Project\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T08:18:38.023Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 91,
               "Title": "CategoryProductVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\ViewModelsUI\\CategoryProductVM.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\ViewModelsUI\\CategoryProductVM.cs",
@@ -2121,7 +2207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 93,
               "Title": "CategoryProductViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\ViewComponents\\CategoryProductViewComponent.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\ViewComponents\\CategoryProductViewComponent.cs",
@@ -2133,7 +2219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 92,
               "Title": "FeaturedProductViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\ViewComponents\\FeaturedProductViewComponent.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\ViewComponents\\FeaturedProductViewComponent.cs",
@@ -2145,7 +2231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 94,
               "Title": "ProductPapularViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\ViewComponents\\ProductPapularViewComponent.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\ViewComponents\\ProductPapularViewComponent.cs",
@@ -2157,7 +2243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 95,
               "Title": "OrderVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Order\\OrderVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Order\\OrderVM.cs",
@@ -2169,7 +2255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 100,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Repository\\Data\\AppDbContext.cs",
@@ -2181,7 +2267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 103,
               "Title": "IPaymentService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IPaymentService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\Interface\\IPaymentService.cs",
@@ -2193,7 +2279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 97,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\appsettings.json",
               "RelativeDocumentMoniker": "Final-Backend-Project\\appsettings.json",
@@ -2205,7 +2291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 101,
               "Title": "Payment.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\Payment.cs",
               "RelativeDocumentMoniker": "Domain\\Entity\\Payment.cs",
@@ -2217,7 +2303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 102,
               "Title": "PaymentCheckVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Payment\\PaymentCheckVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Payment\\PaymentCheckVM.cs",
@@ -2229,7 +2315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 96,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\Order.cs",
               "RelativeDocumentMoniker": "Domain\\Entity\\Order.cs",
@@ -2241,7 +2327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 98,
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\OrderService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\OrderService.cs",
@@ -2253,7 +2339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 99,
               "Title": "20250625053652_orderId.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Migrations\\20250625053652_orderId.cs",
               "RelativeDocumentMoniker": "Repository\\Migrations\\20250625053652_orderId.cs",
@@ -2265,7 +2351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 104,
               "Title": "20250625051840_paymetn.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Migrations\\20250625051840_paymetn.cs",
               "RelativeDocumentMoniker": "Repository\\Migrations\\20250625051840_paymetn.cs",
@@ -2277,7 +2363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 106,
               "Title": "FooterViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\ViewComponents\\FooterViewComponent.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\ViewComponents\\FooterViewComponent.cs",
@@ -2289,7 +2375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 105,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IOrderService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\Interface\\IOrderService.cs",
@@ -2301,7 +2387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 107,
               "Title": "SeedDataService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Data\\SeedDataService.cs",
               "RelativeDocumentMoniker": "Repository\\Data\\SeedDataService.cs",
@@ -2313,7 +2399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 108,
               "Title": "ServiceDependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ServiceDependencyInjection.cs",
               "RelativeDocumentMoniker": "Service\\ServiceDependencyInjection.cs",
@@ -2325,7 +2411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 109,
               "Title": "Final-Backend-Project.csproj",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Final-Backend-Project.csproj",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Final-Backend-Project.csproj",
@@ -2337,7 +2423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 110,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\OrderRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\OrderRepository.cs",
@@ -2349,7 +2435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 111,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\Interface\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\Interface\\IOrderRepository.cs",
@@ -2361,7 +2447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 112,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\ICategoryService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\Interface\\ICategoryService.cs",
@@ -2373,7 +2459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 113,
               "Title": "ContactService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\ContactService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\ContactService.cs",
@@ -2385,7 +2471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 114,
               "Title": "CrudService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Generic\\CrudService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\Generic\\CrudService.cs",
@@ -2397,7 +2483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 116,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\Product.cs",
               "RelativeDocumentMoniker": "Domain\\Entity\\Product.cs",
@@ -2409,7 +2495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 115,
               "Title": "IBasketService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IBasketService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\Interface\\IBasketService.cs",
@@ -2421,7 +2507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 117,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\CategoryService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\CategoryService.cs",
@@ -2433,7 +2519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 118,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\CategoryRepository.cs",
@@ -2445,7 +2531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 119,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\ProductRepository.cs",
@@ -2457,7 +2543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 121,
               "Title": "CardVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Basket\\CardVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Basket\\CardVM.cs",
@@ -2469,7 +2555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 120,
               "Title": "BasketItemVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Basket\\BasketItemVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Basket\\BasketItemVM.cs",
@@ -2481,7 +2567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 257,
+              "DocumentIndex": 262,
               "Title": "20250625023551_seedData.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Migrations\\20250625023551_seedData.cs",
               "RelativeDocumentMoniker": "Repository\\Migrations\\20250625023551_seedData.cs",
@@ -2493,7 +2579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 122,
               "Title": "20250625023453_seedData.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Migrations\\20250625023453_seedData.cs",
               "RelativeDocumentMoniker": "Repository\\Migrations\\20250625023453_seedData.cs",
@@ -2504,7 +2590,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 258,
+              "DocumentIndex": 263,
               "Title": "20250625021918_UpdateOrder.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Migrations\\20250625021918_UpdateOrder.cs",
               "RelativeDocumentMoniker": "Repository\\Migrations\\20250625021918_UpdateOrder.cs",
@@ -2516,7 +2602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 123,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\OrderItem.cs",
               "RelativeDocumentMoniker": "Domain\\Entity\\OrderItem.cs",
@@ -2528,7 +2614,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 125,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Account\\Register.cshtml",
@@ -2540,7 +2626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 126,
               "Title": "ProductImageService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\ProductImageService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\ProductImageService.cs",
@@ -2552,7 +2638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 124,
               "Title": "OrderItemVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\OrderItem\\OrderItemVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\OrderItem\\OrderItemVM.cs",
@@ -2564,7 +2650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 128,
               "Title": "SettingService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\SettingService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\SettingService.cs",
@@ -2576,7 +2662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 129,
               "Title": "SubscribeService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\SubscribeService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\SubscribeService.cs",
@@ -2588,7 +2674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 127,
               "Title": "MappingProfiles.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Helpers\\MappingProfiles.cs",
               "RelativeDocumentMoniker": "Service\\Helpers\\MappingProfiles.cs",
@@ -2600,7 +2686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 125,
+              "DocumentIndex": 130,
               "Title": "FeaturedProductService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\FeaturedProductService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\FeaturedProductService.cs",
@@ -2612,7 +2698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 126,
+              "DocumentIndex": 131,
               "Title": "ISubscribeService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\ISubscribeService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\Interface\\ISubscribeService.cs",
@@ -2624,7 +2710,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 127,
+              "DocumentIndex": 132,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IProductService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\Interface\\IProductService.cs",
@@ -2636,7 +2722,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 250,
+              "DocumentIndex": 255,
               "Title": "20250622152942_FeaturedProductsUpdate.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Migrations\\20250622152942_FeaturedProductsUpdate.cs",
               "RelativeDocumentMoniker": "Repository\\Migrations\\20250622152942_FeaturedProductsUpdate.cs",
@@ -2648,7 +2734,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 128,
+              "DocumentIndex": 133,
               "Title": "IFeaturedProductService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IFeaturedProductService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\Interface\\IFeaturedProductService.cs",
@@ -2660,7 +2746,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 251,
+              "DocumentIndex": 256,
               "Title": "FeaturedProduct.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\FeaturedProduct.cs",
               "RelativeDocumentMoniker": "Domain\\Entity\\FeaturedProduct.cs",
@@ -2672,7 +2758,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 129,
+              "DocumentIndex": 134,
               "Title": "BlogViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\ViewComponents\\BlogViewComponent.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\ViewComponents\\BlogViewComponent.cs",
@@ -2684,7 +2770,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 130,
+              "DocumentIndex": 135,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Product\\Create.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Product\\Create.cshtml",
@@ -2696,7 +2782,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 131,
+              "DocumentIndex": 136,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\FeaturedProduct\\Edit.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\FeaturedProduct\\Edit.cshtml",
@@ -2708,7 +2794,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 132,
+              "DocumentIndex": 137,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\FeaturedProduct\\Create.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\FeaturedProduct\\Create.cshtml",
@@ -2720,7 +2806,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 133,
+              "DocumentIndex": 138,
               "Title": "FeaturedProductEditVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\FeaturedProduct\\FeaturedProductEditVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\FeaturedProduct\\FeaturedProductEditVM.cs",
@@ -2732,7 +2818,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 135,
+              "DocumentIndex": 140,
               "Title": "FeaturedProductCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\FeaturedProduct\\FeaturedProductCreateVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\FeaturedProduct\\FeaturedProductCreateVM.cs",
@@ -2744,7 +2830,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 134,
+              "DocumentIndex": 139,
               "Title": "AdvertisementViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\ViewComponents\\AdvertisementViewComponent.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\ViewComponents\\AdvertisementViewComponent.cs",
@@ -2756,7 +2842,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 136,
+              "DocumentIndex": 141,
               "Title": "IBrandService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IBrandService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\Interface\\IBrandService.cs",
@@ -2768,7 +2854,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 252,
+              "DocumentIndex": 257,
               "Title": "StatusRepository.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\StatusRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\StatusRepository.cs",
@@ -2780,7 +2866,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 137,
+              "DocumentIndex": 142,
               "Title": "ProductImageRepository.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\ProductImageRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\ProductImageRepository.cs",
@@ -2792,7 +2878,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 138,
+              "DocumentIndex": 143,
               "Title": "IAdvertisementRepository.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\Interface\\IAdvertisementRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\Interface\\IAdvertisementRepository.cs",
@@ -2804,7 +2890,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 253,
+              "DocumentIndex": 258,
               "Title": "20250622101119_FeaturedProducts.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Migrations\\20250622101119_FeaturedProducts.Designer.cs",
               "RelativeDocumentMoniker": "Repository\\Migrations\\20250622101119_FeaturedProducts.Designer.cs",
@@ -2816,7 +2902,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 254,
+              "DocumentIndex": 259,
               "Title": "20250622101119_FeaturedProducts.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Migrations\\20250622101119_FeaturedProducts.cs",
               "RelativeDocumentMoniker": "Repository\\Migrations\\20250622101119_FeaturedProducts.cs",
@@ -2828,7 +2914,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 139,
+              "DocumentIndex": 144,
               "Title": "vendor.bundle.base.js",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Admin\\vendors\\base\\vendor.bundle.base.js",
               "RelativeDocumentMoniker": "Final-Backend-Project\\wwwroot\\Admin\\vendors\\base\\vendor.bundle.base.js",
@@ -2840,7 +2926,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 141,
+              "DocumentIndex": 146,
               "Title": "bootstrap.esm.js",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
               "RelativeDocumentMoniker": "Final-Backend-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
@@ -2852,7 +2938,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 140,
+              "DocumentIndex": 145,
               "Title": "bootstrap.bundle.js",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
               "RelativeDocumentMoniker": "Final-Backend-Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
@@ -2864,7 +2950,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 143,
+              "DocumentIndex": 148,
               "Title": "SliderService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\SliderService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\SliderService.cs",
@@ -2876,7 +2962,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 255,
+              "DocumentIndex": 260,
               "Title": "20250622061138_ProductUpdate.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Migrations\\20250622061138_ProductUpdate.cs",
               "RelativeDocumentMoniker": "Repository\\Migrations\\20250622061138_ProductUpdate.cs",
@@ -2888,7 +2974,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 146,
+              "DocumentIndex": 151,
               "Title": "WishListCardVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Wishlist\\WishListCardVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Wishlist\\WishListCardVM.cs",
@@ -2900,7 +2986,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 145,
+              "DocumentIndex": 150,
               "Title": "WishlistItem.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\WishlistItem.cs",
               "RelativeDocumentMoniker": "Domain\\Entity\\WishlistItem.cs",
@@ -2912,7 +2998,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 142,
+              "DocumentIndex": 147,
               "Title": "ProductComponent.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\ViewComponents\\ProductComponent.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\ViewComponents\\ProductComponent.cs",
@@ -2924,7 +3010,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 147,
+              "DocumentIndex": 152,
               "Title": "WishlistService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\WishlistService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\WishlistService.cs",
@@ -2936,7 +3022,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 144,
+              "DocumentIndex": 149,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Wishlist\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Wishlist\\Index.cshtml",
@@ -2948,7 +3034,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 256,
+              "DocumentIndex": 261,
               "Title": "20250622000450_PaymentOrderOrderItem.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Migrations\\20250622000450_PaymentOrderOrderItem.cs",
               "RelativeDocumentMoniker": "Repository\\Migrations\\20250622000450_PaymentOrderOrderItem.cs",
@@ -2960,7 +3046,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 148,
+              "DocumentIndex": 153,
               "Title": "WishlistController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\WishlistController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Controllers\\WishlistController.cs",
@@ -2972,7 +3058,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 149,
+              "DocumentIndex": 154,
               "Title": "style.css.map",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\wwwroot\\Assets\\CSS\\style.css.map",
               "RelativeDocumentMoniker": "Final-Backend-Project\\wwwroot\\Assets\\CSS\\style.css.map",
@@ -2984,7 +3070,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 150,
+              "DocumentIndex": 155,
               "Title": "ExpertService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\ExpertService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\ExpertService.cs",
@@ -2996,7 +3082,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 151,
+              "DocumentIndex": 156,
               "Title": "BrandService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\BrandService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\BrandService.cs",
@@ -3008,7 +3094,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 152,
+              "DocumentIndex": 157,
               "Title": "AdvertisementService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\AdvertisementService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\AdvertisementService.cs",
@@ -3020,7 +3106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 153,
+              "DocumentIndex": 158,
               "Title": "AboutUsService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\AboutUsService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\AboutUsService.cs",
@@ -3032,7 +3118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 249,
+              "DocumentIndex": 254,
               "Title": "CategoryWithProductCountVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Category\\CategoryWithProductCountVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Category\\CategoryWithProductCountVM.cs",
@@ -3044,7 +3130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 154,
+              "DocumentIndex": 159,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\Components\\Category\\Default.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Shared\\Components\\Category\\Default.cshtml",
@@ -3056,7 +3142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 155,
+              "DocumentIndex": 160,
               "Title": "CategoryCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Category\\CategoryCreateVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Category\\CategoryCreateVM.cs",
@@ -3068,7 +3154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 156,
+              "DocumentIndex": 161,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\Components\\Footer\\Default.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Shared\\Components\\Footer\\Default.cshtml",
@@ -3080,7 +3166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 157,
+              "DocumentIndex": 162,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\Components\\Slider\\Default.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Shared\\Components\\Slider\\Default.cshtml",
@@ -3092,7 +3178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 158,
+              "DocumentIndex": 163,
               "Title": "SliderViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\ViewComponents\\SliderViewComponent.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\ViewComponents\\SliderViewComponent.cs",
@@ -3104,7 +3190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 159,
+              "DocumentIndex": 164,
               "Title": "BrandViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\ViewComponents\\BrandViewComponent.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\ViewComponents\\BrandViewComponent.cs",
@@ -3116,7 +3202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 160,
+              "DocumentIndex": 165,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Shared\\Components\\Brand\\Default.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Shared\\Components\\Brand\\Default.cshtml",
@@ -3128,7 +3214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 162,
+              "DocumentIndex": 167,
               "Title": "ConfirmEmail.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Account\\ConfirmEmail.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Account\\ConfirmEmail.cshtml",
@@ -3140,7 +3226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 163,
+              "DocumentIndex": 168,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Account\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Account\\ForgotPassword.cshtml",
@@ -3152,7 +3238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 164,
+              "DocumentIndex": 169,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Account\\Login.cshtml",
@@ -3164,7 +3250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 161,
+              "DocumentIndex": 166,
               "Title": "ResetPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Account\\ResetPassword.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Account\\ResetPassword.cshtml",
@@ -3176,7 +3262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 165,
+              "DocumentIndex": 170,
               "Title": "ResetPasswordVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Account\\ResetPasswordVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Account\\ResetPasswordVM.cs",
@@ -3188,7 +3274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 166,
+              "DocumentIndex": 171,
               "Title": "ForgotPasswordVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Account\\ForgotPasswordVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Account\\ForgotPasswordVM.cs",
@@ -3200,7 +3286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 168,
+              "DocumentIndex": 173,
               "Title": "Advertisement.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\Advertisement.cs",
               "RelativeDocumentMoniker": "Domain\\Entity\\Advertisement.cs",
@@ -3212,7 +3298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 167,
+              "DocumentIndex": 172,
               "Title": "AboutUsController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\AboutUsController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Controllers\\AboutUsController.cs",
@@ -3224,7 +3310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 173,
+              "DocumentIndex": 178,
               "Title": "UserWithRoleVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\User\\UserWithRoleVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\User\\UserWithRoleVM.cs",
@@ -3236,7 +3322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 172,
+              "DocumentIndex": 177,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\UserRoles\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\UserRoles\\Index.cshtml",
@@ -3248,7 +3334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 171,
+              "DocumentIndex": 176,
               "Title": "ChangeRole.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\UserRoles\\ChangeRole.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\UserRoles\\ChangeRole.cshtml",
@@ -3260,7 +3346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 169,
+              "DocumentIndex": 174,
               "Title": "AboutUsUiVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\ViewModelsUI\\AboutUsUiVM.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\ViewModelsUI\\AboutUsUiVM.cs",
@@ -3272,7 +3358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 174,
+              "DocumentIndex": 179,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Contact\\Detail.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Contact\\Detail.cshtml",
@@ -3284,7 +3370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 170,
+              "DocumentIndex": 175,
               "Title": "ContactController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\ContactController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Controllers\\ContactController.cs",
@@ -3296,7 +3382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 178,
+              "DocumentIndex": 183,
               "Title": "ContactVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Contact\\ContactVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Contact\\ContactVM.cs",
@@ -3308,7 +3394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 175,
+              "DocumentIndex": 180,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Category\\Create.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Category\\Create.cshtml",
@@ -3320,7 +3406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 176,
+              "DocumentIndex": 181,
               "Title": "Answer.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Contact\\Answer.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Contact\\Answer.cshtml",
@@ -3332,7 +3418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 177,
+              "DocumentIndex": 182,
               "Title": "ContactCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Contact\\ContactCreateVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Contact\\ContactCreateVM.cs",
@@ -3344,7 +3430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 179,
+              "DocumentIndex": 184,
               "Title": "IContactService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IContactService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\Interface\\IContactService.cs",
@@ -3356,7 +3442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 248,
+              "DocumentIndex": 253,
               "Title": "20250620065737_ContactIsAnswer.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Migrations\\20250620065737_ContactIsAnswer.cs",
               "RelativeDocumentMoniker": "Repository\\Migrations\\20250620065737_ContactIsAnswer.cs",
@@ -3368,7 +3454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 181,
+              "DocumentIndex": 186,
               "Title": "HeaderVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\ViewModelsUI\\HeaderVM.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\ViewModelsUI\\HeaderVM.cs",
@@ -3380,7 +3466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 180,
+              "DocumentIndex": 185,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\Contact.cs",
               "RelativeDocumentMoniker": "Domain\\Entity\\Contact.cs",
@@ -3392,7 +3478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 182,
+              "DocumentIndex": 187,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\EmailService.cs",
@@ -3404,7 +3490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 183,
+              "DocumentIndex": 188,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IEmailService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\Interface\\IEmailService.cs",
@@ -3416,7 +3502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 184,
+              "DocumentIndex": 189,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\Interface\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\Interface\\ICategoryRepository.cs",
@@ -3428,7 +3514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 246,
+              "DocumentIndex": 251,
               "Title": "20250619113850_BasketWishlist.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Migrations\\20250619113850_BasketWishlist.cs",
               "RelativeDocumentMoniker": "Repository\\Migrations\\20250619113850_BasketWishlist.cs",
@@ -3440,7 +3526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 185,
+              "DocumentIndex": 190,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\Category.cs",
               "RelativeDocumentMoniker": "Domain\\Entity\\Category.cs",
@@ -3452,7 +3538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 186,
+              "DocumentIndex": 191,
               "Title": "IAdvertisementService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IAdvertisementService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\Interface\\IAdvertisementService.cs",
@@ -3464,7 +3550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 187,
+              "DocumentIndex": 192,
               "Title": "ContactRepository.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\ContactRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\ContactRepository.cs",
@@ -3476,7 +3562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 189,
+              "DocumentIndex": 194,
               "Title": "ISliderRepository.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\Interface\\ISliderRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\Interface\\ISliderRepository.cs",
@@ -3488,7 +3574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 247,
+              "DocumentIndex": 252,
               "Title": "20250619095757_Contact.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Migrations\\20250619095757_Contact.cs",
               "RelativeDocumentMoniker": "Repository\\Migrations\\20250619095757_Contact.cs",
@@ -3500,7 +3586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 190,
+              "DocumentIndex": 195,
               "Title": "Setting.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\Setting.cs",
               "RelativeDocumentMoniker": "Domain\\Entity\\Setting.cs",
@@ -3512,7 +3598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 188,
+              "DocumentIndex": 193,
               "Title": "BlogRepository.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\BlogRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\BlogRepository.cs",
@@ -3524,7 +3610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 191,
+              "DocumentIndex": 196,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Views\\Blog\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Views\\Blog\\Index.cshtml",
@@ -3536,7 +3622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 192,
+              "DocumentIndex": 197,
               "Title": "IBlogService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IBlogService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\Interface\\IBlogService.cs",
@@ -3548,7 +3634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 195,
+              "DocumentIndex": 200,
               "Title": "SubscribeCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Subscribe\\SubscribeCreateVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Subscribe\\SubscribeCreateVM.cs",
@@ -3560,7 +3646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 194,
+              "DocumentIndex": 199,
               "Title": "SubscribeEditVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Subscribe\\SubscribeEditVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Subscribe\\SubscribeEditVM.cs",
@@ -3572,7 +3658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 196,
+              "DocumentIndex": 201,
               "Title": "SliderEditVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Slider\\SliderEditVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Slider\\SliderEditVM.cs",
@@ -3584,7 +3670,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 193,
+              "DocumentIndex": 198,
               "Title": "SubscribeVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Subscribe\\SubscribeVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Subscribe\\SubscribeVM.cs",
@@ -3596,7 +3682,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 197,
+              "DocumentIndex": 202,
               "Title": "SliderCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Slider\\SliderCreateVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Slider\\SliderCreateVM.cs",
@@ -3608,7 +3694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 198,
+              "DocumentIndex": 203,
               "Title": "SettingVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Setting\\SettingVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Setting\\SettingVM.cs",
@@ -3620,7 +3706,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 199,
+              "DocumentIndex": 204,
               "Title": "SettingEditVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Setting\\SettingEditVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Setting\\SettingEditVM.cs",
@@ -3632,7 +3718,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 200,
+              "DocumentIndex": 205,
               "Title": "SettingCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Setting\\SettingCreateVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Setting\\SettingCreateVM.cs",
@@ -3644,7 +3730,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 201,
+              "DocumentIndex": 206,
               "Title": "ProductImageVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\ProductImage\\ProductImageVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\ProductImage\\ProductImageVM.cs",
@@ -3656,7 +3742,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 202,
+              "DocumentIndex": 207,
               "Title": "ProductImageEditVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\ProductImage\\ProductImageEditVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\ProductImage\\ProductImageEditVM.cs",
@@ -3668,7 +3754,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 203,
+              "DocumentIndex": 208,
               "Title": "AdvertisementCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Advertisement\\AdvertisementCreateVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Advertisement\\AdvertisementCreateVM.cs",
@@ -3680,7 +3766,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 204,
+              "DocumentIndex": 209,
               "Title": "AboutUsEditVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\AboutUs\\AboutUsEditVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\AboutUs\\AboutUsEditVM.cs",
@@ -3692,7 +3778,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 205,
+              "DocumentIndex": 210,
               "Title": "ProductImageCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\ProductImage\\ProductImageCreateVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\ProductImage\\ProductImageCreateVM.cs",
@@ -3704,7 +3790,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 206,
+              "DocumentIndex": 211,
               "Title": "ProductEditVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Product\\ProductEditVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Product\\ProductEditVM.cs",
@@ -3716,7 +3802,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 207,
+              "DocumentIndex": 212,
               "Title": "ProductCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Product\\ProductCreateVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Product\\ProductCreateVM.cs",
@@ -3728,7 +3814,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 208,
+              "DocumentIndex": 213,
               "Title": "ExpertEditVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Expert\\ExpertEditVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Expert\\ExpertEditVM.cs",
@@ -3740,7 +3826,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 209,
+              "DocumentIndex": 214,
               "Title": "ExpertCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Expert\\ExpertCreateVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Expert\\ExpertCreateVM.cs",
@@ -3752,7 +3838,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 210,
+              "DocumentIndex": 215,
               "Title": "CategoryEditVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Category\\CategoryEditVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Category\\CategoryEditVM.cs",
@@ -3764,7 +3850,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 211,
+              "DocumentIndex": 216,
               "Title": "BrandCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Brand\\BrandCreateVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Brand\\BrandCreateVM.cs",
@@ -3776,7 +3862,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 212,
+              "DocumentIndex": 217,
               "Title": "AdvertisementEditVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Advertisement\\AdvertisementEditVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Advertisement\\AdvertisementEditVM.cs",
@@ -3788,7 +3874,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 213,
+              "DocumentIndex": 218,
               "Title": "AboutUsCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\AboutUs\\AboutUsCreateVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\AboutUs\\AboutUsCreateVM.cs",
@@ -3800,7 +3886,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 214,
+              "DocumentIndex": 219,
               "Title": "ICrudService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\Generic\\ICrudService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\Interface\\Generic\\ICrudService.cs",
@@ -3812,7 +3898,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 215,
+              "DocumentIndex": 220,
               "Title": "RegisterVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Account\\RegisterVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Account\\RegisterVM.cs",
@@ -3824,7 +3910,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 216,
+              "DocumentIndex": 221,
               "Title": "LoginVM.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\ViewModels\\Account\\LoginVM.cs",
               "RelativeDocumentMoniker": "Service\\ViewModels\\Account\\LoginVM.cs",
@@ -3836,7 +3922,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 217,
+              "DocumentIndex": 222,
               "Title": "CloudinaryManager.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\CloudinaryManager.cs",
               "RelativeDocumentMoniker": "Service\\Services\\CloudinaryManager.cs",
@@ -3848,7 +3934,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 218,
+              "DocumentIndex": 223,
               "Title": "AccountService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\AccountService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\AccountService.cs",
@@ -3860,7 +3946,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 221,
+              "DocumentIndex": 226,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Expert\\Create.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Expert\\Create.cshtml",
@@ -3872,7 +3958,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 219,
+              "DocumentIndex": 224,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\AboutUs\\Edit.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\AboutUs\\Edit.cshtml",
@@ -3884,7 +3970,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 220,
+              "DocumentIndex": 225,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\AboutUs\\Create.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\AboutUs\\Create.cshtml",
@@ -3896,7 +3982,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 222,
+              "DocumentIndex": 227,
               "Title": "IAboutUsService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IAboutUsService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\Interface\\IAboutUsService.cs",
@@ -3908,7 +3994,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 223,
+              "DocumentIndex": 228,
               "Title": "IExpertService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\IExpertService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\Interface\\IExpertService.cs",
@@ -3920,7 +4006,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 224,
+              "DocumentIndex": 229,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Advertisement\\Edit.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Advertisement\\Edit.cshtml",
@@ -3932,7 +4018,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 226,
+              "DocumentIndex": 231,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Brand\\Create.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Brand\\Create.cshtml",
@@ -3944,7 +4030,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 225,
+              "DocumentIndex": 230,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Advertisement\\Create.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Advertisement\\Create.cshtml",
@@ -3956,7 +4042,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 243,
+              "DocumentIndex": 248,
               "Title": "AboutUs.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\AboutUs.cs",
               "RelativeDocumentMoniker": "Domain\\Entity\\AboutUs.cs",
@@ -3968,7 +4054,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 244,
+              "DocumentIndex": 249,
               "Title": "Expert.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\Expert.cs",
               "RelativeDocumentMoniker": "Domain\\Entity\\Expert.cs",
@@ -3980,7 +4066,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 227,
+              "DocumentIndex": 232,
               "Title": "IBrandRepository.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\Interface\\IBrandRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\Interface\\IBrandRepository.cs",
@@ -3992,7 +4078,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 228,
+              "DocumentIndex": 233,
               "Title": "BrandRepository.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\BrandRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\BrandRepository.cs",
@@ -4004,7 +4090,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 245,
+              "DocumentIndex": 250,
               "Title": "20250617183005_ExpertAdvertistmentAboutUs.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Migrations\\20250617183005_ExpertAdvertistmentAboutUs.cs",
               "RelativeDocumentMoniker": "Repository\\Migrations\\20250617183005_ExpertAdvertistmentAboutUs.cs",
@@ -4016,7 +4102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 229,
+              "DocumentIndex": 234,
               "Title": "SubscribeController.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Controllers\\SubscribeController.cs",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Controllers\\SubscribeController.cs",
@@ -4028,7 +4114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 231,
+              "DocumentIndex": 236,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Subscribe\\Index.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Subscribe\\Index.cshtml",
@@ -4040,7 +4126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 230,
+              "DocumentIndex": 235,
               "Title": "Subscribe.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Domain\\Entity\\Subscribe.cs",
               "RelativeDocumentMoniker": "Domain\\Entity\\Subscribe.cs",
@@ -4052,7 +4138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 242,
+              "DocumentIndex": 247,
               "Title": "20250615161752_Subscribe.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Migrations\\20250615161752_Subscribe.cs",
               "RelativeDocumentMoniker": "Repository\\Migrations\\20250615161752_Subscribe.cs",
@@ -4064,7 +4150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 232,
+              "DocumentIndex": 237,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Setting\\Edit.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Setting\\Edit.cshtml",
@@ -4076,7 +4162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 234,
+              "DocumentIndex": 239,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Setting\\Create.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Setting\\Create.cshtml",
@@ -4088,7 +4174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 235,
+              "DocumentIndex": 240,
               "Title": "ISettingService.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Services\\Interface\\ISettingService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\Interface\\ISettingService.cs",
@@ -4100,7 +4186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 237,
+              "DocumentIndex": 242,
               "Title": "ISettingRepository.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\Interface\\ISettingRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\Interface\\ISettingRepository.cs",
@@ -4112,7 +4198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 236,
+              "DocumentIndex": 241,
               "Title": "SettingRepository.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\SettingRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\SettingRepository.cs",
@@ -4124,7 +4210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 238,
+              "DocumentIndex": 243,
               "Title": "FileHelper.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Service\\Helpers\\FileHelper.cs",
               "RelativeDocumentMoniker": "Service\\Helpers\\FileHelper.cs",
@@ -4136,7 +4222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 233,
+              "DocumentIndex": 238,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
@@ -4148,7 +4234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 239,
+              "DocumentIndex": 244,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Final-Backend-Project\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
               "RelativeDocumentMoniker": "Final-Backend-Project\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
@@ -4160,7 +4246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 240,
+              "DocumentIndex": 245,
               "Title": "IBlogRepository.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Repositories\\Interface\\IBlogRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\Interface\\IBlogRepository.cs",
@@ -4172,7 +4258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 241,
+              "DocumentIndex": 246,
               "Title": "20250615104415_brand.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\source\\repos\\Final-Backend-Project\\Repository\\Migrations\\20250615104415_brand.cs",
               "RelativeDocumentMoniker": "Repository\\Migrations\\20250615104415_brand.cs",

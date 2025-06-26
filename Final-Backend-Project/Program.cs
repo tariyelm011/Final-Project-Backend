@@ -1,4 +1,5 @@
 using Domain.Entity;
+using Final_Backend_Project.Extension;
 using Microsoft.AspNetCore.Identity;
 using Repository;
 using Repository.Data;
@@ -38,6 +39,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+app.UseMiddleware<GlobalExceptionHandler>();
 
 
 app.UseHttpsRedirection();
