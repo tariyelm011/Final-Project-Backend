@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Service.Dtos.Category;
+using Service.Services;
 using Service.Services.Interface;
 
 namespace Final_Backend_Project.Areas.Admin.Controllers
@@ -53,7 +54,11 @@ namespace Final_Backend_Project.Areas.Admin.Controllers
             await _categoryService.UpdateAsync(dto);
             return RedirectToAction("index");
         }
-
+        public async Task<IActionResult> Detail(int id)
+        {
+            var category = await _categoryService.GetAsync(x => x.Id == id);
+            return View(category);
+        }
         public async Task<IActionResult> Delete(int id)
         {
             var delete = await _categoryService.DeleteAsync(id);

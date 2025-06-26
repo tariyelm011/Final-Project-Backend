@@ -2,7 +2,6 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Repository.Data;
-using Repository.DataInitalizers;
 using Repository.Repositories;
 using Repository.Repositories.Generic;
 using Repository.Repositories.Interface;
@@ -14,7 +13,6 @@ public static class DependencyInjection
 {
     public static IServiceCollection AddRepositoryLayer(this IServiceCollection services, IConfiguration configuration)
     {
-        services.AddScoped<DbContextInitalizer>();
 
         services.AddDbContext<AppDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("Default")));
 

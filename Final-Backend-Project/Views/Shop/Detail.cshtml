@@ -1,0 +1,133 @@
+﻿@using Service.Dtos.Product
+@model ProductVM
+
+<main class="product-details">
+    <section id="product-detail">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 co-lg-6 product-img">
+                    <img src="@Model.ImageUrl" alt="">
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 co-lg-6 mt-30">
+                    <div class="product-title">
+                        <p>Stok: <span>@Model.Stock</span></p>
+                      
+                    </div>
+                    <div class="product-info">
+                        <h1>@Model.Name</h1>
+                        <h2>$@Model.Price</h2>
+                    </div>
+                    <div class="product-buy">
+                        <div class="product-buy-quantity">
+                           
+                          
+                        </div>
+                       
+                        <div class ="product-buy-btn">
+
+                            <a href="javascript:void(0);" class="quantity-add add-to-basket" data-product-id="@Model.Id">
+                                ADD TO CART
+                            </a>
+
+
+                        </div>
+                    </div>
+                    <div class="product-accordion">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                        <i class="bi bi-star"></i>
+                                        Product Description
+
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                     data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                          @Model.Description
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                        <i class="bi bi-question-circle"></i>
+                                        Our Privacy policy
+
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                     data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Shipping cost is based on weight. Just add products to your cart and use
+                                            the Shipping Calculator to see the shipping price.
+
+                                            We want you to be 100% satisfied with your purchase. Items can be
+                                            returned or exchanged within 30 days of delivery.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="product-us">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+
+                    <video height="100%" width="100%" controls="controls">
+  <source src="@Model.VideoUrl"  type="video/mp4" />
+
+</video>
+
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                    <div class="product-us-title">
+                        <h2>Why Choose Us?</h2>
+                        <p>
+                            We believe you get out what you put in —
+                            that’s why our products are made with the highest standards of quality.
+                        </p>
+                        <div class="product-us-title-area">
+                            <div class="area-text">
+                                <h3>Premium Quality</h3>
+                                <p>Premium Quality</p>
+                            </div>
+                            <div class="area-text">
+                                <h3>Trust & Transparency</h3>
+                                <p>Highlight ingredients, benefits, and certifications clearly, ensuring confidence in every purchase.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<style>
+
+    .quantity-add {
+        background: none;
+        border: none;
+        color: inherit;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+        text-decoration: underline; 
+    }
+
+
+</style>

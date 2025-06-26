@@ -2,7 +2,6 @@ using Domain.Entity;
 using Microsoft.AspNetCore.Identity;
 using Repository;
 using Repository.Data;
-using Repository.DataInitalizers;
 using Service;
 
 
@@ -39,11 +38,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-using (var scope = app.Services.CreateScope())
-{
-    var initializer = scope.ServiceProvider.GetRequiredService<DbContextInitalizer>();
-    await initializer.InitDatabaseAsync();
-}
+
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

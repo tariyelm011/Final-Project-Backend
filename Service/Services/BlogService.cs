@@ -62,6 +62,7 @@ public class BlogService : CrudService<Blog, BlogCreateVM, BlogEditVM, BlogVM>, 
 
              Title= dto.Title,
             Content = dto.Content,
+            Description = dto.Description,
             ImageUrl = imagePath,
             CreatedDate = DateTime.UtcNow,
             EditDate = DateTime.UtcNow,
@@ -83,7 +84,7 @@ public class BlogService : CrudService<Blog, BlogCreateVM, BlogEditVM, BlogVM>, 
             throw new NotFoundException("Not Found");
         }
 
-        var blopUpdateDto = new BlogEditVM { Id = blog.Id, Title = blog.Title, Content = blog.Content, ImageUrl = blog.ImageUrl };
+        var blopUpdateDto = new BlogEditVM { Id = blog.Id, Title = blog.Title, Content = blog.Content, ImageUrl = blog.ImageUrl,Description = blog.Description };
 
         return blopUpdateDto;
 
@@ -99,7 +100,7 @@ public class BlogService : CrudService<Blog, BlogCreateVM, BlogEditVM, BlogVM>, 
 
         bool isSameData =
             existingBlog.Title == dto.Title &&
-            existingBlog.Content == dto.Content &&
+            existingBlog.Content == dto.Content && existingBlog.Description == dto.Description &&
             dto.Image == null;
 
         if (isSameData)
@@ -118,6 +119,7 @@ public class BlogService : CrudService<Blog, BlogCreateVM, BlogEditVM, BlogVM>, 
 
         existingBlog.Title = dto.Title;
         existingBlog.Content = dto.Content;
+        existingBlog.Description = dto.Description;
         existingBlog.ImageUrl = imagePath;
         existingBlog.EditDate = DateTime.UtcNow;
 

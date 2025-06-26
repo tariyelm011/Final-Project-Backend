@@ -1,0 +1,64 @@
+﻿@model Service.Dtos.Slider.SliderVM
+
+<section class="slider-detail-section d-flex align-items-center justify-content-center py-5">
+    <div class="glass-slider-card w-100 mx-3 mx-md-5 p-5 rounded-4 shadow-lg text-white text-center">
+
+        <h1 class="mb-3 fw-bold">@Model.BoldWrite</h1>
+        <h4 class="mb-4 fw-light">@Model.LightWrite</h4>
+
+        <img src="@Model.Image"
+             alt="Slider Image"
+             class="img-fluid rounded-4 border border-light-subtle mb-4"
+             style="max-height: 450px; object-fit: cover; width: 100%;" />
+
+        <a href="#" class="btn btn-light px-4 py-2 fw-bold">@Model.ButtonWrite</a>
+
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6 text-start">
+                <p><strong>Create date:</strong> @Model.CreatedDate.ToString("dd.MM.yyyy")</p>
+                <p><strong>Update date:</strong> @(Model.EditDate?.ToString("dd.MM.yyyy") ?? "N/A")</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .slider-detail-section {
+        background: linear-gradient(135deg, #7f5af0, #a78bfa);
+        min-height: 100vh;
+    }
+
+    .glass-slider-card {
+        background: rgba(255, 255, 255, 0.06);
+        backdrop-filter: blur(14px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        max-width: 1200px;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+        font-weight: bold;
+    }
+
+    h4 {
+        font-size: 1.6rem;
+        font-weight: 300;
+    }
+
+    p {
+        font-size: 1.1rem;
+        line-height: 1.7;
+    }
+
+    .btn-light {
+        background-color: #ffffff;
+        color: #000;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
+
+    .btn-light:hover {
+        background-color: #f0f0f0;
+        color: #000;
+    }
+</style>

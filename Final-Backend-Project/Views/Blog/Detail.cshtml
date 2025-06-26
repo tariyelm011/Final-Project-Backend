@@ -15,13 +15,12 @@
                                 @(Model.CreatedDate.HasValue ? Model.CreatedDate.Value.ToString("MMM dd, yyyy") : "")
                             </span>
                         </h2>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. Store your odds and ends in a breezy, beach house style with these stylish agora bins! Handcrafted of 100% jute for a natural, casual feel, these baskets are perfect for plants, laundry, toys…</p>
-                        <p>As important as dreams are, they arent enough. Dreams don’t take you where you want to go.</p>
+                        <p>@Model.Content</p>
                         <img src="@Model.ImageUrl" alt="">
                         <div class="detail-info-warning">
-                            <p>Bethany Hamilton lives in Hawaii — her passion is surfing — her dream is to become a professional surfer. She spends every available minute in the water, even home-schooling so she can have more time to pursue her vision. At 8 years of age she entered her first major competition taking the division championships that year.</p>
+                          
                         </div>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. Store your odds and ends in a breezy, beach house style with these stylish agora bins! Handcrafted of 100% jute for a natural, casual feel, these baskets are perfect for plants, laundry, toys…</p>
+                        <p>@Model.Description</p>
                         <ul>
                             <li><a href=""><i class="bi bi-facebook"></i> Facebook</a></li>
                             <li><a href=""><i class="bi bi-twitter-x"></i> Twitter</a></li>

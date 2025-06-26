@@ -1,0 +1,43 @@
+﻿@model Service.Dtos.Expert.ExpertVM
+
+<section class="expert-full-card d-flex align-items-center justify-content-center py-5">
+    <div class="expert-inner-card text-center text-white p-4 rounded-4 shadow-lg w-100">
+        <img src="@Model.Image" alt="@Model.Name" class="img-fluid rounded-circle mb-4 expert-img" />
+        <h2 class="fw-bold mb-2">@Model.Name</h2>
+        <h5 class="text-light-emphasis">@Model.Job</h5>
+    </div>
+</section>
+
+<style>
+    .expert-full-card {
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(135deg, #7f5af0, #a78bfa);
+        margin: 0;
+        padding: 0;
+    }
+
+    .expert-inner-card {
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .expert-img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border: 4px solid white;
+    }
+
+    h2, h5 {
+        margin: 0;
+    }
+</style>

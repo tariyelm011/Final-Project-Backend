@@ -22,14 +22,10 @@
                             
                                @foreach (var p1 in group1)
                                 {
-                                    <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="col">
                                         <div class="card">
-                                            <a href="#">
-                                                <img href
-                                                     src="@p1.ImageUrl"
-                                                     class="card-img-top"
-                                                     alt="..." />
-                                            </a>
+                                            <a asp-action="detail" asp-controller="shop" asp-route-id="@p1.Id"><img src="@p1.ImageUrl" class="card-img-top" alt="..."></a>
+
                                             <div class="cart-shortcut">
                                                 <ul>
                                                     <li>
@@ -37,9 +33,7 @@
                                                             <i class="bi bi-heart"></i>
                                                         </button>
                                                     </li>
-                                                    <li>
-                                                        <button><i class="bi bi-eye"></i></button>
-                                                    </li>
+                                                  
                                                     <li>
                                                         <button class="add-to-basket" data-product-id="@p1.Id">
                                                             <i class="bi bi-basket2-fill"></i>
@@ -47,12 +41,11 @@
                                                     </li>
                                                 </ul>
                                             </div>
+
                                             <div class="card-body">
-                                                <span>
-                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
-                                                </span>
+
                                                 <h5 class="card-title">@p1.Name</h5>
-                                                <p class="card-text">$@p1.Price</p>
+                                                <p class="card-text">@p1.Price</p>
                                             </div>
                                         </div>
                                     </div>
@@ -64,35 +57,30 @@
 
                                 @foreach (var p2 in group2)
                                 {
-                                    <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="col">
                                         <div class="card">
-                                            <a href="#">
-                                                <img href
-                                                     src="@p2.ImageUrl"
-                                                     class="card-img-top"
-                                                     alt="..." />
-                                            </a>
+                                            <a asp-action="detail" asp-controller="shop" asp-route-id="@p2.Id"><img src="@p2.ImageUrl" class="card-img-top" alt="..."></a>
+
                                             <div class="cart-shortcut">
-                                                <li>
-                                                    <button class="add-to-wishlist" data-product-id="@p2.Id">
-                                                        <i class="bi bi-heart"></i>
-                                                    </button>
-                                                </li>
-                                                <li>
-                                                    <button><i class="bi bi-eye"></i></button>
-                                                </li>
-                                                <li>
-                                                    <button class="add-to-basket" data-product-id="@p2.Id">
-                                                        <i class="bi bi-basket2-fill"></i>
-                                                    </button>
-                                                </li>
+                                                <ul>
+                                                    <li>
+                                                        <button class="add-to-wishlist" data-product-id="@p2.Id">
+                                                            <i class="bi bi-heart"></i>
+                                                        </button>
+                                                    </li>
+                                                   
+                                                    <li>
+                                                        <button class="add-to-basket" data-product-id="@p2.Id">
+                                                            <i class="bi bi-basket2-fill"></i>
+                                                        </button>
+                                                    </li>
+                                                </ul>
                                             </div>
+
                                             <div class="card-body">
-                                                <span>
-                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
-                                                </span>
+
                                                 <h5 class="card-title">@p2.Name</h5>
-                                                <p class="card-text">$@p2.Price</p>
+                                                <p class="card-text">@p2.Price</p>
                                             </div>
                                         </div>
                                     </div>
@@ -104,14 +92,10 @@
 
                                 @foreach (var p1 in group3)
                                 {
-                                    <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="col">
                                         <div class="card">
-                                            <a href="#">
-                                                <img href
-                                                     src="@p1.ImageUrl"
-                                                     class="card-img-top"
-                                                     alt="..." />
-                                            </a>
+                                            <a asp-action="detail" asp-controller="shop" asp-route-id="@p1.Id"><img src="@p1.ImageUrl" class="card-img-top" alt="..."></a>
+
                                             <div class="cart-shortcut">
                                                 <ul>
                                                     <li>
@@ -119,9 +103,7 @@
                                                             <i class="bi bi-heart"></i>
                                                         </button>
                                                     </li>
-                                                    <li>
-                                                        <button><i class="bi bi-eye"></i></button>
-                                                    </li>
+                                                  
                                                     <li>
                                                         <button class="add-to-basket" data-product-id="@p1.Id">
                                                             <i class="bi bi-basket2-fill"></i>
@@ -129,12 +111,11 @@
                                                     </li>
                                                 </ul>
                                             </div>
+
                                             <div class="card-body">
-                                                <span>
-                                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
-                                                </span>
+
                                                 <h5 class="card-title">@p1.Name</h5>
-                                                <p class="card-text">$@p1.Price</p>
+                                                <p class="card-text">@p1.Price</p>
                                             </div>
                                         </div>
                                     </div>

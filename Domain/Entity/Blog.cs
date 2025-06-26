@@ -8,6 +8,7 @@ public class Blog : BaseEntity
     public AppUser AppUser { get; set; } = null!;
     public string Title { get; set; } = null!;
     public string Content { get; set; } = null!;
+    public string Description { get; set; } = null!;
     public string ImageUrl { get; set; } = null!;
     public DateTime? CreatedDate { get; set; }
     public DateTime? EditDate { get; set; }

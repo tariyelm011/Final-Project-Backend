@@ -21,8 +21,8 @@ public class AboutUsController : Controller
 
     public async Task<IActionResult> Index()
     {
-        var experts = await _aboutUsService.GetAllAsync();
-        return View(experts);
+        var about = await _aboutUsService.GetAllAsync();
+        return View(about);
     }
 
     public IActionResult Create()
@@ -41,6 +41,11 @@ public class AboutUsController : Controller
 
     }
 
+    public async Task<IActionResult> Detail(int id)
+    {
+        var about = await _aboutUsService.GetAsync(x=>x.Id == id);
+        return View(about);
+    }
 
     public async Task<IActionResult> Edit(int id)
     {

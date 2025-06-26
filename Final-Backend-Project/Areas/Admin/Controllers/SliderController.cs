@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Service.Dtos.Slider;
+using Service.Services;
 using Service.Services.Interface;
 
 namespace Final_Backend_Project.Areas.Admin.Controllers;
@@ -50,6 +51,11 @@ public class SliderController : Controller
         await _sliderService.UpdateAsync(dto);
 
         return RedirectToAction("Index");
+    }
+    public async Task<IActionResult> Detail(int id)
+    {
+        var slider = await _sliderService.GetAsync(x => x.Id == id);
+        return View(slider);
     }
 
     public async Task<IActionResult> Delete(int id)

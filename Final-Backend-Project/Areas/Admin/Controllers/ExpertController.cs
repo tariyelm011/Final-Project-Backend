@@ -51,7 +51,11 @@ public class ExpertController : Controller
         return RedirectToAction("index");
 
     }
-
+    public async Task<IActionResult> Detail(int id)
+    {
+        var expert = await _expertService.GetAsync(x => x.Id == id);
+        return View(expert);
+    }
     public async Task<IActionResult> Delete(int id)
     {
         var delete = await _expertService.DeleteAsync(id);

@@ -38,7 +38,11 @@ public class BrandController : Controller
         await _brandService.CreateAsync(dto);
         return RedirectToAction("index");
     }
-
+    public async Task<IActionResult> Detail(int id)
+    {
+        var brand = await _brandService.GetAsync(x => x.Id == id);
+        return View(brand);
+    }
     public async Task<IActionResult> Edit(int id)
     {
         var edit = await _brandService.BrandUpdateVM(id);

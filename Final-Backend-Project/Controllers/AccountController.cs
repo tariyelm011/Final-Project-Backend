@@ -1,4 +1,5 @@
 ﻿using Domain.Entity;
+using Domain.Enum;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Service.Dtos.AccountDto;
@@ -9,13 +10,15 @@ namespace Final_Backend_Project.Controllers;
 public class AccountController : Controller
 {
     private readonly IAccountService _accountService;
-    private readonly UserManager<AppUser> _userManager;
+    private readonly UserManager<AppUser> _userManager; 
+    private readonly RoleManager<IdentityRole> _roleManager;
 
 
-    public AccountController(IAccountService accountService, UserManager<AppUser> userManager)
+    public AccountController(IAccountService accountService, UserManager<AppUser> userManager, RoleManager<IdentityRole> roleManager)
     {
         _accountService = accountService;
         _userManager = userManager;
+        _roleManager = roleManager;
     }
 
     public IActionResult Register() => View();
@@ -153,5 +156,67 @@ public class AccountController : Controller
 
         return RedirectToAction("Login");
     }
+
+    [HttpGet]
+    public async Task<IActionResult>  CreateRoles()
+    {
+        foreach (var role in Enum.GetValues(typeof(IdentityRoles)))
+        {
+            var roleName = role.ToString();
+            if (!await _roleManager.RoleExistsAsync(roleName))
+            {
+                await _roleManager.CreateAsync(new IdentityRole(roleName));
+            }
+        }
+
+        return Ok("Roles created successfully.");
+    }
+
+    [HttpGet]
+    [HttpGet]
+    public async Task<IActionResult> CreateSuperAdmin()
+    {
+        string adminEmail = "superAdmin@gmail.com";
+        string adminUserName = "SuperAdmin";
+        string password = "Admin123!";
+
+        var existingUser = await _userManager.FindByEmailAsync(adminEmail);
+        if (existingUser != null)
+        {
+            return BadRequest("Admin artıq mövcuddur.");
+        }
+
+        AppUser admin = new AppUser
+        {
+            FullName = "Super Admin",
+            UserName = adminUserName,
+            Email = adminEmail,
+            EmailConfirmed = true
+        };
+
+        var result = await _userManager.CreateAsync(admin, password);
+
+        if (!result.Succeeded)
+        {
+            foreach (var error in result.Errors)
+            {
+                ModelState.AddModelError("", error.Description);
+            }
+            return BadRequest(ModelState);
+        }
+
+        if (await _roleManager.RoleExistsAsync("SuperAdmin"))
+        {
+            await _userManager.AddToRoleAsync(admin, "SuperAdmin");
+        }
+        else
+        {
+            return BadRequest("'Admin' rolu mövcud deyil. Əvvəlcə onu yarat!");
+        }
+
+        return Ok("Admin uğurla yaradıldı və 'Admin' rolu verildi.");
+    }
+
+
 
 }

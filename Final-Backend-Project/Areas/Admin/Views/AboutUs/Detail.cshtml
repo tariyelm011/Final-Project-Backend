@@ -1,0 +1,49 @@
+﻿@model Service.Dtos.AboutUs.AboutUsVM
+
+@{
+    ViewData["Title"] = "About Us";
+}
+
+<section class="about-us-section d-flex align-items-center justify-content-center py-5">
+    <div class="glass-card row g-0 overflow-hidden shadow-lg rounded-4 p-4">
+        <div class="col-md-6">
+            <img src="@Model.Image" alt="@Model.Title" class="img-fluid rounded-4" />
+        </div>
+        <div class="col-md-6 d-flex flex-column justify-content-center ps-md-5 pt-4 pt-md-0 text-white">
+            <h1 class="display-5 fw-bold mb-3">@Model.Title</h1>
+            <h4 class="fw-semibold text-light mb-3">@Model.BoldWrite</h4>
+            <p class="lead mb-4 text-white-50">@Model.Description</p>
+            <a href="#" class="btn btn-gradient fw-semibold px-4 py-2 rounded-pill w-auto">@Model.Button</a>
+        </div>
+    </div>
+</section>
+
+<style>
+    .about-us-section {
+        background: linear-gradient(135deg, #7f5af0, #d8b4fe);
+        min-height: 100vh;
+    }
+
+    .glass-card {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(14px);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        max-width: 1000px;
+        width: 100%;
+    }
+
+    .btn-gradient {
+        background: linear-gradient(90deg, #a855f7, #7f5af0);
+        color: #fff;
+        border: none;
+        transition: all 0.3s ease;
+    }
+
+    .btn-gradient:hover {
+        background: linear-gradient(90deg, #7f5af0, #a855f7);
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(124, 58, 237, 0.4);
+    }
+
+   
+</style>

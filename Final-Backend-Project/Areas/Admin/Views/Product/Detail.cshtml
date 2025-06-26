@@ -1,0 +1,62 @@
+﻿@model Service.Dtos.Product.ProductVM
+
+<section class="product-detail-section d-flex align-items-center justify-content-center py-5">
+    <div class="glass-product-card w-100 mx-3 mx-md-5 p-5 rounded-4 shadow-lg text-white text-center">
+
+        <h1 class="mb-4">@Model.Name</h1>
+
+        <img src="@Model.ImageUrl"
+             alt="@Model.Name"
+             class="img-fluid rounded-4 border border-light-subtle mb-4"
+             style="max-height: 400px; object-fit: contain; width: 100%;" />
+
+        <div class="row justify-content-center mb-4">
+            <div class="col-md-8 text-start">
+                <p><strong>Description:</strong> @Model.Description</p>
+                <p><strong>Price:</strong> $@Model.Price</p>
+                <p><strong>Stock:</strong> @Model.Stock pcs</p>
+                <p><strong>Video:</strong> <a href="@Model.VideoUrl" target="_blank" class="text-light text-decoration-underline">Watch Video</a></p>
+                <p><strong>Create date:</strong> @(Model.CreatedDate?.ToString("dd.MM.yyyy") ?? "N/A")</p>
+                <p><strong>Update date:</strong> @(Model.EditDate?.ToString("dd.MM.yyyy") ?? "N/A")</p>
+            </div>
+        </div>
+
+        @if (Model.ProductImages is not null && Model.ProductImages.Any())
+        {
+            <div class="row">
+                @foreach (var image in Model.ProductImages)
+                {
+                    <div class="col-md-4 mb-3">
+                        <img src="@image.ImageUrl"
+                             class="img-fluid rounded-3 border border-light"
+                             style="object-fit: cover; width: 100%; height: 200px;" />
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</section>
+
+<style>
+    .product-detail-section {
+        background: linear-gradient(135deg, #7f5af0, #a78bfa);
+        min-height: 100vh;
+    }
+
+    .glass-product-card {
+        background: rgba(255, 255, 255, 0.06);
+        backdrop-filter: blur(14px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        max-width: 1200px;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 1.1rem;
+        line-height: 1.7;
+    }
+</style>

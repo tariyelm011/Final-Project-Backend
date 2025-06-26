@@ -95,5 +95,11 @@ namespace Final_Backend_Project.Areas.Admin.Controllers
 
             return RedirectToAction("Index");
         }
+
+        public async Task<IActionResult> Detail(int id)
+        {
+            var product = await _productService.GetAsync(x => x.Id == id);
+            return View(product);
+        }
     }
 }

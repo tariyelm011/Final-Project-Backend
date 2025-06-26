@@ -1,0 +1,75 @@
+﻿@model Service.Dtos.Advertisement.AdvertisementVM
+
+@{
+    ViewData["Title"] = "Advertisement Detail";
+
+    string embedUrl = string.Empty;
+
+    if (!string.IsNullOrWhiteSpace(Model.YoutubeLink))
+    {
+        if (Model.YoutubeLink.Contains("watch?v="))
+        {
+            var videoId = Model.YoutubeLink.Split("v=").Last().Split('&').First();
+            embedUrl = $"https://www.youtube.com/embed/{videoId}";
+        }
+        else if (Model.YoutubeLink.Contains("youtu.be/"))
+        {
+            var videoId = Model.YoutubeLink.Split("youtu.be/").Last().Split('?').First();
+            embedUrl = $"https://www.youtube.com/embed/{videoId}";
+        }
+    }
+}
+
+<section class="ad-section d-flex align-items-center justify-content-center py-5">
+    <div class="glass-card text-center p-4 rounded-4 shadow-lg">
+        <h1 class="text-white mb-4">@Model.Title</h1>
+
+        <div class="video-wrapper mb-3">
+            <iframe src="@embedUrl"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+</section>
+
+<style>
+    .ad-section {
+        background: linear-gradient(to right, #7f5af0, #a78bfa);
+        min-height: 100vh;
+    }
+
+    .glass-card {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(14px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        max-width: 900px;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    .video-wrapper {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 nisbəti */
+        height: 0;
+        overflow: hidden;
+        border-radius: 12px;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+    }
+
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 12px;
+        }
+</style>

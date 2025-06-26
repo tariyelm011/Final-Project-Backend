@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Service.Dtos.Blog;
 using Service.Services;
 using Service.Services.Interface;
@@ -58,7 +59,11 @@ public class BlogController : Controller
         var model = await _blogService.BlogUpdateVM(id);
         return View(model);
     }
-
+    public async Task<IActionResult> Detail(int id)
+    {
+        var blog = await _blogService.GetAsync(x => x.Id == id ,include: x=>x.Include(a=>a.AppUser));
+        return View(blog);
+    }
     [HttpPost]
     public async Task<IActionResult> Edit(BlogEditVM dto)
     {
