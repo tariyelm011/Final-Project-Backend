@@ -82,7 +82,7 @@ public class FeaturedProductController : Controller
 
     public async Task<IActionResult> Delete(int id)
     {
-        var delete = await _featuredProductService.DeleteAsync(id);
+        var delete = _featuredProductService.Delete(id);
         return RedirectToAction("index");
 
     }

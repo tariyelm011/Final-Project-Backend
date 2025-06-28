@@ -23,8 +23,9 @@ public class PaymentService : IPaymentService
     private readonly IUrlHelper _urlHelper;
     private readonly IHttpContextAccessor _contextAccessor;
     private readonly IPaymentRepository _repository;
+    private readonly IProductRepository _productRepository;
 
-    public PaymentService(IConfiguration configuration, IUrlHelperFactory urlHelperFactory, IActionContextAccessor actionContextAccessor, IHttpContextAccessor contextAccessor, IHttpClientFactory httpClientFactory, IPaymentRepository repository)
+    public PaymentService(IConfiguration configuration, IUrlHelperFactory urlHelperFactory, IActionContextAccessor actionContextAccessor, IHttpContextAccessor contextAccessor, IHttpClientFactory httpClientFactory, IPaymentRepository repository, IProductRepository productRepository)
     {
         _configuration = configuration;
         _paymentConfigurationDto = _configuration.GetSection("PaymentSettings").Get<PaymentConfigurationVM>() ?? new();
@@ -33,19 +34,54 @@ public class PaymentService : IPaymentService
         _httpClientFactory = httpClientFactory;
 
         _repository = repository;
+        _productRepository = productRepository;
     }
 
     public async Task<bool> CheckPaymentAsync(PaymentCheckVM dto)
     {
-        var payment = await _repository.GetAsync(x => x.ConfirmToken == dto.Token && x.ReceptId == dto.ID && x.PaymentStatus == PaymentStatuses.Pending, include: x => x.Include(x => x.Order));
+        var payment = await _repository.GetAsync(
+            x => x.ConfirmToken == dto.Token &&
+                 x.ReceptId == dto.ID &&
+                 x.PaymentStatus == PaymentStatuses.Pending,
+            include: x => x.Include(x => x.Order).ThenInclude(o => o.OrderItems)
+        );
+
         if (payment is null)
             throw new NotFoundException();
 
         if (dto.STATUS == PaymentStatuses.FullyPaid)
+        {
+
+            foreach (var item in payment.Order.OrderItems)
+            {
+                var product = await _productRepository.GetAsync(item.ProductId );
+                if (product is null)
+                    throw new NotFoundException("Product not found.");
+
+                if (product.Stock > 0)
+                    throw new Exception($"Product '{product.Name}' does not have enough stock. Available: {product.Stock}, Requested: {item.Count}");
+            }
+
             payment.Order.IsPaid = true;
 
-        payment.PaymentStatus = dto.STATUS;
+            foreach (var item in payment.Order.OrderItems)
+            {
+                var product = await _productRepository.GetAsync(item.ProductId, asNotTracking: false);
 
+                if (product.Stock == 0)
+                {
+                    product.Stock -= item.Count;
+
+                    _productRepository.Update(product);
+                }
+               
+            }
+
+            await _productRepository.SaveChangesAsync();
+        }
+
+
+        payment.PaymentStatus = dto.STATUS;
         _repository.Update(payment);
         await _repository.SaveChangesAsync();
 
@@ -103,7 +139,7 @@ public class PaymentService : IPaymentService
         {
             Amount = dto.Amount,
             Description = dto.Description,
-            ReceptId = result.Order.Id,
+            ReceptId = result.Order.Id, 
             OrderId = dto.OrderId,
 
             SecretId = result.Order.Secret,

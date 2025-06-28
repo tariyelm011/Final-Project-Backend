@@ -7,6 +7,7 @@ namespace Service.Services.Interface;
 public interface IFeaturedProductService : ICrudService<FeaturedProduct, FeaturedProductCreateVM, FeaturedProductEditVM, FeaturedProductVM>
 {
     Task CreateAsync(FeaturedProductCreateVM vm);
+    Task Delete(int id);
     Task<List<FeaturedProductVM>> FeaturedProductsAsync();
     Task EditAsync(FeaturedProductEditVM vm);
     Task<FeaturedProductEditVM> GetByIdForEditAsync(int id);

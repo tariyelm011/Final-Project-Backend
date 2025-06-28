@@ -66,7 +66,7 @@ namespace Final_Backend_Project.Controllers
             }
 
 
-            return RedirectToAction("Order", "Shop");
+            return RedirectToAction("index", "Shop");
         }
 
 

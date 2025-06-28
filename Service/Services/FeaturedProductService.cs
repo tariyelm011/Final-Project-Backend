@@ -151,6 +151,21 @@ public class FeaturedProductService : CrudService<FeaturedProduct, FeaturedProdu
 
         return featuredProductVMs;
     }
+    
+
+    public async Task Delete(int id)
+    {
+        var fetured = await _repository.GetAsync(id);
+        if (fetured == null)
+            throw new Exception("Featured Product tapılmadı.");
+        var product = await _productRepository.GetAsync(x => x.Id == fetured.ProductId);
+        if (product == null)
+            throw new Exception("Belə bir məhsul mövcud deyil.");
+        product.Price = fetured.OrginalPrice;
+        _productRepository.Update(product);
+        await _productRepository.SaveChangesAsync();
+        await _repository.Delete(fetured);
+    }
 
 
 }

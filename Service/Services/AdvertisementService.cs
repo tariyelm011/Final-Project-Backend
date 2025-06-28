@@ -10,12 +10,14 @@ namespace Service.Services;
 public class AdvertisementService : CrudService<Advertisement, AdvertisementCreateVM, AdvertisementEditVM, AdvertisementVM>, IAdvertisementService
 {
     private readonly IAdvertisementRepository _advertisementRepository;
+    private readonly IProductRepository _productRepository;
     private readonly IMapper _mapper;
 
-    public AdvertisementService(IAdvertisementRepository repository, IMapper mapper) : base(repository, mapper)
+    public AdvertisementService(IAdvertisementRepository repository, IMapper mapper, IProductRepository productRepository) : base(repository, mapper)
     {
         _advertisementRepository = repository;
         _mapper = mapper;
+        _productRepository = productRepository;
     }
 
     public async Task<AdvertisementEditVM> AdvertisementsVM(int id)
@@ -25,4 +27,6 @@ public class AdvertisementService : CrudService<Advertisement, AdvertisementCrea
 
         return vm;
     }
+
+
 }

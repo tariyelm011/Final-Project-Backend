@@ -121,6 +121,7 @@ public class BlogService : CrudService<Blog, BlogCreateVM, BlogEditVM, BlogVM>, 
         existingBlog.Content = dto.Content;
         existingBlog.Description = dto.Description;
         existingBlog.ImageUrl = imagePath;
+        existingBlog.ImageUrl = imagePath;
         existingBlog.EditDate = DateTime.UtcNow;
 
         _repository.Update(existingBlog);
