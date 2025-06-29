@@ -1,38 +1,69 @@
 ﻿@using Service.Dtos.Advertisement
 @model List<AdvertisementVM>
 
+<style>
+    .table-container {
+        overflow-x: auto;
+    }
+
+    .custom-table {
+        width: 100%;
+        min-width: 800px; /* Butonların görünməsi üçün kifayət qədər genişlik */
+        table-layout: auto;
+    }
+
+    .youtube-link-cell {
+        word-break: break-word;
+        white-space: normal;
+        overflow-wrap: anywhere;
+    }
+
+    .operations-cell {
+        white-space: nowrap;
+        display: flex;
+        gap: 10px;
+    }
+
+    .action-button {
+        background-color: #ffc107;
+        color: black;
+        padding: 8px 16px;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: bold;
+        font-size: 14px;
+        display: inline-block;
+    }
+
+        .action-button.edit {
+            background-color: #17a2b8;
+            color: white;
+        }
+</style>
+
 <div class="col-lg-12 grid-margin stretch-card">
     <div class="card">
         <div class="card-body">
             <h1>Advertisement</h1>
 
-            <div class="table-responsive">
-                <table class="table table-striped" style="table-layout: fixed; width: 100%;">
+            <div class="table-container">
+                <table class="table table-striped custom-table">
                     <thead>
                         <tr>
-                            <th style="width: 20%;">Title</th>
-                            <th style="width: 60%;">YoutubeLink</th>
-                            <th style="width: 20%;">Operations</th>
+                            <th style="width: 25%;">Title</th>
+                            <th style="width: 50%;">Youtube Link</th>
+                            <th style="width: 25%;">Operations</th>
                         </tr>
                     </thead>
                     <tbody>
                         @foreach (var advertisement in Model)
                         {
                             <tr>
-                                <td style="word-break: break-word;">
-                                    @advertisement.Title
-                                </td>
-                                <td style="word-break: break-word; white-space: normal;">
-                                    @advertisement.YoutubeLink
-                                </td>
-                                <td>
-                                    <a asp-action="Detail" asp-route-id="@advertisement.Id" style="display:inline-block; background-color:#ffc107; color:black; padding:10px 20px; text-decoration:none; border-radius:6px; font-weight:bold;">
-                                        Detail
-                                    </a>
-                                    <a asp-action="Edit" asp-route-id="@advertisement.Id"
-                                       style="display: inline-block; background-color: #ffc107; color: black; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold;">
-                                        Edit
-                                    </a>
+                                <td>@advertisement.Title</td>
+                                <td class="youtube-link-cell">@advertisement.YoutubeLink</td>
+                                <td class="operations-cell">
+                                    <a asp-action="Detail" asp-route-id="@advertisement.Id" class="action-button">Detail</a>
+                                    <a asp-action="Edit" asp-route-id="@advertisement.Id" class="action-button edit">Edit</a>
                                 </td>
                             </tr>
                         }

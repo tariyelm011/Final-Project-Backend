@@ -31,7 +31,7 @@ namespace Final_Backend_Project.Controllers
                 return View(vm);
             }
 
-        await   _orderService.CreateOrderAsync(vm);
+          await  _orderService.CreateOrderAsync(vm);
 
           
             return RedirectToAction("Redirect");
@@ -49,7 +49,7 @@ namespace Final_Backend_Project.Controllers
 
             //TempData["SuccedAlert"] = _localizer.GetValue("SuccedPayment");
 
-            return RedirectToAction("List", "Order");
+            return RedirectToAction("index", "Basket");
         }
 
 

@@ -16,11 +16,13 @@ public class FeaturedProductController : Controller
 {
     private readonly IFeaturedProductService _featuredProductService;
     private readonly IProductRepository _productRepository;
+    private readonly IProductService _productService;
 
-    public FeaturedProductController(IFeaturedProductService featuredProductService, IProductRepository productRepository)
+    public FeaturedProductController(IFeaturedProductService featuredProductService, IProductRepository productRepository, IProductService productService)
     {
         _featuredProductService = featuredProductService;
         _productRepository = productRepository;
+        _productService = productService;
     }
 
     public async Task<IActionResult> Index()
@@ -30,7 +32,8 @@ public class FeaturedProductController : Controller
     }
     public async Task<IActionResult> Create()
     {
-        var products = _productRepository.GetAll();
+        var products = await _productService.GetAllAsync(x => x.Stock > 0);
+
         var viewModel = new FeaturedProductCreateVM
         {
             Products = products.Select(p => new SelectListItem
@@ -48,7 +51,7 @@ public class FeaturedProductController : Controller
     {
         if (!ModelState.IsValid)
         {
-            var products = _productRepository.GetAll();
+            var products = await _productService.GetAllAsync(x => x.Stock > 0);
             var viewModel = new FeaturedProductCreateVM
             {
                 Products = products.Select(p => new SelectListItem

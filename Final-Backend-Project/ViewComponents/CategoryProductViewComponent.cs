@@ -18,7 +18,7 @@ public class CategoryProductViewComponent : ViewComponent
 
     public async Task<IViewComponentResult> InvokeAsync()
     {
-        var products = await _productService.GetAllAsync();
+        var products = await _productService.GetAllAsync(x=>x.Stock != 0);
         var categorys = await _categoryService.GetAllAsync();
 
 

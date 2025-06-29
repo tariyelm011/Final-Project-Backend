@@ -28,9 +28,13 @@ namespace Final_Backend_Project.Controllers
             List<ProductVM> products;
 
             if (categoryId == 0)
-                products = await _productService.GetAllAsync();
+            {
+                products = await _productService.GetAllAsync(x => x.Stock != 0);
+            }
             else
-                products = await _productService.GetAllAsync(x=>x.CategoryId == categoryId);
+            {
+                products = await _productService.GetAllAsync(x => x.CategoryId == categoryId && x.Stock != 0);
+            }
 
             return PartialView("_ProductsPartial", products);
         }
