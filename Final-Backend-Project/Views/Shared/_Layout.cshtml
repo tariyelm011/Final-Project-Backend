@@ -108,3 +108,170 @@
      document.addEventListener('DOMContentLoaded', initializeCountdowns);
 
 </script>
+
+<script>
+    function initializeCountdowns() {
+        const timers = document.querySelectorAll('.countdown-timer');
+
+        timers.forEach(timer => {
+            const endDateStr = timer.getAttribute('data-enddate');
+            const endDate = new Date(endDateStr);
+
+            const parent = timer.closest('.countdown-title');
+            const shopNowBtn = parent?.querySelector('.shop-now-btn');
+            const productId = shopNowBtn?.getAttribute('data-product-id');
+
+            if (!productId) {
+                console.warn("⚠️ Product ID tapılmadı!");
+                return;
+            }
+
+            function updateCountdown() {
+                const now = new Date();
+                const diff = endDate - now;
+
+                if (diff <= 0) {
+                    timer.innerHTML = "<strong>Time's up!</strong>";
+
+                    fetch(`/Admin/FeaturedProduct/RestoreOriginalPriceAndRemoveFromFeatured?productId=${encodeURIComponent(productId)}`, {
+                        method: 'POST',
+                        headers: {
+                            'RequestVerificationToken': getRequestVerificationToken()
+                        }
+                    })
+                        .then(response => {
+                            if (response.ok) {
+                                console.log('✅ Featured product silindi və qiymət bərpa olundu.');
+                                // İstəsən, bitmiş məhsulun DOM elementini də silə bilərsən:
+                                // parent.closest('.row')?.remove();
+                            } else {
+                                console.error('❌ Serverdən xəta gəldi.');
+                            }
+                        })
+                        .catch(error => {
+                            console.error('❌ Fetch xətası:', error);
+                        });
+
+                    clearInterval(interval);
+                    return;
+                }
+
+                const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+                const minutes = Math.floor((diff / (1000 * 60)) % 60);
+                const seconds = Math.floor((diff / 1000) % 60);
+
+                timer.querySelector('.countdown-day').textContent = String(days).padStart(2, '0');
+                timer.querySelector('.countdown-hour').textContent = String(hours).padStart(2, '0');
+                timer.querySelector('.countdown-minunt').textContent = String(minutes).padStart(2, '0');
+                timer.querySelector('.countdown-second').textContent = String(seconds).padStart(2, '0');
+            }
+
+            updateCountdown();
+            const interval = setInterval(updateCountdown, 1000);
+        });
+    }
+
+    function getRequestVerificationToken() {
+        const tokenElement = document.querySelector('input[name="__RequestVerificationToken"]');
+        return tokenElement ? tokenElement.value : '';
+    }
+
+    document.addEventListener('DOMContentLoaded', initializeCountdowns);
+
+</script>
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const plusButtons = document.querySelectorAll("button[onclick^='addToBasket']");
+
+        plusButtons.forEach(button => {
+            button.addEventListener("click", function () {
+                const span = button.parentElement.querySelector(".qty-display");
+                if (span) {
+
+                    const productId = this.dataset.productId;
+
+                    fetch('/Basket/AddToBasket?id=' + productId, {
+                        method: 'POST'
+                    })
+                        .then(res => res.json())
+                        .then(data => {
+                            if (data.success) {
+                                // Count və Total Price yenilənir
+                                document.getElementById("basket-count").innerText = data.count;
+                                updateProductUI(productId)
+                            } else {
+                                alert("Səbətə əlavə edilə bilmədi.");
+                            }
+                        })
+                        .catch(err => console.error("Xəta:", err));
+                    let count = parseInt(span.innerText.trim());
+                    span.innerText = count + 1;
+
+
+                }
+            });
+
+
+        });
+
+    });
+
+
+
+
+
+
+    function updateProductUI(id) {
+        const countElement = document.getElementById(`product-count-${id}`);
+        const priceElement = document.querySelector(`[data-product-id="${id}"][data-price]`);
+        const totalElement = document.getElementById(`product-total-${id}`);
+
+        if (!countElement || !priceElement || !totalElement) {
+            console.warn("Element tapılmadı:", { countElement, priceElement, totalElement });
+            return;
+        }
+
+        const count = parseInt(countElement.innerText);
+        const price = parseFloat(priceElement.getAttribute("data-price"));
+        const totalPrice = (count * price).toFixed(2);
+
+        totalElement.innerText = `$${totalPrice}`;
+    }
+
+
+
+
+
+
+
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const basketButtons = document.querySelectorAll(".add-to-basket");
+
+        basketButtons.forEach(button => {
+            button.addEventListener("click", function () {
+                const productId = this.dataset.productId;
+
+                fetch('/Basket/AddToBasket?id=' + productId, {
+                    method: 'POST'
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.success) {
+                            // Count və Total Price yenilənir
+                            document.getElementById("basket-count").innerText = data.count;
+                            document.getElementById("basket-total").innerText = data.total.toFixed(2) + " ₼";
+                        } else {
+                            alert("Səbətə əlavə edilə bilmədi.");
+                        }
+                    })
+                    .catch(err => console.error("Xəta:", err));
+            });
+        });
+    });
+
+</script>
