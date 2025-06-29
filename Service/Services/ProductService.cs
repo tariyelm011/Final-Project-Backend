@@ -41,6 +41,7 @@ public class ProductService : CrudService<Product, ProductCreateVM, ProductEditV
             .GetAll()
             .OrderByDescending(p => p.CreatedDate)
             .Take(12)
+            .Where(x=>x.Stock!=0)
             .ToList();
 
         var mapped = _mapper.Map<List<ProductVM>>(products);
@@ -58,6 +59,8 @@ public class ProductService : CrudService<Product, ProductCreateVM, ProductEditV
         var data =  _mapper.Map<List<ProductVM>>(products
             .Skip((page - 1) * take)
             .Take(take)
+            .Where(x => x.Stock != 0)
+
             .ToList());
 
 
@@ -162,6 +165,8 @@ public class ProductService : CrudService<Product, ProductCreateVM, ProductEditV
     {
         var products = _repository
             .GetAll()
+            .Where(x => x.Stock != 0)
+
             .OrderByDescending(p => p.SellCount)
             .ToList();
 
@@ -375,7 +380,7 @@ public class ProductService : CrudService<Product, ProductCreateVM, ProductEditV
       int page,
       int take)
     {
-        var products = await GetAllAsync();
+        var products = await GetAllAsync(x => x.Stock > 0);
 
         if (!string.IsNullOrWhiteSpace(search))
         {

@@ -8,7 +8,7 @@ public class FeaturedProductVM
 
     public string ProductName { get; set; }
 
-    public decimal OriginalPrice { get; set; }
+    public decimal OrginalPrice { get; set; }
 
     public decimal DiscountedPrice { get; set; }
 

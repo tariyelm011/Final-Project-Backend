@@ -85,7 +85,7 @@ public class FeaturedProductController : Controller
 
     public async Task<IActionResult> Delete(int id)
     {
-        var delete = _featuredProductService.Delete(id);
+    await _featuredProductService.Delete(id);
         return RedirectToAction("index");
 
     }

@@ -52,7 +52,9 @@ public class FeaturedProductService : CrudService<FeaturedProduct, FeaturedProdu
         if (exists != null)
             throw new Exception("Bu məhsul artıq başqa Featured Product kimi mövcuddur.");
 
-        if (vm.DiscountedPrice <= 0 || vm.DiscountedPrice >= product.Price)
+
+        var orginal = await GetAsync(vm.Id);
+        if (vm.DiscountedPrice <= 0 || vm.DiscountedPrice >= orginal.OrginalPrice)
             throw new Exception("Endirimli qiymət 0-dan böyük və orijinal qiymətdən kiçik olmalıdır.");
 
         if (vm.CountdownEndDate <= DateTime.UtcNow)
@@ -62,7 +64,6 @@ public class FeaturedProductService : CrudService<FeaturedProduct, FeaturedProdu
         entity.ProductId = vm.ProductId;
         entity.DiscountedPrice = vm.DiscountedPrice;
         entity.CountdownEndDate = vm.CountdownEndDate;
-        entity.OrginalPrice = product.Price; 
 
         _repository.Update(entity);
         await _repository.SaveChangesAsync();
@@ -140,7 +141,7 @@ public class FeaturedProductService : CrudService<FeaturedProduct, FeaturedProdu
                 Id = model.Id,
                 ProductId = model.ProductId,
                 ProductName = model.Product?.Name,
-                OriginalPrice = model.OrginalPrice,
+                OrginalPrice = model.OrginalPrice,
                 DiscountedPrice = model.DiscountedPrice,
                 CountdownEndDate = model.CountdownEndDate,
                 ProductImageUrl = model.Product?.ImageUrl 
@@ -165,6 +166,7 @@ public class FeaturedProductService : CrudService<FeaturedProduct, FeaturedProdu
         _productRepository.Update(product);
         await _productRepository.SaveChangesAsync();
         await _repository.Delete(fetured);
+        await _repository.SaveChangesAsync();
     }
 
 

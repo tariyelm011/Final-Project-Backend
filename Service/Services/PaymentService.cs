@@ -52,15 +52,7 @@ public class PaymentService : IPaymentService
         if (dto.STATUS == PaymentStatuses.FullyPaid)
         {
 
-            foreach (var item in payment.Order.OrderItems)
-            {
-                var product = await _productRepository.GetAsync(item.ProductId );
-                if (product is null)
-                    throw new NotFoundException("Product not found.");
-
-                if (product.Stock > 0)
-                    throw new Exception($"Product '{product.Name}' does not have enough stock. Available: {product.Stock}, Requested: {item.Count}");
-            }
+          
 
             payment.Order.IsPaid = true;
 

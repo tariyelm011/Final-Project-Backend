@@ -2,6 +2,7 @@
 using Domain.Entity;
 using Microsoft.AspNetCore.Http;
 using Repository.Repositories.Interface;
+using Service.Helpers.Exceptions;
 using Service.Services.Generic;
 using Service.Services.Interface;
 using Service.ViewModels.Order;
@@ -16,13 +17,15 @@ public class OrderService : CrudService<Order, OrderCreateVM, OrderEditVM, Order
     private readonly IBasketService _basketService;
     private readonly IPaymentService _paymentService;
     private readonly IHttpContextAccessor _httpContextAccessor;
-    public OrderService(IOrderRepository repository, IMapper mapper, IBasketService basketService, IPaymentService paymentService, IHttpContextAccessor httpContextAccessor) : base(repository, mapper)
+    private readonly IProductService _productService;
+    public OrderService(IOrderRepository repository, IMapper mapper, IBasketService basketService, IPaymentService paymentService, IHttpContextAccessor httpContextAccessor, IProductService productService) : base(repository, mapper)
     {
         _orderRepository = repository;
         _mapper = mapper;
         _basketService = basketService;
         _paymentService = paymentService;
         _httpContextAccessor = httpContextAccessor;
+        _productService = productService;
     }
 
     public async Task CreateOrderAsync(OrderCreateVM dto)
@@ -36,8 +39,23 @@ public class OrderService : CrudService<Order, OrderCreateVM, OrderEditVM, Order
             TotalPrice = item.TotalProductPrice
         }).ToList();
 
+        var productIds = card.Prroduct.Select(x => x.ProductId).ToList();
+        var products = await _productService.GetAllAsync(x => productIds.Contains(x.Id));
 
-     
+        foreach (var item in card.Prroduct)
+        {
+            var product = products.FirstOrDefault(p => p.Id == item.ProductId);
+
+            if (product == null)
+                throw new Exception("Məhsul tapılmadı.");
+
+            if (product.Stock < item.Count || product.Stock <= 0)
+                return;
+        }
+
+
+
+
         var order = new Order
         {
             AppUserId = dto.AppUserId,
